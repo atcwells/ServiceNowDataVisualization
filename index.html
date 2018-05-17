@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ArchitectureTree Demo</title>
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/tree.css"/>
+</head>
+<body>
+<div class="container-fluid">
+    <div ng-app="ChartsApp">
+
+        <h1 class="text-center">Policy Landscape</h1>
+
+        <panel-filter></panel-filter>
+
+        <div ng-controller="chartCtrl">
+            <tree-chart data="data" diameter="960"></tree-chart>
+        </div>
+
+        <div ng-controller="panelCtrl">
+            <div id="panel">
+                <div ng-if="!edit">
+                    <panel-detail data-selected-node="selectedNode"></panel-detail>
+                </div>
+
+                <div ng-if="edit">
+                    <panel-edit data-selected-node="selectedNode"></panel-edit>
+                </div>
+            </div>
+        </div>
+
+        <div ng-controller="undoCtrl">
+            <div ng-if="hasHistory()" class="json-upate-label bg-success">Updated JSON <a ng-click="undo()">(undo)</a>
+            </div>
+        </div>
+        <div ng-controller="jsonDataCtrl">
+            <textarea id="json-data" class="form-control" ng-model="data" ng-blur="updateData()"></textarea>
+        </div>
+    </div>
+</div>
+<script type="application/javascript" src="js/vendor/d3.v3.js"></script>
+<script type="application/javascript" src="js/vendor/angular.min.js"></script>
+<script type="application/javascript" src="js/d3.architectureTree.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/app.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/controllers/chart.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/controllers/json-data.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/controllers/panel.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/controllers/undo.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/directives/tree-chart.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/directives/panel-detail.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/directives/panel-edit.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/directives/panel-filter.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/directives/init-focus.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/services/data.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/services/bus.js"></script>
+<script type="application/javascript" src="js/angular.architectureTree/services/node.js"></script>
+</body>
+</html>
