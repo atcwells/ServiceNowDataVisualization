@@ -1,0 +1,1480 @@
+{
+  "links": {
+    "0af2263cdb251bc05bf25cd4dc961938": [
+      "e0a643b0dba51bc05bf25cd4dc9619f8",
+      "e63b7370db291bc05bf25cd4dc9619d7"
+    ],
+    "0c378840db0d17805bf25cd4dc96196c": [
+      "48058f30dba51bc05bf25cd4dc9619cc",
+      "14734330dba51bc05bf25cd4dc9619c4"
+    ],
+    "1061d0e2db819b805bf25cd4dc96197d": [
+      "71638caadb419b805bf25cd4dc961915"
+    ],
+    "14734330dba51bc05bf25cd4dc9619c4": [
+      "b39877fcdbe51bc05bf25cd4dc961944"
+    ],
+    "15ba68eddbb5d300fbf35414dc961923": [
+      "3edb2821dbf5d300fbf35414dc9619f4"
+    ],
+    "1ea80ebedb8d9b805bf25cd4dc961990": [
+      "8ec88ebedb8d9b805bf25cd4dc9619c4"
+    ],
+    "276c7f98db3913005bf25cd4dc9619b2": [
+      "63a5896cdbf913005bf25cd4dc961952"
+    ],
+    "29b41ce2db819b805bf25cd4dc96198d": [
+      "80e51c26db819b805bf25cd4dc96199d"
+    ],
+    "3b33a46edb819b805bf25cd4dc961950": [
+      "6363a46edb819b805bf25cd4dc961944"
+    ],
+    "48058f30dba51bc05bf25cd4dc9619cc": [
+      "49d8f7fcdbe51bc05bf25cd4dc9619da"
+    ],
+    "4cb8cb76dbf493805bf25cd4dc9619cf": [
+      "0af2263cdb251bc05bf25cd4dc961938",
+      "0c378840db0d17805bf25cd4dc96196c",
+      "1189fffcdbe51bc05bf25cd4dc9619a6",
+      "158117b8dba51bc05bf25cd4dc961963",
+      "1ea80ebedb8d9b805bf25cd4dc961990",
+      "26128045db291bc05bf25cd4dc961925",
+      "47dc73b0db291bc05bf25cd4dc961902",
+      "5fbf8378dba51bc05bf25cd4dc96198a",
+      "6e7c0ab2dbcd9b805bf25cd4dc961902",
+      "7f5dcf3adbf493805bf25cd4dc961908",
+      "8e536a3cdb251bc05bf25cd4dc961917",
+      "91d26ab4db251bc05bf25cd4dc9619b0",
+      "92e1cc05db291bc05bf25cd4dc9619f6",
+      "961c82b2dbcd9b805bf25cd4dc961994",
+      "a3497ffcdbe51bc05bf25cd4dc9619a1",
+      "a723e63cdb251bc05bf25cd4dc961951",
+      "aeaf9ed6db7453805bf25cd4dc9619f1",
+      "b9a3bb3cdbe51bc05bf25cd4dc96197a",
+      "c76193b8dba51bc05bf25cd4dc961959",
+      "c8910c05db291bc05bf25cd4dc9619b6",
+      "db688abadb8d9b805bf25cd4dc961950"
+    ],
+    "4dcc986adb819b805bf25cd4dc9619d2": [
+      "813028eadb819b805bf25cd4dc9619a9"
+    ],
+    "5fbf8378dba51bc05bf25cd4dc96198a": [
+      "833df7b0db291bc05bf25cd4dc961955"
+    ],
+    "6a784b76dbf493805bf25cd4dc961911": [
+      "034a89fadb0d9b805bf25cd4dc9619e4",
+      "04dcb715db5d5f80fbf35414dc96190a",
+      "0bcc3315db5d5f80fbf35414dc961921",
+      "0eafd0eadb819b805bf25cd4dc9619e9",
+      "0fccffd1db5d5f80fbf35414dc9619e8",
+      "1061d0e2db819b805bf25cd4dc96197d",
+      "18a58d3adb0d9b805bf25cd4dc9619b2",
+      "19a2206edb819b805bf25cd4dc961960",
+      "1fcc7315db5d5f80fbf35414dc961986",
+      "29b41ce2db819b805bf25cd4dc96198d",
+      "2bccb315db5d5f80fbf35414dc96196c",
+      "2fccb315db5d5f80fbf35414dc9619be",
+      "332b453edb0d9b805bf25cd4dc9619ac",
+      "36a3e86edb819b805bf25cd4dc961991",
+      "395fcc62db819b805bf25cd4dc9619c6",
+      "3b33a46edb819b805bf25cd4dc961950",
+      "3fb57cfedbc99b805bf25cd4dc96191b",
+      "4dcc986adb819b805bf25cd4dc9619d2",
+      "53cc7315db5d5f80fbf35414dc9619d5",
+      "5506817adb0d9b805bf25cd4dc961970",
+      "5d02682edb819b805bf25cd4dc9619e8",
+      "63521ce2db819b805bf25cd4dc961995",
+      "63fe603edbc99b805bf25cd4dc961945",
+      "6839c0aedb419b805bf25cd4dc96197f",
+      "79d741badb0d9b805bf25cd4dc9619d6",
+      "7a3cc012dbcd9780fbf35414dc9619c3",
+      "83847cbedbc99b805bf25cd4dc961996",
+      "9417c17adb0d9b805bf25cd4dc96194e",
+      "9c91642edb819b805bf25cd4dc961907",
+      "9e247cbedbc99b805bf25cd4dc961988",
+      "a21150e2db819b805bf25cd4dc961927",
+      "b5f3703edbc99b805bf25cd4dc9619b8",
+      "b68a04dedb8d9780fbf35414dc9619ba",
+      "bde98c9edb8d9780fbf35414dc961956",
+      "c3ccffd1db5d5f80fbf35414dc961928",
+      "dd1a49fadb0d9b805bf25cd4dc961974",
+      "e176c82edb419b805bf25cd4dc96195e",
+      "e6ccf7d1db5d5f80fbf35414dc9619af",
+      "fb99485edb8d9780fbf35414dc9619be"
+    ],
+    "79d741badb0d9b805bf25cd4dc9619d6": [
+      "a84809badb0d9b805bf25cd4dc961970"
+    ],
+    "7a3cc012dbcd9780fbf35414dc9619c3": [
+      "8ce244aadb419b805bf25cd4dc961945"
+    ],
+    "8ce244aadb419b805bf25cd4dc961945": [
+      "e6154ceadb419b805bf25cd4dc961961"
+    ],
+    "8e536a3cdb251bc05bf25cd4dc961917": [
+      "ade197b8dba51bc05bf25cd4dc9619a1"
+    ],
+    "9417c17adb0d9b805bf25cd4dc96194e": [
+      "efda813edb0d9b805bf25cd4dc961941",
+      "b1478d7adb0d9b805bf25cd4dc961998"
+    ],
+    "961c82b2dbcd9b805bf25cd4dc961994": [
+      "b63c06b2dbcd9b805bf25cd4dc961995"
+    ],
+    "a723e63cdb251bc05bf25cd4dc961951": [
+      "d71f03f4dba51bc05bf25cd4dc961945"
+    ],
+    "ae4e6f9cdbf513005bf25cd4dc9619af": [
+      "1a06b314db3913005bf25cd4dc9619b3"
+    ],
+    "b5f3703edbc99b805bf25cd4dc9619b8": [
+      "ec55893adb0d9b805bf25cd4dc9619de"
+    ],
+    "bde98c9edb8d9780fbf35414dc961956": [
+      "d11e4462db819b805bf25cd4dc961936"
+    ],
+    "cc7d2fb3db1597c05bf25cd4dc9619e2": [
+      "0fe22975db351700fbf35414dc9619bb",
+      "15ba68eddbb5d300fbf35414dc961923",
+      "1a04852cdbf913005bf25cd4dc961951",
+      "2385896cdbf913005bf25cd4dc96192c",
+      "276c7f98db3913005bf25cd4dc9619b2",
+      "288c6c21dbf5d300fbf35414dc961946",
+      "46d249e8dbf913005bf25cd4dc961947",
+      "50bd3fd8db3913005bf25cd4dc96199a",
+      "5489ec2ddbb5d300fbf35414dc961996",
+      "5f28ec2ddbb5d300fbf35414dc96198c",
+      "6f66cca1db75d300fbf35414dc96192b",
+      "76cd4469db75d300fbf35414dc9619d0",
+      "7a935075db311700fbf35414dc961960",
+      "87c42fd9dbf1d300fbf35414dc96190a",
+      "897aa0eddbb5d300fbf35414dc9619ca",
+      "92538de8dbf913005bf25cd4dc961974",
+      "9293412cdbf913005bf25cd4dc961951",
+      "997ba021dbf5d300fbf35414dc96191c",
+      "a21baceddbb5d300fbf35414dc961901",
+      "ae4e6f9cdbf513005bf25cd4dc9619af",
+      "b072cd68dbf913005bf25cd4dc961950",
+      "b143d835db311700fbf35414dc9619a7",
+      "b3ec4829db75d300fbf35414dc9619e4",
+      "b5ebf398db3913005bf25cd4dc961960",
+      "bbe9646ddbb5d300fbf35414dc961906",
+      "d113c5e8dbf913005bf25cd4dc9619d7",
+      "d7978460db7913005bf25cd4dc9619ba",
+      "dcedbfd8db3913005bf25cd4dc961935",
+      "df85c460db7913005bf25cd4dc96192c",
+      "eadcb3d8db3913005bf25cd4dc9619d8",
+      "ebf50c60db7913005bf25cd4dc961953",
+      "ee6a7358db3913005bf25cd4dc9619c8",
+      "f7f5896cdbf913005bf25cd4dc961957"
+    ],
+    "d11e4462db819b805bf25cd4dc961936": [
+      "22ce8862db819b805bf25cd4dc96198b"
+    ]
+  },
+  "nodes": {
+    "children": [
+      {
+        "children": [
+        ],
+        "group": 1,
+        "id": "0201e61adb7453805bf25cd4dc9619db",
+        "level": 1,
+        "name": "Group Conduct Risk Policy",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=0201e61adb7453805bf25cd4dc9619db&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 2,
+        "id": "17909354dbb513005bf25cd4dc9619d0",
+        "level": 1,
+        "name": "Policy Exception Test Policy",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=17909354dbb513005bf25cd4dc9619d0&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 3,
+        "id": "1e481216db7453805bf25cd4dc96194f",
+        "level": 1,
+        "name": "Group Enterprise Risk Management Framework",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=1e481216db7453805bf25cd4dc96194f&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 4,
+        "id": "3e2cc6f0db8997805bf25cd4dc9619c1",
+        "level": 1,
+        "name": "Group Vendor Risk Policy",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=3e2cc6f0db8997805bf25cd4dc9619c1&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 5,
+                "id": "e0a643b0dba51bc05bf25cd4dc9619f8",
+                "level": 3,
+                "name": "Consistency-CI Consistency Across Sources",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=e0a643b0dba51bc05bf25cd4dc9619f8&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              },
+              {
+                "children": [
+                ],
+                "group": 5,
+                "id": "e63b7370db291bc05bf25cd4dc9619d7",
+                "level": 3,
+                "name": "Config-Consistency-Consistency",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=e63b7370db291bc05bf25cd4dc9619d7&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 5,
+            "id": "0af2263cdb251bc05bf25cd4dc961938",
+            "level": 2,
+            "name": "Config-Consistency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=0af2263cdb251bc05bf25cd4dc961938&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                    ],
+                    "group": 5,
+                    "id": "49d8f7fcdbe51bc05bf25cd4dc9619da",
+                    "level": 4,
+                    "name": "Correctness-Attribute Data Sensibility",
+                    "type": "policy statement",
+                    "url": "sn_compliance_policy_statement.do?sys_id=49d8f7fcdbe51bc05bf25cd4dc9619da&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+                  }
+                ],
+                "group": 5,
+                "id": "48058f30dba51bc05bf25cd4dc9619cc",
+                "level": 3,
+                "name": "Config-Accuracy-Correctness",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=48058f30dba51bc05bf25cd4dc9619cc&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                    ],
+                    "group": 5,
+                    "id": "b39877fcdbe51bc05bf25cd4dc961944",
+                    "level": 4,
+                    "name": "Reality-Attribute Data Reality",
+                    "type": "policy statement",
+                    "url": "sn_compliance_policy_statement.do?sys_id=b39877fcdbe51bc05bf25cd4dc961944&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+                  }
+                ],
+                "group": 5,
+                "id": "14734330dba51bc05bf25cd4dc9619c4",
+                "level": 3,
+                "name": "Config-Accuracy-Reality",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=14734330dba51bc05bf25cd4dc9619c4&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 5,
+            "id": "0c378840db0d17805bf25cd4dc96196c",
+            "level": 2,
+            "name": "Config-Accuracy",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=0c378840db0d17805bf25cd4dc96196c&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "1189fffcdbe51bc05bf25cd4dc9619a6",
+            "level": 2,
+            "name": "Validity-CI Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=1189fffcdbe51bc05bf25cd4dc9619a6&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "158117b8dba51bc05bf25cd4dc961963",
+            "level": 2,
+            "name": "Config-Security-Integrity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=158117b8dba51bc05bf25cd4dc961963&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 5,
+                "id": "8ec88ebedb8d9b805bf25cd4dc9619c4",
+                "level": 3,
+                "name": "Uniqueness-Record Uniqueness",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=8ec88ebedb8d9b805bf25cd4dc9619c4&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 5,
+            "id": "1ea80ebedb8d9b805bf25cd4dc961990",
+            "level": 2,
+            "name": "Config-Uniqueness-Uniqueness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=1ea80ebedb8d9b805bf25cd4dc961990&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "26128045db291bc05bf25cd4dc961925",
+            "level": 2,
+            "name": "Availability-Data Available",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=26128045db291bc05bf25cd4dc961925&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "47dc73b0db291bc05bf25cd4dc961902",
+            "level": 2,
+            "name": "Certification-Data Actively Certified",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=47dc73b0db291bc05bf25cd4dc961902&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 5,
+                "id": "833df7b0db291bc05bf25cd4dc961955",
+                "level": 3,
+                "name": "Expiry-Data Expiry",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=833df7b0db291bc05bf25cd4dc961955&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 5,
+            "id": "5fbf8378dba51bc05bf25cd4dc96198a",
+            "level": 2,
+            "name": "Config-Currency-Expiry",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=5fbf8378dba51bc05bf25cd4dc96198a&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "6e7c0ab2dbcd9b805bf25cd4dc961902",
+            "level": 2,
+            "name": "Completion-Attribute Completion",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=6e7c0ab2dbcd9b805bf25cd4dc961902&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "7f5dcf3adbf493805bf25cd4dc961908",
+            "level": 2,
+            "name": "PCC-001-Config Mgmt - Missing Service owners",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=7f5dcf3adbf493805bf25cd4dc961908&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 5,
+                "id": "ade197b8dba51bc05bf25cd4dc9619a1",
+                "level": 3,
+                "name": "Config-Security-Availability",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=ade197b8dba51bc05bf25cd4dc9619a1&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 5,
+            "id": "8e536a3cdb251bc05bf25cd4dc961917",
+            "level": 2,
+            "name": "Config-Security",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=8e536a3cdb251bc05bf25cd4dc961917&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "91d26ab4db251bc05bf25cd4dc9619b0",
+            "level": 2,
+            "name": "Config-Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=91d26ab4db251bc05bf25cd4dc9619b0&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "92e1cc05db291bc05bf25cd4dc9619f6",
+            "level": 2,
+            "name": "Integrity-Data Unmolested",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=92e1cc05db291bc05bf25cd4dc9619f6&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 5,
+                "id": "b63c06b2dbcd9b805bf25cd4dc961995",
+                "level": 3,
+                "name": "Config-Completeness-Completion",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=b63c06b2dbcd9b805bf25cd4dc961995&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 5,
+            "id": "961c82b2dbcd9b805bf25cd4dc961994",
+            "level": 2,
+            "name": "Config-Completeness-Completeness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=961c82b2dbcd9b805bf25cd4dc961994&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "a3497ffcdbe51bc05bf25cd4dc9619a1",
+            "level": 2,
+            "name": "Config-Validity-Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=a3497ffcdbe51bc05bf25cd4dc9619a1&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 5,
+                "id": "d71f03f4dba51bc05bf25cd4dc961945",
+                "level": 3,
+                "name": "Config-Currency-Certification",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=d71f03f4dba51bc05bf25cd4dc961945&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 5,
+            "id": "a723e63cdb251bc05bf25cd4dc961951",
+            "level": 2,
+            "name": "Config-Currency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=a723e63cdb251bc05bf25cd4dc961951&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "aeaf9ed6db7453805bf25cd4dc9619f1",
+            "level": 2,
+            "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=aeaf9ed6db7453805bf25cd4dc9619f1&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "b9a3bb3cdbe51bc05bf25cd4dc96197a",
+            "level": 2,
+            "name": "Completeness-Attribute Existence",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=b9a3bb3cdbe51bc05bf25cd4dc96197a&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "c76193b8dba51bc05bf25cd4dc961959",
+            "level": 2,
+            "name": "Config-Security-Confidentiality",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=c76193b8dba51bc05bf25cd4dc961959&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "c8910c05db291bc05bf25cd4dc9619b6",
+            "level": 2,
+            "name": "Confidentiality-Data Appropriately Protected",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=c8910c05db291bc05bf25cd4dc9619b6&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 5,
+            "id": "db688abadb8d9b805bf25cd4dc961950",
+            "level": 2,
+            "name": "Config-Uniqueness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=db688abadb8d9b805bf25cd4dc961950&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          }
+        ],
+        "group": 5,
+        "id": "4cb8cb76dbf493805bf25cd4dc9619cf",
+        "level": 1,
+        "name": "Group Configuration Mgmt Standard",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=4cb8cb76dbf493805bf25cd4dc9619cf&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 6,
+        "id": "68b0e61adb7453805bf25cd4dc9619d5",
+        "level": 1,
+        "name": "Group Data Risk Policy",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=68b0e61adb7453805bf25cd4dc9619d5&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "034a89fadb0d9b805bf25cd4dc9619e4",
+            "level": 2,
+            "name": "Integrity-Unmolested Data",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=034a89fadb0d9b805bf25cd4dc9619e4&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "04dcb715db5d5f80fbf35414dc96190a",
+            "level": 2,
+            "name": "Assign the role of data controller to provide advice, when requested.",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=04dcb715db5d5f80fbf35414dc96190a&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "0bcc3315db5d5f80fbf35414dc961921",
+            "level": 2,
+            "name": "Conduct personal data risk assessments.",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=0bcc3315db5d5f80fbf35414dc961921&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "0eafd0eadb819b805bf25cd4dc9619e9",
+            "level": 2,
+            "name": "Correct Data - Sub Optimal Data Maps ",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=0eafd0eadb819b805bf25cd4dc9619e9&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "0fccffd1db5d5f80fbf35414dc9619e8",
+            "level": 2,
+            "name": "Respond to personal data access requests in a timely manner.",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=0fccffd1db5d5f80fbf35414dc9619e8&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 7,
+                "id": "71638caadb419b805bf25cd4dc961915",
+                "level": 3,
+                "name": "Attribute Existence-Essential Attributes completeness",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=71638caadb419b805bf25cd4dc961915&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
+            "id": "1061d0e2db819b805bf25cd4dc96197d",
+            "level": 2,
+            "name": "Reality-Real Data Targetting",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=1061d0e2db819b805bf25cd4dc96197d&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "18a58d3adb0d9b805bf25cd4dc9619b2",
+            "level": 2,
+            "name": "Expiry-Data Expiry",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=18a58d3adb0d9b805bf25cd4dc9619b2&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "19a2206edb819b805bf25cd4dc961960",
+            "level": 2,
+            "name": "Formatting Validity-Manual Data Validation",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=19a2206edb819b805bf25cd4dc961960&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "1fcc7315db5d5f80fbf35414dc961986",
+            "level": 2,
+            "name": "Check the accuracy of personal data.",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=1fcc7315db5d5f80fbf35414dc961986&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 7,
+                "id": "80e51c26db819b805bf25cd4dc96199d",
+                "level": 3,
+                "name": "Correct Data - Non-Operational Data (90 days)",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=80e51c26db819b805bf25cd4dc96199d&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
+            "id": "29b41ce2db819b805bf25cd4dc96198d",
+            "level": 2,
+            "name": "Correctness-Correct data",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=29b41ce2db819b805bf25cd4dc96198d&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "2bccb315db5d5f80fbf35414dc96196c",
+            "level": 2,
+            "name": "Notify the individual of the reasons for delays in responding to personal data access requests.",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=2bccb315db5d5f80fbf35414dc96196c&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "2fccb315db5d5f80fbf35414dc9619be",
+            "level": 2,
+            "name": "Notify the individual of the reasons the personal data access request was refused.",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=2fccb315db5d5f80fbf35414dc9619be&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "332b453edb0d9b805bf25cd4dc9619ac",
+            "level": 2,
+            "name": "Availability-Data Access Configuration",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=332b453edb0d9b805bf25cd4dc9619ac&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "36a3e86edb819b805bf25cd4dc961991",
+            "level": 2,
+            "name": "Consistency-Matching Data",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=36a3e86edb819b805bf25cd4dc961991&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "395fcc62db819b805bf25cd4dc9619c6",
+            "level": 2,
+            "name": "Record Uniqueness-Duplicate Records in database",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=395fcc62db819b805bf25cd4dc9619c6&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 7,
+                "id": "6363a46edb819b805bf25cd4dc961944",
+                "level": 3,
+                "name": "Data-Consistency-Consistency",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=6363a46edb819b805bf25cd4dc961944&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
+            "id": "3b33a46edb819b805bf25cd4dc961950",
+            "level": 2,
+            "name": "Data-Consistency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=3b33a46edb819b805bf25cd4dc961950&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "3fb57cfedbc99b805bf25cd4dc96191b",
+            "level": 2,
+            "name": "Data Actively Certified-Currently certified records",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=3fb57cfedbc99b805bf25cd4dc96191b&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 7,
+                "id": "813028eadb819b805bf25cd4dc9619a9",
+                "level": 3,
+                "name": "Data-Validity-Validity",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=813028eadb819b805bf25cd4dc9619a9&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
+            "id": "4dcc986adb819b805bf25cd4dc9619d2",
+            "level": 2,
+            "name": "Data-Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=4dcc986adb819b805bf25cd4dc9619d2&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "53cc7315db5d5f80fbf35414dc9619d5",
+            "level": 2,
+            "name": "Establish and maintain data accuracy controls.",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=53cc7315db5d5f80fbf35414dc9619d5&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "5506817adb0d9b805bf25cd4dc961970",
+            "level": 2,
+            "name": "Data Expiry-Expired Data Records",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=5506817adb0d9b805bf25cd4dc961970&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "5d02682edb819b805bf25cd4dc9619e8",
+            "level": 2,
+            "name": "Formatting Validity-Discovered Data Validation",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=5d02682edb819b805bf25cd4dc9619e8&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "63521ce2db819b805bf25cd4dc961995",
+            "level": 2,
+            "name": "Data-Accuracy-Correctness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=63521ce2db819b805bf25cd4dc961995&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "63fe603edbc99b805bf25cd4dc961945",
+            "level": 2,
+            "name": "Matching Data-Data Feed Inconsistencies",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=63fe603edbc99b805bf25cd4dc961945&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "6839c0aedb419b805bf25cd4dc96197f",
+            "level": 2,
+            "name": "Attribute Completion - Records with no owners",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=6839c0aedb419b805bf25cd4dc96197f&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 7,
+                "id": "a84809badb0d9b805bf25cd4dc961970",
+                "level": 3,
+                "name": "Appropriate Data Protection-Personal data fields correctly secured",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=a84809badb0d9b805bf25cd4dc961970&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
+            "id": "79d741badb0d9b805bf25cd4dc9619d6",
+            "level": 2,
+            "name": "Confidentiality-Appropriate Data Protection",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=79d741badb0d9b805bf25cd4dc9619d6&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                    ],
+                    "group": 7,
+                    "id": "e6154ceadb419b805bf25cd4dc961961",
+                    "level": 4,
+                    "name": "Attribute Existence-Discovery Tool Coverage",
+                    "type": "policy statement",
+                    "url": "sn_compliance_policy_statement.do?sys_id=e6154ceadb419b805bf25cd4dc961961&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+                  }
+                ],
+                "group": 7,
+                "id": "8ce244aadb419b805bf25cd4dc961945",
+                "level": 3,
+                "name": "Completeness-Attribute Existence",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=8ce244aadb419b805bf25cd4dc961945&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
+            "id": "7a3cc012dbcd9780fbf35414dc9619c3",
+            "level": 2,
+            "name": "Data-Completeness-Completeness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=7a3cc012dbcd9780fbf35414dc9619c3&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "83847cbedbc99b805bf25cd4dc961996",
+            "level": 2,
+            "name": "Certification-Data Actively Certified",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=83847cbedbc99b805bf25cd4dc961996&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 7,
+                "id": "efda813edb0d9b805bf25cd4dc961941",
+                "level": 3,
+                "name": "Data-Security-Availability",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=efda813edb0d9b805bf25cd4dc961941&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              },
+              {
+                "children": [
+                ],
+                "group": 7,
+                "id": "b1478d7adb0d9b805bf25cd4dc961998",
+                "level": 3,
+                "name": "Data-Security-Confidentiality",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=b1478d7adb0d9b805bf25cd4dc961998&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
+            "id": "9417c17adb0d9b805bf25cd4dc96194e",
+            "level": 2,
+            "name": "Data-Security",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=9417c17adb0d9b805bf25cd4dc96194e&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "9c91642edb819b805bf25cd4dc961907",
+            "level": 2,
+            "name": "Validity-Formatting Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=9c91642edb819b805bf25cd4dc961907&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "9e247cbedbc99b805bf25cd4dc961988",
+            "level": 2,
+            "name": "Data-Currency-Certification",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=9e247cbedbc99b805bf25cd4dc961988&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "a21150e2db819b805bf25cd4dc961927",
+            "level": 2,
+            "name": "Data-Accuracy-Reality",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=a21150e2db819b805bf25cd4dc961927&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 7,
+                "id": "ec55893adb0d9b805bf25cd4dc9619de",
+                "level": 3,
+                "name": "Data-Currency-Expiry",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=ec55893adb0d9b805bf25cd4dc9619de&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
+            "id": "b5f3703edbc99b805bf25cd4dc9619b8",
+            "level": 2,
+            "name": "Data-Currency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=b5f3703edbc99b805bf25cd4dc9619b8&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "b68a04dedb8d9780fbf35414dc9619ba",
+            "level": 2,
+            "name": "Data-Accuracy",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=b68a04dedb8d9780fbf35414dc9619ba&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                    ],
+                    "group": 7,
+                    "id": "22ce8862db819b805bf25cd4dc96198b",
+                    "level": 4,
+                    "name": "Uniqueness-Record Uniqueness",
+                    "type": "policy statement",
+                    "url": "sn_compliance_policy_statement.do?sys_id=22ce8862db819b805bf25cd4dc96198b&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+                  }
+                ],
+                "group": 7,
+                "id": "d11e4462db819b805bf25cd4dc961936",
+                "level": 3,
+                "name": "Data-Uniqueness-Uniqueness",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=d11e4462db819b805bf25cd4dc961936&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
+            "id": "bde98c9edb8d9780fbf35414dc961956",
+            "level": 2,
+            "name": "Data-Uniqueness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=bde98c9edb8d9780fbf35414dc961956&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "c3ccffd1db5d5f80fbf35414dc961928",
+            "level": 2,
+            "name": "Provide the data subject with the means of gaining access to personal data held by the organization.",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=c3ccffd1db5d5f80fbf35414dc961928&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "dd1a49fadb0d9b805bf25cd4dc961974",
+            "level": 2,
+            "name": "Data-Security-Integrity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=dd1a49fadb0d9b805bf25cd4dc961974&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "e176c82edb419b805bf25cd4dc96195e",
+            "level": 2,
+            "name": "Completeness-Attribute Completion",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=e176c82edb419b805bf25cd4dc96195e&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "e6ccf7d1db5d5f80fbf35414dc9619af",
+            "level": 2,
+            "name": "Establish and maintain a record of processing activities when processing personal data.",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=e6ccf7d1db5d5f80fbf35414dc9619af&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 7,
+            "id": "fb99485edb8d9780fbf35414dc9619be",
+            "level": 2,
+            "name": "Data-Completeness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=fb99485edb8d9780fbf35414dc9619be&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          }
+        ],
+        "group": 7,
+        "id": "6a784b76dbf493805bf25cd4dc961911",
+        "level": 1,
+        "name": "Group Data Standard",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=6a784b76dbf493805bf25cd4dc961911&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 8,
+        "id": "7b7c0af0db8997805bf25cd4dc961975",
+        "level": 1,
+        "name": "Group Market Risk Policy",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=7b7c0af0db8997805bf25cd4dc961975&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 9,
+        "id": "bfa395cedb7d1700fbf35414dc961946",
+        "level": 1,
+        "name": "Group Technology Risk Policy",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=bfa395cedb7d1700fbf35414dc961946&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "0fe22975db351700fbf35414dc9619bb",
+            "level": 2,
+            "name": "Process Validity-% Changes That Are Emergency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=0fe22975db351700fbf35414dc9619bb&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 10,
+                "id": "3edb2821dbf5d300fbf35414dc9619f4",
+                "level": 3,
+                "name": "Confidentiality-UI Confidentiality",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=3edb2821dbf5d300fbf35414dc9619f4&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 10,
+            "id": "15ba68eddbb5d300fbf35414dc961923",
+            "level": 2,
+            "name": "Change-Security-Confidentiality",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=15ba68eddbb5d300fbf35414dc961923&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "1a04852cdbf913005bf25cd4dc961951",
+            "level": 2,
+            "name": "Completion-Process Completion",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=1a04852cdbf913005bf25cd4dc961951&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "2385896cdbf913005bf25cd4dc96192c",
+            "level": 2,
+            "name": "Change-Accuracy-Reality",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=2385896cdbf913005bf25cd4dc96192c&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 10,
+                "id": "63a5896cdbf913005bf25cd4dc961952",
+                "level": 3,
+                "name": "Change-Completeness-Completeness",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=63a5896cdbf913005bf25cd4dc961952&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 10,
+            "id": "276c7f98db3913005bf25cd4dc9619b2",
+            "level": 2,
+            "name": "Change-Completeness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=276c7f98db3913005bf25cd4dc9619b2&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "288c6c21dbf5d300fbf35414dc961946",
+            "level": 2,
+            "name": "Integrity-UI Integrity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=288c6c21dbf5d300fbf35414dc961946&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "46d249e8dbf913005bf25cd4dc961947",
+            "level": 2,
+            "name": "Validity-Approval Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=46d249e8dbf913005bf25cd4dc961947&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "50bd3fd8db3913005bf25cd4dc96199a",
+            "level": 2,
+            "name": "Change-Currency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=50bd3fd8db3913005bf25cd4dc96199a&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "5489ec2ddbb5d300fbf35414dc961996",
+            "level": 2,
+            "name": "Validity-Documentation Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=5489ec2ddbb5d300fbf35414dc961996&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "5f28ec2ddbb5d300fbf35414dc96198c",
+            "level": 2,
+            "name": "Change-Validity-Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=5f28ec2ddbb5d300fbf35414dc96198c&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "6f66cca1db75d300fbf35414dc96192b",
+            "level": 2,
+            "name": "Change-Accuracy-Correctness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=6f66cca1db75d300fbf35414dc96192b&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "76cd4469db75d300fbf35414dc9619d0",
+            "level": 2,
+            "name": "Correctness-Change Data Correctness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=76cd4469db75d300fbf35414dc9619d0&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "7a935075db311700fbf35414dc961960",
+            "level": 2,
+            "name": "Expiry-Approval Expiry-Changes Not Approved Before Planned Start Time",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=7a935075db311700fbf35414dc961960&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "87c42fd9dbf1d300fbf35414dc96190a",
+            "level": 2,
+            "name": "Change-Consistency-Consistency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=87c42fd9dbf1d300fbf35414dc96190a&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "897aa0eddbb5d300fbf35414dc9619ca",
+            "level": 2,
+            "name": "Change-Security-Integrity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=897aa0eddbb5d300fbf35414dc9619ca&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "92538de8dbf913005bf25cd4dc961974",
+            "level": 2,
+            "name": "Validity-Impact Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=92538de8dbf913005bf25cd4dc961974&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "9293412cdbf913005bf25cd4dc961951",
+            "level": 2,
+            "name": "Change-Completeness-Completion",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=9293412cdbf913005bf25cd4dc961951&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "997ba021dbf5d300fbf35414dc96191c",
+            "level": 2,
+            "name": "Availability-UI Availability",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=997ba021dbf5d300fbf35414dc96191c&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "a21baceddbb5d300fbf35414dc961901",
+            "level": 2,
+            "name": "Change-Security-Availability",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=a21baceddbb5d300fbf35414dc961901&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "group": 10,
+                "id": "1a06b314db3913005bf25cd4dc9619b3",
+                "level": 3,
+                "name": "Change-Consistency-Submission Consistency",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=1a06b314db3913005bf25cd4dc9619b3&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 10,
+            "id": "ae4e6f9cdbf513005bf25cd4dc9619af",
+            "level": 2,
+            "name": "Change-Consistency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=ae4e6f9cdbf513005bf25cd4dc9619af&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "b072cd68dbf913005bf25cd4dc961950",
+            "level": 2,
+            "name": "Correctness-Process Correctness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=b072cd68dbf913005bf25cd4dc961950&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "b143d835db311700fbf35414dc9619a7",
+            "level": 2,
+            "name": "Expiry-Approval Expiry",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=b143d835db311700fbf35414dc9619a7&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "b3ec4829db75d300fbf35414dc9619e4",
+            "level": 2,
+            "name": "Reality-Change Data Reality",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=b3ec4829db75d300fbf35414dc9619e4&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "b5ebf398db3913005bf25cd4dc961960",
+            "level": 2,
+            "name": "Change-Accuracy",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=b5ebf398db3913005bf25cd4dc961960&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "bbe9646ddbb5d300fbf35414dc961906",
+            "level": 2,
+            "name": "Change-Uniqueness-Uniqueness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=bbe9646ddbb5d300fbf35414dc961906&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "d113c5e8dbf913005bf25cd4dc9619d7",
+            "level": 2,
+            "name": "Consistency-Process Consistency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=d113c5e8dbf913005bf25cd4dc9619d7&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "d7978460db7913005bf25cd4dc9619ba",
+            "level": 2,
+            "name": "Validity-Process Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=d7978460db7913005bf25cd4dc9619ba&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "dcedbfd8db3913005bf25cd4dc961935",
+            "level": 2,
+            "name": "Change-Currency-Expiry",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=dcedbfd8db3913005bf25cd4dc961935&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "df85c460db7913005bf25cd4dc96192c",
+            "level": 2,
+            "name": "Change-Security",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=df85c460db7913005bf25cd4dc96192c&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "eadcb3d8db3913005bf25cd4dc9619d8",
+            "level": 2,
+            "name": "Change-Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=eadcb3d8db3913005bf25cd4dc9619d8&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "ebf50c60db7913005bf25cd4dc961953",
+            "level": 2,
+            "name": "Consistency-Submission Consistency",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=ebf50c60db7913005bf25cd4dc961953&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "ee6a7358db3913005bf25cd4dc9619c8",
+            "level": 2,
+            "name": "Change-Uniqueness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=ee6a7358db3913005bf25cd4dc9619c8&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "group": 10,
+            "id": "f7f5896cdbf913005bf25cd4dc961957",
+            "level": 2,
+            "name": "Correctness-Financial Correctness",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=f7f5896cdbf913005bf25cd4dc961957&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          }
+        ],
+        "group": 10,
+        "id": "cc7d2fb3db1597c05bf25cd4dc9619e2",
+        "level": 1,
+        "name": "Group Change Management Standard",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=cc7d2fb3db1597c05bf25cd4dc9619e2&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 11,
+        "id": "f3df454edb7d1700fbf35414dc961952",
+        "level": 1,
+        "name": "Group Operational Risk Policy",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=f3df454edb7d1700fbf35414dc961952&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      }
+    ],
+    "name": "TESM"
+  }
+}
