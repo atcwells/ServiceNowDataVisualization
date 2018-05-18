@@ -1,12 +1,12 @@
-angular.module('ChartsApp').controller('jsonDataCtrl', function ($scope, bus, data) {
+module.exports = function ($scope, bus, data, CONST) {
     'use strict';
 
     var previousData;
     $scope.data = null;
 
-    bus.on('updateData', function (dat) {
+    bus.on(CONST.EVENTS.DATA_UPDATE, function (dat) {
         previousData = dat;
-        $scope.data = JSON.stringify(data.getOriginalData(), undefined, 2);
+        $scope.data = JSON.stringify(data.getJsonData(), undefined, 2);
     });
 
     $scope.updateData = function () {
@@ -15,4 +15,4 @@ angular.module('ChartsApp').controller('jsonDataCtrl', function ($scope, bus, da
             data.setJsonData(newData);
         }
     };
-});
+};

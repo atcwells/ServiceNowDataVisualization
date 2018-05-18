@@ -1,4 +1,4 @@
-angular.module('ChartsApp').directive('panelEdit', function () {
+module.exports = function () {
     return {
         restrict: 'E',
         template: `<form name="editForm" ng-submit="editNode(editForm, $event)">
@@ -72,4 +72,4 @@ angular.module('ChartsApp').directive('panelEdit', function () {
     </div>
 </form>`
     };
-});
+};

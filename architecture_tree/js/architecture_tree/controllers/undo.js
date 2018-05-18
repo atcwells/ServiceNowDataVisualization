@@ -1,8 +1,8 @@
-angular.module('ChartsApp').controller('undoCtrl', function ($scope, bus, data) {
+module.exports = function ($scope, bus, data, CONST) {
 
     var history = [];
 
-    bus.on('updateData', function (data) {
+    bus.on(CONST.EVENTS.DATA_UPDATE, function (data) {
         history.push(angular.copy(data));
     });
 
@@ -15,4 +15,4 @@ angular.module('ChartsApp').controller('undoCtrl', function ($scope, bus, data) 
         data.setJsonData(history.pop()); // restore previsous state
     };
 
-});
+};

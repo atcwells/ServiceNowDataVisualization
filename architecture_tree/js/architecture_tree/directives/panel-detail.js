@@ -1,19 +1,16 @@
-angular.module('ChartsApp').directive('panelDetail', function () {
+module.exports = function () {
     return {
         restrict: 'E',
         scope: {
             selectedNode: '='
         },
         link: function (scope) {
-            console.log(scope);
         },
         template: `<div class="details panel panel-info">
-                    <div class="panel-heading">{{ selectedNode.name }}</div>
+                        <div class="panel-heading">
+                            <a target="_blank" href="{{ selectedNode.url }}">{{ selectedNode.name }}</a>
+                        </div>
                         <div class="panel-body">
-                            <div class="url" ng-if="selectedNode.url">
-                                <a target="_blank" href="{{ selectedNode.url }}">Open Record</a>
-                            </div>
-                        
                             <div class="comments panel panel-default" ng-if="selectedNode.comments">
                                 <div class="panel-body">{{ selectedNode.comments }}</div>
                             </div>
@@ -37,7 +34,7 @@ angular.module('ChartsApp').directive('panelDetail', function () {
                             </div>
                         
                             <div class="properties" ng-if="selectedNode.details.Dependents">
-                                <h5>Dependendents</h5>
+                                <h5>Dependents</h5>
                                 <ul>
                                     <li ng-repeat="dependent in selectedNode.details.Dependents">
                                         {{ dependent }}
@@ -70,4 +67,4 @@ angular.module('ChartsApp').directive('panelDetail', function () {
                         </div>
                     </div>`
     };
-});
+};

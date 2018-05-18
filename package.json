@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.7.0",
     "connect": "^3.6.6",
     "express": "^4.16.3",
     "livereload": "^0.7.0",
-    "serve-static": "^1.13.2"
+    "serve-static": "^1.13.2",
+    "watchify": "^3.11.0"
   }
 }

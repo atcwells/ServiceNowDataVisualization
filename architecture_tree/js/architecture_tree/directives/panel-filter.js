@@ -1,20 +1,20 @@
-angular.module('ChartsApp').directive('panelFilter', function (bus) {
+module.exports = function (CONST, bus, data) {
     return {
         restrict: 'E',
         link: function link(scope, element, attrs) {
 
-            bus.on('updateData', function (data) {
+            bus.on(CONST.EVENTS.DATA_UPDATE, function (data) {
                 scope.technos = computeTechnos(data);
                 scope.hosts = computeHosts(data);
             });
 
             scope.nameFilter = '';
 
-            var technosFilter = [];
-            var hostsFilter = [];
+            let technosFilter = [];
+            let hostsFilter = [];
 
             scope.$watch('nameFilter', function (name) {
-                bus.emit('nameFilterChange', name);
+                data.filter.setNameFilter(name);
             });
 
             scope.toggleTechnoFilter = function (techno) {
@@ -23,7 +23,7 @@ angular.module('ChartsApp').directive('panelFilter', function (bus) {
                 } else {
                     technosFilter.push(techno);
                 }
-                bus.emit('technosFilterChange', technosFilter);
+                bus.emit(CONST.EVENTS.FILTER_CHANGE, technosFilter);
             };
 
             scope.isTechnoInFilter = function (techno) {
@@ -36,7 +36,7 @@ angular.module('ChartsApp').directive('panelFilter', function (bus) {
                 } else {
                     hostsFilter.push(host);
                 }
-                bus.emit('hostsFilterChange', hostsFilter);
+                bus.emit(CONST.EVENTS.FILTER_CHANGE, hostsFilter);
             };
 
             scope.isHostInFilter = function (host) {
@@ -90,7 +90,7 @@ angular.module('ChartsApp').directive('panelFilter', function (bus) {
     <div class="panel-body">
         <form id="filter_form">
             <input name="name" type="text" class="form-control" placeholder="Filter by name"
-                   ng-model="$parent.nameFilter"/>
+                   ng-model="nameFilter"/>
             <div id="technos">
                 <h5>Technos</h5>
                 <a ng-repeat="techno in technos" class="btn btn-default btn-xs" ng-click="toggleTechnoFilter(techno)"
@@ -105,4 +105,4 @@ angular.module('ChartsApp').directive('panelFilter', function (bus) {
     </div>
     </div>`
     };
-});
+};

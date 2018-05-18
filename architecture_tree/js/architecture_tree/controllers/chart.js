@@ -1,7 +1,7 @@
-angular.module('ChartsApp').controller('chartCtrl', function ($scope, bus) {
+module.exports = function ($scope, bus, CONST) {
     'use strict';
 
-    bus.on('updateData', function (data) {
+    bus.on(CONST.EVENTS.DATA_UPDATE, function (data) {
         $scope.data = angular.copy(data);
     });
-});
+};

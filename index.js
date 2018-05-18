@@ -1,12 +1,12 @@
 let serveStatic = require('serve-static');
-let express = require('express');
+let connect = require('connect');
 let livereload = require('livereload');
 let path = require('path');
 
-let app = express();
+let server = connect();
 
-app.use(serveStatic(path.join(__dirname, '/ArchitectureTree')))
+server.use(serveStatic(path.join(__dirname, '/architecture_tree')));
 
-app.listen(3000)
+server.listen(3000);
 let lrserver = livereload.createServer();
-lrserver.watch(__dirname + "/ArchitectureTree");
+lrserver.watch(__dirname + "/architecture_tree");

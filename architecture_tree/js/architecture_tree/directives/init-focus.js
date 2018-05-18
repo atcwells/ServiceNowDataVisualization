@@ -1,4 +1,4 @@
-angular.module('ChartsApp').directive('initFocus', function () {
+module.exports = function () {
     var timer;
 
     return function (scope, elm, attr) {
@@ -7,4 +7,4 @@ angular.module('ChartsApp').directive('initFocus', function () {
             elm[0].focus();
         }, 0);
     };
-});
+};

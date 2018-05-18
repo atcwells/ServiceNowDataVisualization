@@ -1,4 +1,4 @@
-angular.module('ChartsApp').service('node', function () {
+module.exports = function () {
     'use strict';
 
     var currentNode;
@@ -10,4 +10,4 @@ angular.module('ChartsApp').service('node', function () {
     return {
         setNode: setNode
     };
-});
+};

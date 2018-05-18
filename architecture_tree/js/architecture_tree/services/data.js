@@ -1,8 +1,10 @@
-angular.module('ChartsApp').service('data', function ($http, $q, bus) {
+module.exports = data = function ($http, $q, bus, CONST) {
     'use strict';
 
     var jsonData;
-    var originalData;
+    let nameFilter = '';
+    let technosFilter = [];
+    let hostsFilter = [];
 
     /**
      * Get the tree object from json file
@@ -12,15 +14,15 @@ angular.module('ChartsApp').service('data', function ($http, $q, bus) {
         if (typeof (jsonData) !== 'undefined')
             return $q.when(jsonData);
 
-        return $http.get("data2.json")
-            .success(function (data) {
-                setJsonData(data.nodes);
-                return data.nodes;
+        return $http.get("serviceNowData.json")
+            .then(function (response) {
+                setJsonData(response.data.nodes);
+                return response.data.nodes;
             });
     };
 
     var emitRefresh = function () {
-        bus.emit('updateData', jsonData);
+        bus.emit(CONST.EVENTS.DATA_UPDATE, jsonData);
     };
 
     /**
@@ -151,7 +153,7 @@ angular.module('ChartsApp').service('data', function ($http, $q, bus) {
         var addDependents = function (node) {
             if (node.dependsOn) {
                 node.dependsOn.forEach(function (dependsOn) {
-                    var dependency = data.getNodeByName(dependsOn, data);
+                    var dependency = data.node.getByName(dependsOn, data);
                     if (!dependency) {
                         console.log('Dependency', dependsOn, 'not found for node', node);
                         return;
@@ -312,16 +314,34 @@ angular.module('ChartsApp').service('data', function ($http, $q, bus) {
         return names;
     };
 
+    let setNameFilter = function (newFilter) {
+        nameFilter = newFilter;
+        bus.emit(CONST.EVENTS.FILTER_CHANGE);
+    };
+
+    let getNameFilter = function () {
+        return nameFilter;
+    };
+
     return {
         fetchJsonData: fetchJsonData,
         getJsonData: getJsonData,
-        getOriginalData: getJsonData,
         setJsonData: setJsonData,
         emitRefresh: emitRefresh,
-        getNodeByName: getNodeByName,
+        node: {
+            getByName: getNodeByName
+        },
         updateNode: updateNode,
         addNode: addNode,
         removeNode: removeNode,
-        moveNode: moveNode
+        moveNode: moveNode,
+        filter: {
+            getNameFilter: getNameFilter,
+            setNameFilter: setNameFilter,
+            getTechnosFilter: getNameFilter,
+            setTechnosFilter: setNameFilter,
+            getHostsFilter: getNameFilter,
+            setHostsFilter: setNameFilter
+        }
     };
-});
+};

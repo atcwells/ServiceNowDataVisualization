@@ -1,4 +1,4 @@
-angular.module('ChartsApp').directive('treeChart', function (bus) {
+module.exports = function (CONST, bus, data) {
     'use strict';
 
     return {
@@ -23,25 +23,22 @@ angular.module('ChartsApp').directive('treeChart', function (bus) {
                     .call(chart);
             });
 
-            bus.on('nameFilterChange', function (nameFilter) {
-                chart.nameFilter(nameFilter);
+            bus.on(CONST.EVENTS.FILTER_CHANGE, function (nameFilter) {
+                let d = {
+                    text: data.filter.getNameFilter(),
+                    technos: data.filter.getTechnosFilter(),
+                    hosts: data.filter.getHostsFilter()
+                };
+                chart.filter(d);
             });
 
-            bus.on('technosFilterChange', function (technosFilter) {
-                chart.technosFilter(technosFilter);
-            });
-
-            bus.on('hostsFilterChange', function (hostsFilter) {
-                chart.hostsFilter(hostsFilter);
-            });
-
-            bus.on('select', function (name) {
+            bus.on(CONST.EVENTS.SELECT_NODE, function (name) {
                 chart.select(name);
             });
 
-            bus.on('unselect', function () {
+            bus.on(CONST.EVENTS.UNSELECT_NODE, function () {
                 chart.unselect();
             });
         }
     };
-});
+};

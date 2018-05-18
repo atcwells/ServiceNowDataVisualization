@@ -1,18 +1,18 @@
-angular.module('ChartsApp').service('bus', function ($http, $q) {
+module.exports = function ($http, $q) {
     'use strict';
 
     // Simple message bus to event the overhead of angular emit / broadcast
 
-    var subscribers = {};
+    let subscribers = {};
 
-    var on = function (eventName, callback) {
+    let on = function (eventName, callback) {
         if (!subscribers[eventName]) {
             subscribers[eventName] = [];
         }
         subscribers[eventName].push(callback);
     };
 
-    var emit = function (eventName, body) {
+    let emit = function (eventName, body) {
         if (!subscribers[eventName]) {
             return false;
         }
@@ -26,4 +26,4 @@ angular.module('ChartsApp').service('bus', function ($http, $q) {
         on: on,
         emit: emit
     };
-});
+};

@@ -365,18 +365,10 @@ d3.chart.architectureTree = function () {
         return chart;
     };
 
-    chart.nameFilter = function (nameFilter) {
-        filters.name = nameFilter;
-        refreshFilters();
-    };
-
-    chart.technosFilter = function (technosFilter) {
-        filters.technos = technosFilter;
-        refreshFilters();
-    };
-
-    chart.hostsFilter = function (hostsFilter) {
-        filters.hosts = hostsFilter;
+    chart.filter = function (newFilters) {
+        filters.name = newFilters.text;
+        filters.technos = [];
+        filters.hosts = [];
         refreshFilters();
     };
 

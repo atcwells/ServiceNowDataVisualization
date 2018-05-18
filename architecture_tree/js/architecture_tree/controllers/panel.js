@@ -1,4 +1,4 @@
-angular.module('ChartsApp').controller('panelCtrl', function ($scope, $timeout, $window, data, bus, node) {
+module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
     'use strict';
 
     $scope.edit = false;
@@ -8,7 +8,7 @@ angular.module('ChartsApp').controller('panelCtrl', function ($scope, $timeout, 
     var container = angular.element(document.querySelector('#panel'));
     var graph = document.querySelector('#graph');
 
-    bus.on('updateData', function (updatedData) {
+    bus.on(CONST.EVENTS.DATA_UPDATE, function (updatedData) {
         var clonedData = angular.copy(updatedData);
         $scope.data = clonedData;
     });
@@ -16,13 +16,13 @@ angular.module('ChartsApp').controller('panelCtrl', function ($scope, $timeout, 
     // Events
     container
         .on('hoverNode', function (event) {
-            $scope.selectedNode = data.getNodeByName(event.detail);
+            $scope.selectedNode = data.node.getByName(event.detail);
             $scope.edit = false;
             $scope.$digest();
         })
         .on('selectNode', function (event) {
             $scope.enterEdit(event.detail);
-            $scope.selectedNode = data.getNodeByName(event.detail);
+            $scope.selectedNode = data.node.getByName(event.detail);
             $scope.$digest();
         })
         .on('unSelectNode', function (event) {
@@ -33,7 +33,7 @@ angular.module('ChartsApp').controller('panelCtrl', function ($scope, $timeout, 
         });
 
     $scope.enterEdit = function (name) {
-        $scope.originalNode = data.getNodeByName(name);
+        $scope.originalNode = data.node.getByName(name);
         $scope.node = angular.copy($scope.originalNode);
         // data.setJsonData(angular.copy($scope.originalNode));
         $scope.edit = true;
@@ -48,7 +48,7 @@ angular.module('ChartsApp').controller('panelCtrl', function ($scope, $timeout, 
     $scope.leaveEdit = function () {
         $scope.node = angular.copy($scope.originalNode);
         $scope.edit = false;
-        bus.emit('unselect');
+        bus.emit(CONST.EVENTS.UNSELECT_NODE);
     };
 
     $scope.editNode = function (form, $event) {
@@ -62,7 +62,7 @@ angular.module('ChartsApp').controller('panelCtrl', function ($scope, $timeout, 
         data.updateNode($scope.originalNode.name, $scope.node);
 
         data.emitRefresh();
-        $scope.node = data.getNodeByName($scope.node.name);
+        $scope.node = data.node.getByName($scope.node.name);
 
         $scope.edit = false;
     };
@@ -81,7 +81,7 @@ angular.module('ChartsApp').controller('panelCtrl', function ($scope, $timeout, 
         data.emitRefresh();
 
         $timeout(function () {
-            bus.emit('select', $scope.originalNode.name);
+            bus.emit(CONST.EVENTS.SELECT_NODE, $scope.originalNode.name);
         });
     };
 
@@ -90,7 +90,7 @@ angular.module('ChartsApp').controller('panelCtrl', function ($scope, $timeout, 
         data.emitRefresh();
 
         $timeout(function () {
-            bus.emit('select', 'New node');
+            bus.emit(CONST.EVENTS.SELECT_NODE, 'New node');
         });
     };
 
@@ -139,4 +139,4 @@ angular.module('ChartsApp').controller('panelCtrl', function ($scope, $timeout, 
         delete $scope.hostKeys[key];
         delete $scope.node.host[key];
     };
-});
+};
