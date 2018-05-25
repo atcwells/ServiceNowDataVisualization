@@ -21,7 +21,7 @@ angular.module('ChartsApp', [])
 require('./services');
 require('./controllers');
 require('./directives');
-},{"./controllers":3,"./directives":7,"./services":15,"angular":18}],2:[function(require,module,exports){
+},{"./controllers":3,"./directives":7,"./services":16,"angular":19}],2:[function(require,module,exports){
 module.exports = function ($scope, bus, CONST) {
     'use strict';
 
@@ -38,20 +38,20 @@ app.controller('jsonDataCtrl', require('./json-data'));
 app.controller('panelCtrl', require('./panel'));
 app.controller('undoCtrl', require('./undo'));
 
-},{"./chart":2,"./json-data":4,"./panel":5,"./undo":6,"angular":18}],4:[function(require,module,exports){
+},{"./chart":2,"./json-data":4,"./panel":5,"./undo":6,"angular":19}],4:[function(require,module,exports){
 module.exports = function ($scope, bus, data, CONST) {
     'use strict';
 
-    var previousData;
+    let previousData;
     $scope.data = null;
 
-    bus.on(CONST.EVENTS.DATA_UPDATE, function (dat) {
-        previousData = dat;
+    bus.on(CONST.EVENTS.DATA_UPDATE, function (newJsonData) {
+        previousData = newJsonData;
         $scope.data = JSON.stringify(data.getJsonData(), undefined, 2);
     });
 
     $scope.updateData = function () {
-        var newData = JSON.parse($scope.data);
+        let newData = JSON.parse($scope.data);
         if (!angular.equals(newData, previousData)) {
             data.setJsonData(newData);
         }
@@ -77,24 +77,29 @@ module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
     // Events
     container
         .on('hoverNode', function (event) {
-            $scope.selectedNode = data.node.getByName(event.detail);
+            $scope.selectedNode = data.node.get('name', event.detail);
             $scope.edit = false;
-            $scope.$digest();
+            $scope.$apply();
         })
         .on('selectNode', function (event) {
+            console.log(event);
             $scope.enterEdit(event.detail);
-            $scope.selectedNode = data.node.getByName(event.detail);
-            $scope.$digest();
+            $scope.selectedNode = data.node.get('name', event.detail);
+            data.setCurrentFocus({
+                id: $scope.selectedNode.parent,
+                children: [$scope.selectedNode]
+            });
+            $scope.$apply();
         })
         .on('unSelectNode', function (event) {
             if ($scope.edit) {
                 $scope.leaveEdit();
-                $scope.$digest();
+                $scope.$apply();
             }
         });
 
     $scope.enterEdit = function (name) {
-        $scope.originalNode = data.node.getByName(name);
+        $scope.originalNode = data.node.get('name', name);
         $scope.node = angular.copy($scope.originalNode);
         // data.setJsonData(angular.copy($scope.originalNode));
         $scope.edit = true;
@@ -120,26 +125,23 @@ module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
                 delete $scope.node.host[key];
             }
         });
-        data.updateNode($scope.originalNode.name, $scope.node);
+        data.node.update($scope.originalNode.name, $scope.node);
 
-        data.emitRefresh();
-        $scope.node = data.node.getByName($scope.node.name);
+        $scope.node = data.node.get('name', $scope.node.name);
 
         $scope.edit = false;
     };
 
     $scope.deleteNode = function () {
         if (!$window.confirm('Are you sure you want to delete that node?')) return;
-        data.removeNode($scope.originalNode.name);
-        data.emitRefresh();
+        data.node.remove($scope.originalNode.name);
 
         $scope.edit = false;
     };
 
     $scope.moveNode = function () {
         var dest = $window.prompt('Please type the name of the parent node to move to');
-        data.moveNode($scope.originalNode.name, dest);
-        data.emitRefresh();
+        data.node.move($scope.originalNode.name, dest);
 
         $timeout(function () {
             bus.emit(CONST.EVENTS.SELECT_NODE, $scope.originalNode.name);
@@ -147,8 +149,7 @@ module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
     };
 
     $scope.addNode = function () {
-        data.addNode($scope.originalNode.name);
-        data.emitRefresh();
+        data.node.add($scope.originalNode.name);
 
         $timeout(function () {
             bus.emit(CONST.EVENTS.SELECT_NODE, 'New node');
@@ -233,7 +234,7 @@ app.directive('panelEdit', require('./panel-edit'));
 app.directive('panelFilter', require('./panel-filter'));
 app.directive('treeChart', require('./tree-chart'));
 
-},{"./init-focus":8,"./panel-detail":9,"./panel-edit":10,"./panel-filter":11,"./tree-chart":12,"angular":18}],8:[function(require,module,exports){
+},{"./init-focus":8,"./panel-detail":9,"./panel-edit":10,"./panel-filter":11,"./tree-chart":12,"angular":19}],8:[function(require,module,exports){
 module.exports = function () {
     var timer;
 
@@ -268,6 +269,15 @@ module.exports = function () {
                                 <ul>
                                     <li ng-repeat="child in selectedNode.children">
                                         <a href="{{child.url}}">{{ child.name }}</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="properties" ng-if="selectedNode.controls">
+                                <h5>Controls</h5>
+                                <ul>
+                                    <li ng-repeat="control in selectedNode.controls">
+                                        <a href="{{control.url}}">{{ control.name }}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -401,85 +411,48 @@ module.exports = function (CONST, bus, data) {
         link: function link(scope, element, attrs) {
 
             bus.on(CONST.EVENTS.DATA_UPDATE, function (data) {
-                scope.technos = computeTechnos(data);
-                scope.hosts = computeHosts(data);
+                scope.controls = computeControls(data);
             });
 
             scope.nameFilter = '';
-
-            let technosFilter = [];
-            let hostsFilter = [];
+            let controlsFilter = {};
 
             scope.$watch('nameFilter', function (name) {
                 data.filter.setNameFilter(name);
             });
 
-            scope.toggleTechnoFilter = function (techno) {
-                if (scope.isTechnoInFilter(techno)) {
-                    technosFilter.splice(technosFilter.indexOf(techno), 1);
+            scope.toggleControlsFilter = function (control) {
+                if (scope.isControlInFilter(control)) {
+                    delete controlsFilter[control.id];
                 } else {
-                    technosFilter.push(techno);
+                    controlsFilter[control.id] = control;
                 }
-                bus.emit(CONST.EVENTS.FILTER_CHANGE, technosFilter);
+                bus.emit(CONST.EVENTS.FILTER_CHANGE);
             };
 
-            scope.isTechnoInFilter = function (techno) {
-                return technosFilter.indexOf(techno) !== -1;
+            scope.isControlInFilter = function (control) {
+                return controlsFilter[control.id] !== undefined;
             };
 
-            scope.toggleHostFilter = function (host) {
-                if (scope.isHostInFilter(host)) {
-                    hostsFilter.splice(hostsFilter.indexOf(host), 1);
-                } else {
-                    hostsFilter.push(host);
-                }
-                bus.emit(CONST.EVENTS.FILTER_CHANGE, hostsFilter);
-            };
+            function computeControls(rootNode) {
+                let controls = {};
 
-            scope.isHostInFilter = function (host) {
-                return hostsFilter.indexOf(host) !== -1;
-            };
-
-            function computeTechnos(rootNode) {
-                var technos = [];
-
-                function addNodeTechnos(node) {
-                    if (node.technos) {
-                        node.technos.forEach(function (techno) {
-                            technos[techno] = true;
+                function addNodeControls(node) {
+                    if (node.controls) {
+                        node.controls.forEach(function (control) {
+                            controls[control.id] = control;
                         });
                     }
                     if (node.children) {
                         node.children.forEach(function (childNode) {
-                            addNodeTechnos(childNode);
+                            addNodeControls(childNode);
                         });
                     }
                 }
 
-                addNodeTechnos(rootNode);
+                addNodeControls(rootNode);
 
-                return Object.keys(technos).sort();
-            }
-
-            function computeHosts(rootNode) {
-                var hosts = {};
-
-                function addNodeHosts(node) {
-                    if (node.host) {
-                        for (var i in node.host) {
-                            hosts[i] = true;
-                        }
-                    }
-                    if (node.children) {
-                        node.children.forEach(function (childNode) {
-                            addNodeHosts(childNode);
-                        });
-                    }
-                }
-
-                addNodeHosts(rootNode);
-
-                return Object.keys(hosts).sort();
+                return controls;
             }
         },
         template: `<div class="filters panel panel-default">
@@ -488,15 +461,10 @@ module.exports = function (CONST, bus, data) {
         <form id="filter_form">
             <input name="name" type="text" class="form-control" placeholder="Filter by name"
                    ng-model="nameFilter"/>
-            <div id="technos">
-                <h5>Technos</h5>
-                <a ng-repeat="techno in technos" class="btn btn-default btn-xs" ng-click="toggleTechnoFilter(techno)"
-                   ng-class="{'btn-primary': isTechnoInFilter(techno) }">{{ techno }}</a>
-            </div>
-            <div id="host">
-                <h5>Host</h5>
-                <a ng-repeat="host in hosts" class="btn btn-default btn-xs" ng-click="toggleHostFilter(host)"
-                   ng-class="{'btn-primary': isHostInFilter(host) }">{{ host }}</a>
+            <div id="controls">
+                <h5>Controls</h5>
+                <a ng-repeat="control in controls" class="btn btn-default btn-xs" ng-click="toggleControlsFilter(control)"
+                   ng-class="{'btn-primary': isControlInFilter(control) }">{{ control.number }}</a>
             </div>
         </form>
     </div>
@@ -582,13 +550,11 @@ module.exports = function ($http, $q) {
 };
 
 },{}],14:[function(require,module,exports){
-module.exports = data = function ($http, $q, bus, CONST) {
+module.exports = data = function ($http, $q, bus, CONST, filter) {
     'use strict';
 
     var jsonData;
-    let nameFilter = '';
-    let technosFilter = [];
-    let hostsFilter = [];
+    var currentFocus;
 
     /**
      * Get the tree object from json file
@@ -605,15 +571,15 @@ module.exports = data = function ($http, $q, bus, CONST) {
             });
     };
 
-    var emitRefresh = function () {
-        bus.emit(CONST.EVENTS.DATA_UPDATE, jsonData);
+    var _emitRefresh = function () {
+        bus.emit(CONST.EVENTS.DATA_UPDATE, currentFocus);
     };
 
     /**
      * Get the tree object
      */
     var getJsonData = function () {
-        return jsonData;
+        return currentFocus;
     };
 
     /**
@@ -621,19 +587,30 @@ module.exports = data = function ($http, $q, bus, CONST) {
      */
     var setJsonData = function (data) {
         jsonData = _formatData(data);
-        emitRefresh();
+        setCurrentFocus(jsonData);
+        _emitRefresh();
     };
 
-    var getNodeByName = function (name, data) {
+    var setCurrentFocus = function (data) {
+        currentFocus = data;
+        _emitRefresh();
+    };
+
+    var resetFocus = function () {
+        currentFocus = jsonData;
+        _emitRefresh();
+    };
+
+    var getNode = function (key, name, data) {
         data = data || jsonData;
-        if (data.name === name) {
+        if (data[key] === name)
             return data;
-        }
+
         if (!data.children)
             return null;
 
         for (var i = data.children.length - 1; i >= 0; i--) {
-            var matchingNode = getNodeByName(name, data.children[i]);
+            var matchingNode = getNode(key, name, data.children[i]);
             if (matchingNode)
                 return matchingNode;
         }
@@ -663,13 +640,14 @@ module.exports = data = function ($http, $q, bus, CONST) {
      * @param {Object} cursor
      */
     var updateNode = function (name, updatedNode) {
-        var node = getNodeByName(name);
+        var node = getNode('name', name);
         updateDependencies(node.name, updatedNode.name);
         for (var i in updatedNode) {
             if (updatedNode.hasOwnProperty(i) && i !== 'children' && i !== 'parent' && i !== 'details') {
                 node[i] = updatedNode[i];
             }
         }
+        _emitRefresh();
     };
 
     /**
@@ -699,11 +677,11 @@ module.exports = data = function ($http, $q, bus, CONST) {
 
     function _formatData(data) {
 
-        var addParent = function (node) {
+        var addParentId = function (node) {
             if (node.children) {
                 node.children.forEach(function (childNode) {
                     childNode.parent = node.id;
-                    addParent(childNode);
+                    addParentId(childNode);
                 });
             }
         };
@@ -737,7 +715,7 @@ module.exports = data = function ($http, $q, bus, CONST) {
         var addDependents = function (node) {
             if (node.dependsOn) {
                 node.dependsOn.forEach(function (dependsOn) {
-                    var dependency = data.node.getByName(dependsOn, data);
+                    var dependency = data.node.get('name', dependsOn, data);
                     if (!dependency) {
                         console.log('Dependency', dependsOn, 'not found for node', node);
                         return;
@@ -814,7 +792,7 @@ module.exports = data = function ($http, $q, bus, CONST) {
             return detail.via ? detail.value + ' (' + detail.via + ')' : detail.value;
         };
 
-        //addParent(data);
+        addParentId(data);
         addDependents(data);
         addDetails(data);
         addAncestors(data);
@@ -848,11 +826,12 @@ module.exports = data = function ($http, $q, bus, CONST) {
      */
     var addNode = function (name, newNode) {
         newNode = newNode || {name: 'New node'};
-        var node = getNodeByName(name);
+        var node = getNode('name', name);
         if (!node.children) {
             node.children = [];
         }
         node.children.push(newNode);
+        _emitRefresh();
     };
 
     /**
@@ -871,6 +850,7 @@ module.exports = data = function ($http, $q, bus, CONST) {
                 return parentNode.children.splice(i, 1);
             }
         }
+        _emitRefresh();
     };
 
     /**
@@ -882,6 +862,7 @@ module.exports = data = function ($http, $q, bus, CONST) {
             return false;
 
         addNode(newParentNodeName, removedNodes[0]);
+        _emitRefresh();
     };
 
     /**
@@ -898,48 +879,71 @@ module.exports = data = function ($http, $q, bus, CONST) {
         return names;
     };
 
-    let setNameFilter = function (newFilter) {
-        nameFilter = newFilter;
-        bus.emit(CONST.EVENTS.FILTER_CHANGE);
-    };
-
-    let getNameFilter = function () {
-        return nameFilter;
-    };
-
     return {
         fetchJsonData: fetchJsonData,
         getJsonData: getJsonData,
         setJsonData: setJsonData,
-        emitRefresh: emitRefresh,
+        setCurrentFocus: setCurrentFocus,
+        resetFocus: resetFocus,
         node: {
-            getByName: getNodeByName
+            get: getNode,
+            move: moveNode,
+            update: updateNode,
+            add: addNode,
+            remove: removeNode,
         },
-        updateNode: updateNode,
-        addNode: addNode,
-        removeNode: removeNode,
-        moveNode: moveNode,
-        filter: {
-            getNameFilter: getNameFilter,
-            setNameFilter: setNameFilter,
-            getTechnosFilter: getNameFilter,
-            setTechnosFilter: setNameFilter,
-            getHostsFilter: getNameFilter,
-            setHostsFilter: setNameFilter
-        }
+        filter: filter
     };
 };
 
 },{}],15:[function(require,module,exports){
+module.exports = filter = function (bus, CONST) {
+    'use strict';
+
+    let _filters = {
+        nameFilter: '',
+        technosFilter: [],
+        hostsFilter: []
+    };
+
+    let setFilter = function (key, newFilterValue) {
+        _filters[key] = newFilterValue;
+        bus.emit(CONST.EVENTS.FILTER_CHANGE);
+    };
+
+    let getFilter = function (filterName) {
+        return _filters[filterName];
+    };
+
+    let getNameFilter = function () {
+        return getFilter('nameFilter');
+    };
+
+    let setNameFilter = function (newFilter) {
+        return setFilter('nameFilter', newFilter);
+    };
+
+    return {
+        getNameFilter: getNameFilter,
+        setNameFilter: setNameFilter,
+        getTechnosFilter: getNameFilter,
+        setTechnosFilter: setNameFilter,
+        getHostsFilter: getNameFilter,
+        setHostsFilter: setNameFilter
+    }
+};
+
+},{}],16:[function(require,module,exports){
 'use strict';
 
 let app = require('angular').module('ChartsApp');
 
-app.service('bus', require('./bus'));
 app.service('data', require('./data'));
+app.service('filter', require('./filter'));
+app.service('bus', require('./bus'));
 app.service('node', require('./node'));
 
-},{"./bus":13,"./data":14,"./node":16,"angular":18}],16:[function(require,module,exports){
+},{"./bus":13,"./data":14,"./filter":15,"./node":17,"angular":19}],17:[function(require,module,exports){
 module.exports = function () {
     'use strict';
 
@@ -954,7 +958,7 @@ module.exports = function () {
     };
 };
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 /**
  * @license AngularJS v1.7.0
  * (c) 2010-2018 Google, Inc. http://angularjs.org
@@ -36058,8 +36062,8 @@ $provide.value("$locale", {
 })(window);
 
 !window.angular.$$csp().noInlineStyle && window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 require('./angular');
 module.exports = angular;
 
-},{"./angular":17}]},{},[1]);
+},{"./angular":18}]},{},[1]);

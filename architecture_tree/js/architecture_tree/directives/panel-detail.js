@@ -23,6 +23,15 @@ module.exports = function () {
                                     </li>
                                 </ul>
                             </div>
+                            
+                            <div class="properties" ng-if="selectedNode.controls">
+                                <h5>Controls</h5>
+                                <ul>
+                                    <li ng-repeat="control in selectedNode.controls">
+                                        <a href="{{control.url}}">{{ control.name }}</a>
+                                    </li>
+                                </ul>
+                            </div>
                         
                             <div class="properties" ng-if="selectedNode.details.Dependencies">
                                 <h5>Depends on</h5>

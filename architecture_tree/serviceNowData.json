@@ -1,177 +1,4 @@
 {
-  "links": {
-    "0af2263cdb251bc05bf25cd4dc961938": [
-      "e0a643b0dba51bc05bf25cd4dc9619f8",
-      "e63b7370db291bc05bf25cd4dc9619d7"
-    ],
-    "0c378840db0d17805bf25cd4dc96196c": [
-      "48058f30dba51bc05bf25cd4dc9619cc",
-      "14734330dba51bc05bf25cd4dc9619c4"
-    ],
-    "1061d0e2db819b805bf25cd4dc96197d": [
-      "71638caadb419b805bf25cd4dc961915"
-    ],
-    "14734330dba51bc05bf25cd4dc9619c4": [
-      "b39877fcdbe51bc05bf25cd4dc961944"
-    ],
-    "15ba68eddbb5d300fbf35414dc961923": [
-      "3edb2821dbf5d300fbf35414dc9619f4"
-    ],
-    "1ea80ebedb8d9b805bf25cd4dc961990": [
-      "8ec88ebedb8d9b805bf25cd4dc9619c4"
-    ],
-    "276c7f98db3913005bf25cd4dc9619b2": [
-      "63a5896cdbf913005bf25cd4dc961952"
-    ],
-    "29b41ce2db819b805bf25cd4dc96198d": [
-      "80e51c26db819b805bf25cd4dc96199d"
-    ],
-    "3b33a46edb819b805bf25cd4dc961950": [
-      "6363a46edb819b805bf25cd4dc961944"
-    ],
-    "48058f30dba51bc05bf25cd4dc9619cc": [
-      "49d8f7fcdbe51bc05bf25cd4dc9619da"
-    ],
-    "4cb8cb76dbf493805bf25cd4dc9619cf": [
-      "0af2263cdb251bc05bf25cd4dc961938",
-      "0c378840db0d17805bf25cd4dc96196c",
-      "1189fffcdbe51bc05bf25cd4dc9619a6",
-      "158117b8dba51bc05bf25cd4dc961963",
-      "1ea80ebedb8d9b805bf25cd4dc961990",
-      "26128045db291bc05bf25cd4dc961925",
-      "47dc73b0db291bc05bf25cd4dc961902",
-      "5fbf8378dba51bc05bf25cd4dc96198a",
-      "6e7c0ab2dbcd9b805bf25cd4dc961902",
-      "7f5dcf3adbf493805bf25cd4dc961908",
-      "8e536a3cdb251bc05bf25cd4dc961917",
-      "91d26ab4db251bc05bf25cd4dc9619b0",
-      "92e1cc05db291bc05bf25cd4dc9619f6",
-      "961c82b2dbcd9b805bf25cd4dc961994",
-      "a3497ffcdbe51bc05bf25cd4dc9619a1",
-      "a723e63cdb251bc05bf25cd4dc961951",
-      "aeaf9ed6db7453805bf25cd4dc9619f1",
-      "b9a3bb3cdbe51bc05bf25cd4dc96197a",
-      "c76193b8dba51bc05bf25cd4dc961959",
-      "c8910c05db291bc05bf25cd4dc9619b6",
-      "db688abadb8d9b805bf25cd4dc961950"
-    ],
-    "4dcc986adb819b805bf25cd4dc9619d2": [
-      "813028eadb819b805bf25cd4dc9619a9"
-    ],
-    "5fbf8378dba51bc05bf25cd4dc96198a": [
-      "833df7b0db291bc05bf25cd4dc961955"
-    ],
-    "6a784b76dbf493805bf25cd4dc961911": [
-      "034a89fadb0d9b805bf25cd4dc9619e4",
-      "04dcb715db5d5f80fbf35414dc96190a",
-      "0bcc3315db5d5f80fbf35414dc961921",
-      "0eafd0eadb819b805bf25cd4dc9619e9",
-      "0fccffd1db5d5f80fbf35414dc9619e8",
-      "1061d0e2db819b805bf25cd4dc96197d",
-      "18a58d3adb0d9b805bf25cd4dc9619b2",
-      "19a2206edb819b805bf25cd4dc961960",
-      "1fcc7315db5d5f80fbf35414dc961986",
-      "29b41ce2db819b805bf25cd4dc96198d",
-      "2bccb315db5d5f80fbf35414dc96196c",
-      "2fccb315db5d5f80fbf35414dc9619be",
-      "332b453edb0d9b805bf25cd4dc9619ac",
-      "36a3e86edb819b805bf25cd4dc961991",
-      "395fcc62db819b805bf25cd4dc9619c6",
-      "3b33a46edb819b805bf25cd4dc961950",
-      "3fb57cfedbc99b805bf25cd4dc96191b",
-      "4dcc986adb819b805bf25cd4dc9619d2",
-      "53cc7315db5d5f80fbf35414dc9619d5",
-      "5506817adb0d9b805bf25cd4dc961970",
-      "5d02682edb819b805bf25cd4dc9619e8",
-      "63521ce2db819b805bf25cd4dc961995",
-      "63fe603edbc99b805bf25cd4dc961945",
-      "6839c0aedb419b805bf25cd4dc96197f",
-      "79d741badb0d9b805bf25cd4dc9619d6",
-      "7a3cc012dbcd9780fbf35414dc9619c3",
-      "83847cbedbc99b805bf25cd4dc961996",
-      "9417c17adb0d9b805bf25cd4dc96194e",
-      "9c91642edb819b805bf25cd4dc961907",
-      "9e247cbedbc99b805bf25cd4dc961988",
-      "a21150e2db819b805bf25cd4dc961927",
-      "b5f3703edbc99b805bf25cd4dc9619b8",
-      "b68a04dedb8d9780fbf35414dc9619ba",
-      "bde98c9edb8d9780fbf35414dc961956",
-      "c3ccffd1db5d5f80fbf35414dc961928",
-      "dd1a49fadb0d9b805bf25cd4dc961974",
-      "e176c82edb419b805bf25cd4dc96195e",
-      "e6ccf7d1db5d5f80fbf35414dc9619af",
-      "fb99485edb8d9780fbf35414dc9619be"
-    ],
-    "79d741badb0d9b805bf25cd4dc9619d6": [
-      "a84809badb0d9b805bf25cd4dc961970"
-    ],
-    "7a3cc012dbcd9780fbf35414dc9619c3": [
-      "8ce244aadb419b805bf25cd4dc961945"
-    ],
-    "8ce244aadb419b805bf25cd4dc961945": [
-      "e6154ceadb419b805bf25cd4dc961961"
-    ],
-    "8e536a3cdb251bc05bf25cd4dc961917": [
-      "ade197b8dba51bc05bf25cd4dc9619a1"
-    ],
-    "9417c17adb0d9b805bf25cd4dc96194e": [
-      "efda813edb0d9b805bf25cd4dc961941",
-      "b1478d7adb0d9b805bf25cd4dc961998"
-    ],
-    "961c82b2dbcd9b805bf25cd4dc961994": [
-      "b63c06b2dbcd9b805bf25cd4dc961995"
-    ],
-    "a723e63cdb251bc05bf25cd4dc961951": [
-      "d71f03f4dba51bc05bf25cd4dc961945"
-    ],
-    "ae4e6f9cdbf513005bf25cd4dc9619af": [
-      "1a06b314db3913005bf25cd4dc9619b3"
-    ],
-    "b5f3703edbc99b805bf25cd4dc9619b8": [
-      "ec55893adb0d9b805bf25cd4dc9619de"
-    ],
-    "bde98c9edb8d9780fbf35414dc961956": [
-      "d11e4462db819b805bf25cd4dc961936"
-    ],
-    "cc7d2fb3db1597c05bf25cd4dc9619e2": [
-      "0fe22975db351700fbf35414dc9619bb",
-      "15ba68eddbb5d300fbf35414dc961923",
-      "1a04852cdbf913005bf25cd4dc961951",
-      "2385896cdbf913005bf25cd4dc96192c",
-      "276c7f98db3913005bf25cd4dc9619b2",
-      "288c6c21dbf5d300fbf35414dc961946",
-      "46d249e8dbf913005bf25cd4dc961947",
-      "50bd3fd8db3913005bf25cd4dc96199a",
-      "5489ec2ddbb5d300fbf35414dc961996",
-      "5f28ec2ddbb5d300fbf35414dc96198c",
-      "6f66cca1db75d300fbf35414dc96192b",
-      "76cd4469db75d300fbf35414dc9619d0",
-      "7a935075db311700fbf35414dc961960",
-      "87c42fd9dbf1d300fbf35414dc96190a",
-      "897aa0eddbb5d300fbf35414dc9619ca",
-      "92538de8dbf913005bf25cd4dc961974",
-      "9293412cdbf913005bf25cd4dc961951",
-      "997ba021dbf5d300fbf35414dc96191c",
-      "a21baceddbb5d300fbf35414dc961901",
-      "ae4e6f9cdbf513005bf25cd4dc9619af",
-      "b072cd68dbf913005bf25cd4dc961950",
-      "b143d835db311700fbf35414dc9619a7",
-      "b3ec4829db75d300fbf35414dc9619e4",
-      "b5ebf398db3913005bf25cd4dc961960",
-      "bbe9646ddbb5d300fbf35414dc961906",
-      "d113c5e8dbf913005bf25cd4dc9619d7",
-      "d7978460db7913005bf25cd4dc9619ba",
-      "dcedbfd8db3913005bf25cd4dc961935",
-      "df85c460db7913005bf25cd4dc96192c",
-      "eadcb3d8db3913005bf25cd4dc9619d8",
-      "ebf50c60db7913005bf25cd4dc961953",
-      "ee6a7358db3913005bf25cd4dc9619c8",
-      "f7f5896cdbf913005bf25cd4dc961957"
-    ],
-    "d11e4462db819b805bf25cd4dc961936": [
-      "22ce8862db819b805bf25cd4dc96198b"
-    ]
-  },
   "nodes": {
     "children": [
       {
@@ -208,6 +35,26 @@
         "children": [
         ],
         "group": 4,
+        "id": "21b36216db3d5700fbf35414dc961932",
+        "level": 1,
+        "name": "Group Credit Risk Standard",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=21b36216db3d5700fbf35414dc961932&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 5,
+        "id": "3b73e216db3d5700fbf35414dc96198a",
+        "level": 1,
+        "name": "Group Credit Risk Policy",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=3b73e216db3d5700fbf35414dc96198a&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 6,
         "id": "3e2cc6f0db8997805bf25cd4dc9619c1",
         "level": 1,
         "name": "Group Vendor Risk Policy",
@@ -221,7 +68,9 @@
               {
                 "children": [
                 ],
-                "group": 5,
+                "controls": [
+                ],
+                "group": 7,
                 "id": "e0a643b0dba51bc05bf25cd4dc9619f8",
                 "level": 3,
                 "name": "Consistency-CI Consistency Across Sources",
@@ -231,7 +80,9 @@
               {
                 "children": [
                 ],
-                "group": 5,
+                "controls": [
+                ],
+                "group": 7,
                 "id": "e63b7370db291bc05bf25cd4dc9619d7",
                 "level": 3,
                 "name": "Config-Consistency-Consistency",
@@ -239,7 +90,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=e63b7370db291bc05bf25cd4dc9619d7&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "0af2263cdb251bc05bf25cd4dc961938",
             "level": 2,
             "name": "Config-Consistency",
@@ -253,7 +106,9 @@
                   {
                     "children": [
                     ],
-                    "group": 5,
+                    "controls": [
+                    ],
+                    "group": 7,
                     "id": "49d8f7fcdbe51bc05bf25cd4dc9619da",
                     "level": 4,
                     "name": "Correctness-Attribute Data Sensibility",
@@ -261,7 +116,9 @@
                     "url": "sn_compliance_policy_statement.do?sys_id=49d8f7fcdbe51bc05bf25cd4dc9619da&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
                   }
                 ],
-                "group": 5,
+                "controls": [
+                ],
+                "group": 7,
                 "id": "48058f30dba51bc05bf25cd4dc9619cc",
                 "level": 3,
                 "name": "Config-Accuracy-Correctness",
@@ -273,7 +130,9 @@
                   {
                     "children": [
                     ],
-                    "group": 5,
+                    "controls": [
+                    ],
+                    "group": 7,
                     "id": "b39877fcdbe51bc05bf25cd4dc961944",
                     "level": 4,
                     "name": "Reality-Attribute Data Reality",
@@ -281,7 +140,9 @@
                     "url": "sn_compliance_policy_statement.do?sys_id=b39877fcdbe51bc05bf25cd4dc961944&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
                   }
                 ],
-                "group": 5,
+                "controls": [
+                ],
+                "group": 7,
                 "id": "14734330dba51bc05bf25cd4dc9619c4",
                 "level": 3,
                 "name": "Config-Accuracy-Reality",
@@ -289,7 +150,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=14734330dba51bc05bf25cd4dc9619c4&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "0c378840db0d17805bf25cd4dc96196c",
             "level": 2,
             "name": "Config-Accuracy",
@@ -299,7 +162,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "1189fffcdbe51bc05bf25cd4dc9619a6",
             "level": 2,
             "name": "Validity-CI Validity",
@@ -309,7 +174,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "158117b8dba51bc05bf25cd4dc961963",
             "level": 2,
             "name": "Config-Security-Integrity",
@@ -321,7 +188,9 @@
               {
                 "children": [
                 ],
-                "group": 5,
+                "controls": [
+                ],
+                "group": 7,
                 "id": "8ec88ebedb8d9b805bf25cd4dc9619c4",
                 "level": 3,
                 "name": "Uniqueness-Record Uniqueness",
@@ -329,7 +198,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=8ec88ebedb8d9b805bf25cd4dc9619c4&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "1ea80ebedb8d9b805bf25cd4dc961990",
             "level": 2,
             "name": "Config-Uniqueness-Uniqueness",
@@ -339,7 +210,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "26128045db291bc05bf25cd4dc961925",
             "level": 2,
             "name": "Availability-Data Available",
@@ -349,7 +222,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "47dc73b0db291bc05bf25cd4dc961902",
             "level": 2,
             "name": "Certification-Data Actively Certified",
@@ -361,7 +236,9 @@
               {
                 "children": [
                 ],
-                "group": 5,
+                "controls": [
+                ],
+                "group": 7,
                 "id": "833df7b0db291bc05bf25cd4dc961955",
                 "level": 3,
                 "name": "Expiry-Data Expiry",
@@ -369,7 +246,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=833df7b0db291bc05bf25cd4dc961955&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "5fbf8378dba51bc05bf25cd4dc96198a",
             "level": 2,
             "name": "Config-Currency-Expiry",
@@ -379,7 +258,51 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+              {
+                "id": "3b0ec63edbc11b80fbf35414dc961998",
+                "name": "Completion-Attribute Completion",
+                "number": "CTRL0020371",
+                "url": "sn_compliance_control.do?sys_id=3b0ec63edbc11b80fbf35414dc961998&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7f0ec63edbc11b80fbf35414dc961995",
+                "name": "Completion-Attribute Completion",
+                "number": "CTRL0020370",
+                "url": "sn_compliance_control.do?sys_id=7f0ec63edbc11b80fbf35414dc961995&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b30ec63edbc11b80fbf35414dc961993",
+                "name": "Completion-Attribute Completion",
+                "number": "CTRL0020369",
+                "url": "sn_compliance_control.do?sys_id=b30ec63edbc11b80fbf35414dc961993&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f30ec63edbc11b80fbf35414dc96199b",
+                "name": "Completion-Attribute Completion",
+                "number": "CTRL0020372",
+                "url": "sn_compliance_control.do?sys_id=f30ec63edbc11b80fbf35414dc96199b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "ef0ec63edbc11b80fbf35414dc96197a",
+                "name": "Completion-Attribute Completion",
+                "number": "CTRL0020366",
+                "url": "sn_compliance_control.do?sys_id=ef0ec63edbc11b80fbf35414dc96197a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e70ec63edbc11b80fbf35414dc961990",
+                "name": "Completion-Attribute Completion",
+                "number": "CTRL0020368",
+                "url": "sn_compliance_control.do?sys_id=e70ec63edbc11b80fbf35414dc961990&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "eb0ec63edbc11b80fbf35414dc961980",
+                "name": "Completion-Attribute Completion",
+                "number": "CTRL0020367",
+                "url": "sn_compliance_control.do?sys_id=eb0ec63edbc11b80fbf35414dc961980&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
             "id": "6e7c0ab2dbcd9b805bf25cd4dc961902",
             "level": 2,
             "name": "Completion-Attribute Completion",
@@ -389,7 +312,51 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+              {
+                "id": "fc4e44c6db42df005bf25cd4dc961977",
+                "name": "PCC-001-Config Mgmt - Missing Service owners",
+                "number": "CTRL0021303",
+                "url": "sn_compliance_control.do?sys_id=fc4e44c6db42df005bf25cd4dc961977&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "204e44c6db42df005bf25cd4dc961972",
+                "name": "PCC-001-Config Mgmt - Missing Service owners",
+                "number": "CTRL0021302",
+                "url": "sn_compliance_control.do?sys_id=204e44c6db42df005bf25cd4dc961972&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "604e44c6db42df005bf25cd4dc96196c",
+                "name": "PCC-001-Config Mgmt - Missing Service owners",
+                "number": "CTRL0021301",
+                "url": "sn_compliance_control.do?sys_id=604e44c6db42df005bf25cd4dc96196c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bc4e44c6db42df005bf25cd4dc96197d",
+                "name": "PCC-001-Config Mgmt - Missing Service owners",
+                "number": "CTRL0021304",
+                "url": "sn_compliance_control.do?sys_id=bc4e44c6db42df005bf25cd4dc96197d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "244e04c6db42df005bf25cd4dc961920",
+                "name": "PCC-001-Config Mgmt - Missing Service owners",
+                "number": "CTRL0021298",
+                "url": "sn_compliance_control.do?sys_id=244e04c6db42df005bf25cd4dc961920&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a04e44c6db42df005bf25cd4dc961966",
+                "name": "PCC-001-Config Mgmt - Missing Service owners",
+                "number": "CTRL0021300",
+                "url": "sn_compliance_control.do?sys_id=a04e44c6db42df005bf25cd4dc961966&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e84e44c6db42df005bf25cd4dc96195f",
+                "name": "PCC-001-Config Mgmt - Missing Service owners",
+                "number": "CTRL0021299",
+                "url": "sn_compliance_control.do?sys_id=e84e44c6db42df005bf25cd4dc96195f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
             "id": "7f5dcf3adbf493805bf25cd4dc961908",
             "level": 2,
             "name": "PCC-001-Config Mgmt - Missing Service owners",
@@ -401,7 +368,9 @@
               {
                 "children": [
                 ],
-                "group": 5,
+                "controls": [
+                ],
+                "group": 7,
                 "id": "ade197b8dba51bc05bf25cd4dc9619a1",
                 "level": 3,
                 "name": "Config-Security-Availability",
@@ -409,7 +378,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=ade197b8dba51bc05bf25cd4dc9619a1&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "8e536a3cdb251bc05bf25cd4dc961917",
             "level": 2,
             "name": "Config-Security",
@@ -419,7 +390,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "91d26ab4db251bc05bf25cd4dc9619b0",
             "level": 2,
             "name": "Config-Validity",
@@ -429,7 +402,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "92e1cc05db291bc05bf25cd4dc9619f6",
             "level": 2,
             "name": "Integrity-Data Unmolested",
@@ -441,7 +416,9 @@
               {
                 "children": [
                 ],
-                "group": 5,
+                "controls": [
+                ],
+                "group": 7,
                 "id": "b63c06b2dbcd9b805bf25cd4dc961995",
                 "level": 3,
                 "name": "Config-Completeness-Completion",
@@ -449,7 +426,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=b63c06b2dbcd9b805bf25cd4dc961995&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "961c82b2dbcd9b805bf25cd4dc961994",
             "level": 2,
             "name": "Config-Completeness-Completeness",
@@ -459,7 +438,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "a3497ffcdbe51bc05bf25cd4dc9619a1",
             "level": 2,
             "name": "Config-Validity-Validity",
@@ -471,7 +452,9 @@
               {
                 "children": [
                 ],
-                "group": 5,
+                "controls": [
+                ],
+                "group": 7,
                 "id": "d71f03f4dba51bc05bf25cd4dc961945",
                 "level": 3,
                 "name": "Config-Currency-Certification",
@@ -479,7 +462,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=d71f03f4dba51bc05bf25cd4dc961945&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "a723e63cdb251bc05bf25cd4dc961951",
             "level": 2,
             "name": "Config-Currency",
@@ -489,7 +474,915 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+              {
+                "id": "721d5933db395b00fbf35414dc96192f",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021007",
+                "url": "sn_compliance_control.do?sys_id=721d5933db395b00fbf35414dc96192f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "fa1d5933db395b00fbf35414dc961934",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021008",
+                "url": "sn_compliance_control.do?sys_id=fa1d5933db395b00fbf35414dc961934&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "471d5933db395b00fbf35414dc96193a",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021009",
+                "url": "sn_compliance_control.do?sys_id=471d5933db395b00fbf35414dc96193a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a61d1933db395b00fbf35414dc9619ea",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0020997",
+                "url": "sn_compliance_control.do?sys_id=a61d1933db395b00fbf35414dc9619ea&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "221d1933db395b00fbf35414dc9619f0",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0020998",
+                "url": "sn_compliance_control.do?sys_id=221d1933db395b00fbf35414dc9619f0&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "aa1d1933db395b00fbf35414dc9619f5",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0020999",
+                "url": "sn_compliance_control.do?sys_id=aa1d1933db395b00fbf35414dc9619f5&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "361d1933db395b00fbf35414dc9619fb",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021000",
+                "url": "sn_compliance_control.do?sys_id=361d1933db395b00fbf35414dc9619fb&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "be1d5933db395b00fbf35414dc961900",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021001",
+                "url": "sn_compliance_control.do?sys_id=be1d5933db395b00fbf35414dc961900&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3a1d5933db395b00fbf35414dc961906",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021002",
+                "url": "sn_compliance_control.do?sys_id=3a1d5933db395b00fbf35414dc961906&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b21d5933db395b00fbf35414dc96190c",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021003",
+                "url": "sn_compliance_control.do?sys_id=b21d5933db395b00fbf35414dc96190c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f21d5933db395b00fbf35414dc96191e",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021004",
+                "url": "sn_compliance_control.do?sys_id=f21d5933db395b00fbf35414dc96191e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7e1d5933db395b00fbf35414dc961923",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021005",
+                "url": "sn_compliance_control.do?sys_id=7e1d5933db395b00fbf35414dc961923&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f61d5933db395b00fbf35414dc961929",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021006",
+                "url": "sn_compliance_control.do?sys_id=f61d5933db395b00fbf35414dc961929&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d71d5933db395b00fbf35414dc9619ad",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021025",
+                "url": "sn_compliance_control.do?sys_id=d71d5933db395b00fbf35414dc9619ad&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "531d5933db395b00fbf35414dc9619b3",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021026",
+                "url": "sn_compliance_control.do?sys_id=531d5933db395b00fbf35414dc9619b3&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "db1d5933db395b00fbf35414dc9619b8",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021027",
+                "url": "sn_compliance_control.do?sys_id=db1d5933db395b00fbf35414dc9619b8&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bf1d9933db395b00fbf35414dc961913",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021041",
+                "url": "sn_compliance_control.do?sys_id=bf1d9933db395b00fbf35414dc961913&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "152dd933db395b00fbf35414dc9619a5",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021099",
+                "url": "sn_compliance_control.do?sys_id=152dd933db395b00fbf35414dc9619a5&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "531d5933db395b00fbf35414dc9619a2",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021023",
+                "url": "sn_compliance_control.do?sys_id=531d5933db395b00fbf35414dc9619a2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "cf1d5933db395b00fbf35414dc96193f",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021010",
+                "url": "sn_compliance_control.do?sys_id=cf1d5933db395b00fbf35414dc96193f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4b1d5933db395b00fbf35414dc961945",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021011",
+                "url": "sn_compliance_control.do?sys_id=4b1d5933db395b00fbf35414dc961945&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c31d5933db395b00fbf35414dc96194b",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021012",
+                "url": "sn_compliance_control.do?sys_id=c31d5933db395b00fbf35414dc96194b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3c2dd933db395b00fbf35414dc96191e",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021084",
+                "url": "sn_compliance_control.do?sys_id=3c2dd933db395b00fbf35414dc96191e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "382dd933db395b00fbf35414dc961924",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021085",
+                "url": "sn_compliance_control.do?sys_id=382dd933db395b00fbf35414dc961924&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c71d5933db395b00fbf35414dc961956",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021014",
+                "url": "sn_compliance_control.do?sys_id=c71d5933db395b00fbf35414dc961956&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "cf1d5933db395b00fbf35414dc961974",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021015",
+                "url": "sn_compliance_control.do?sys_id=cf1d5933db395b00fbf35414dc961974&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4b1d5933db395b00fbf35414dc96197a",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021016",
+                "url": "sn_compliance_control.do?sys_id=4b1d5933db395b00fbf35414dc96197a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "412dd933db395b00fbf35414dc96194d",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021090",
+                "url": "sn_compliance_control.do?sys_id=412dd933db395b00fbf35414dc96194d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5b1d5933db395b00fbf35414dc96198b",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021019",
+                "url": "sn_compliance_control.do?sys_id=5b1d5933db395b00fbf35414dc96198b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d31d5933db395b00fbf35414dc961991",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021020",
+                "url": "sn_compliance_control.do?sys_id=d31d5933db395b00fbf35414dc961991&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5f1d5933db395b00fbf35414dc961996",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021021",
+                "url": "sn_compliance_control.do?sys_id=5f1d5933db395b00fbf35414dc961996&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d71d5933db395b00fbf35414dc96199c",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021022",
+                "url": "sn_compliance_control.do?sys_id=d71d5933db395b00fbf35414dc96199c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a71d5933db395b00fbf35414dc9619fd",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021037",
+                "url": "sn_compliance_control.do?sys_id=a71d5933db395b00fbf35414dc9619fd&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "6d2dd933db395b00fbf35414dc9619ef",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021110",
+                "url": "sn_compliance_control.do?sys_id=6d2dd933db395b00fbf35414dc9619ef&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e52dd933db395b00fbf35414dc9619f5",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021111",
+                "url": "sn_compliance_control.do?sys_id=e52dd933db395b00fbf35414dc9619f5&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "ff1d9933db395b00fbf35414dc961925",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021042",
+                "url": "sn_compliance_control.do?sys_id=ff1d9933db395b00fbf35414dc961925&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7b1d9933db395b00fbf35414dc96192b",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021043",
+                "url": "sn_compliance_control.do?sys_id=7b1d9933db395b00fbf35414dc96192b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "231d5933db395b00fbf35414dc9619d6",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021030",
+                "url": "sn_compliance_control.do?sys_id=231d5933db395b00fbf35414dc9619d6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "ab1d5933db395b00fbf35414dc9619db",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021031",
+                "url": "sn_compliance_control.do?sys_id=ab1d5933db395b00fbf35414dc9619db&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "271d5933db395b00fbf35414dc9619e1",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021032",
+                "url": "sn_compliance_control.do?sys_id=271d5933db395b00fbf35414dc9619e1&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "502d9933db395b00fbf35414dc9619ad",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021066",
+                "url": "sn_compliance_control.do?sys_id=502d9933db395b00fbf35414dc9619ad&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2b1d5933db395b00fbf35414dc9619ec",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021034",
+                "url": "sn_compliance_control.do?sys_id=2b1d5933db395b00fbf35414dc9619ec&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a31d5933db395b00fbf35414dc9619f2",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021035",
+                "url": "sn_compliance_control.do?sys_id=a31d5933db395b00fbf35414dc9619f2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2f1d5933db395b00fbf35414dc9619f7",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021036",
+                "url": "sn_compliance_control.do?sys_id=2f1d5933db395b00fbf35414dc9619f7&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "512dd933db395b00fbf35414dc9619d9",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021106",
+                "url": "sn_compliance_control.do?sys_id=512dd933db395b00fbf35414dc9619d9&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "dd2dd933db395b00fbf35414dc9619de",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021107",
+                "url": "sn_compliance_control.do?sys_id=dd2dd933db395b00fbf35414dc9619de&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "231d9933db395b00fbf35414dc961903",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021038",
+                "url": "sn_compliance_control.do?sys_id=231d9933db395b00fbf35414dc961903&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bb1d9933db395b00fbf35414dc961908",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021039",
+                "url": "sn_compliance_control.do?sys_id=bb1d9933db395b00fbf35414dc961908&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9a2d1d33db395b00fbf35414dc9619c1",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021145",
+                "url": "sn_compliance_control.do?sys_id=9a2d1d33db395b00fbf35414dc9619c1&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "482d9933db395b00fbf35414dc961958",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021051",
+                "url": "sn_compliance_control.do?sys_id=482d9933db395b00fbf35414dc961958&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c02d9933db395b00fbf35414dc96195e",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021052",
+                "url": "sn_compliance_control.do?sys_id=c02d9933db395b00fbf35414dc96195e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f31d9933db395b00fbf35414dc961931",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021044",
+                "url": "sn_compliance_control.do?sys_id=f31d9933db395b00fbf35414dc961931&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2e1d1933db395b00fbf35414dc9619e4",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0020996",
+                "url": "sn_compliance_control.do?sys_id=2e1d1933db395b00fbf35414dc9619e4&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "922d1d33db395b00fbf35414dc9619ab",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021141",
+                "url": "sn_compliance_control.do?sys_id=922d1d33db395b00fbf35414dc9619ab&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f71d9933db395b00fbf35414dc96193c",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021046",
+                "url": "sn_compliance_control.do?sys_id=f71d9933db395b00fbf35414dc96193c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "1e2d1d33db395b00fbf35414dc9619b0",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021142",
+                "url": "sn_compliance_control.do?sys_id=1e2d1d33db395b00fbf35414dc9619b0&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "962d1d33db395b00fbf35414dc9619b6",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021143",
+                "url": "sn_compliance_control.do?sys_id=962d1d33db395b00fbf35414dc9619b6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "442d9933db395b00fbf35414dc96194d",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021049",
+                "url": "sn_compliance_control.do?sys_id=442d9933db395b00fbf35414dc96194d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c42d9933db395b00fbf35414dc961969",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021054",
+                "url": "sn_compliance_control.do?sys_id=c42d9933db395b00fbf35414dc961969&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c62d1d33db395b00fbf35414dc961966",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021131",
+                "url": "sn_compliance_control.do?sys_id=c62d1d33db395b00fbf35414dc961966&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c52dd933db395b00fbf35414dc961947",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021089",
+                "url": "sn_compliance_control.do?sys_id=c52dd933db395b00fbf35414dc961947&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f52d1d33db395b00fbf35414dc96194f",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021127",
+                "url": "sn_compliance_control.do?sys_id=f52d1d33db395b00fbf35414dc96194f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "422d1d33db395b00fbf35414dc961955",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021128",
+                "url": "sn_compliance_control.do?sys_id=422d1d33db395b00fbf35414dc961955&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4e2d1d33db395b00fbf35414dc96195a",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021129",
+                "url": "sn_compliance_control.do?sys_id=4e2d1d33db395b00fbf35414dc96195a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4a2d1d33db395b00fbf35414dc961960",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021130",
+                "url": "sn_compliance_control.do?sys_id=4a2d1d33db395b00fbf35414dc961960&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4a2d1d33db395b00fbf35414dc961982",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021136",
+                "url": "sn_compliance_control.do?sys_id=4a2d1d33db395b00fbf35414dc961982&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c22d1d33db395b00fbf35414dc961988",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021137",
+                "url": "sn_compliance_control.do?sys_id=c22d1d33db395b00fbf35414dc961988&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5e2d1d33db395b00fbf35414dc96198d",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021138",
+                "url": "sn_compliance_control.do?sys_id=5e2d1d33db395b00fbf35414dc96198d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9e2d1d33db395b00fbf35414dc96199f",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021139",
+                "url": "sn_compliance_control.do?sys_id=9e2d1d33db395b00fbf35414dc96199f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "582d9933db395b00fbf35414dc961996",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021062",
+                "url": "sn_compliance_control.do?sys_id=582d9933db395b00fbf35414dc961996&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d42d9933db395b00fbf35414dc9619a7",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021065",
+                "url": "sn_compliance_control.do?sys_id=d42d9933db395b00fbf35414dc9619a7&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "462d1d33db395b00fbf35414dc961977",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021134",
+                "url": "sn_compliance_control.do?sys_id=462d1d33db395b00fbf35414dc961977&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "cc2d9933db395b00fbf35414dc961952",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021050",
+                "url": "sn_compliance_control.do?sys_id=cc2d9933db395b00fbf35414dc961952&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7f1d9933db395b00fbf35414dc961936",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021045",
+                "url": "sn_compliance_control.do?sys_id=7f1d9933db395b00fbf35414dc961936&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "731d9933db395b00fbf35414dc961942",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021047",
+                "url": "sn_compliance_control.do?sys_id=731d9933db395b00fbf35414dc961942&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c82d9933db395b00fbf35414dc961947",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021048",
+                "url": "sn_compliance_control.do?sys_id=c82d9933db395b00fbf35414dc961947&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "122d1d33db395b00fbf35414dc9619bc",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021144",
+                "url": "sn_compliance_control.do?sys_id=122d1d33db395b00fbf35414dc9619bc&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f42dd933db395b00fbf35414dc961901",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021081",
+                "url": "sn_compliance_control.do?sys_id=f42dd933db395b00fbf35414dc961901&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "382dd933db395b00fbf35414dc961913",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021082",
+                "url": "sn_compliance_control.do?sys_id=382dd933db395b00fbf35414dc961913&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b02dd933db395b00fbf35414dc961919",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021083",
+                "url": "sn_compliance_control.do?sys_id=b02dd933db395b00fbf35414dc961919&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a61dd533db395b00fbf35414dc961971",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0020995",
+                "url": "sn_compliance_control.do?sys_id=a61dd533db395b00fbf35414dc961971&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e02d9933db395b00fbf35414dc9619c9",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021071",
+                "url": "sn_compliance_control.do?sys_id=e02d9933db395b00fbf35414dc9619c9&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "6c2d9933db395b00fbf35414dc9619ce",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021072",
+                "url": "sn_compliance_control.do?sys_id=6c2d9933db395b00fbf35414dc9619ce&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e42d9933db395b00fbf35414dc9619d4",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021073",
+                "url": "sn_compliance_control.do?sys_id=e42d9933db395b00fbf35414dc9619d4&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "602d9933db395b00fbf35414dc9619da",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021074",
+                "url": "sn_compliance_control.do?sys_id=602d9933db395b00fbf35414dc9619da&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e82d9933db395b00fbf35414dc9619df",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021075",
+                "url": "sn_compliance_control.do?sys_id=e82d9933db395b00fbf35414dc9619df&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "642d9933db395b00fbf35414dc9619e5",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021076",
+                "url": "sn_compliance_control.do?sys_id=642d9933db395b00fbf35414dc9619e5&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "ec2d9933db395b00fbf35414dc9619ea",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021077",
+                "url": "sn_compliance_control.do?sys_id=ec2d9933db395b00fbf35414dc9619ea&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "782d9933db395b00fbf35414dc9619f0",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021078",
+                "url": "sn_compliance_control.do?sys_id=782d9933db395b00fbf35414dc9619f0&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f02d9933db395b00fbf35414dc9619f6",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021079",
+                "url": "sn_compliance_control.do?sys_id=f02d9933db395b00fbf35414dc9619f6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7c2d9933db395b00fbf35414dc9619fb",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021080",
+                "url": "sn_compliance_control.do?sys_id=7c2d9933db395b00fbf35414dc9619fb&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5f1d5933db395b00fbf35414dc9619a7",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021024",
+                "url": "sn_compliance_control.do?sys_id=5f1d5933db395b00fbf35414dc9619a7&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9d2dd933db395b00fbf35414dc9619aa",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021100",
+                "url": "sn_compliance_control.do?sys_id=9d2dd933db395b00fbf35414dc9619aa&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "192dd933db395b00fbf35414dc9619b0",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021101",
+                "url": "sn_compliance_control.do?sys_id=192dd933db395b00fbf35414dc9619b0&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "912dd933db395b00fbf35414dc9619b6",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021102",
+                "url": "sn_compliance_control.do?sys_id=912dd933db395b00fbf35414dc9619b6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "782dd933db395b00fbf35414dc961936",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021086",
+                "url": "sn_compliance_control.do?sys_id=782dd933db395b00fbf35414dc961936&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f02dd933db395b00fbf35414dc96193c",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021087",
+                "url": "sn_compliance_control.do?sys_id=f02dd933db395b00fbf35414dc96193c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4d2dd933db395b00fbf35414dc961941",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021088",
+                "url": "sn_compliance_control.do?sys_id=4d2dd933db395b00fbf35414dc961941&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4f1d5933db395b00fbf35414dc961950",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021013",
+                "url": "sn_compliance_control.do?sys_id=4f1d5933db395b00fbf35414dc961950&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "852dd933db395b00fbf35414dc96195f",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021091",
+                "url": "sn_compliance_control.do?sys_id=852dd933db395b00fbf35414dc96195f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "012dd933db395b00fbf35414dc961965",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021092",
+                "url": "sn_compliance_control.do?sys_id=012dd933db395b00fbf35414dc961965&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "092dd933db395b00fbf35414dc961983",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021093",
+                "url": "sn_compliance_control.do?sys_id=092dd933db395b00fbf35414dc961983&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "812dd933db395b00fbf35414dc961989",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021094",
+                "url": "sn_compliance_control.do?sys_id=812dd933db395b00fbf35414dc961989&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c31d5933db395b00fbf35414dc961980",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021017",
+                "url": "sn_compliance_control.do?sys_id=c31d5933db395b00fbf35414dc961980&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5f1d5933db395b00fbf35414dc961985",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021018",
+                "url": "sn_compliance_control.do?sys_id=5f1d5933db395b00fbf35414dc961985&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "422d1d33db395b00fbf35414dc96196c",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021132",
+                "url": "sn_compliance_control.do?sys_id=422d1d33db395b00fbf35414dc96196c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "0d2dd933db395b00fbf35414dc96198e",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021095",
+                "url": "sn_compliance_control.do?sys_id=0d2dd933db395b00fbf35414dc96198e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "852dd933db395b00fbf35414dc961994",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021096",
+                "url": "sn_compliance_control.do?sys_id=852dd933db395b00fbf35414dc961994&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "012dd933db395b00fbf35414dc96199a",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021097",
+                "url": "sn_compliance_control.do?sys_id=012dd933db395b00fbf35414dc96199a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "992dd933db395b00fbf35414dc96199f",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021098",
+                "url": "sn_compliance_control.do?sys_id=992dd933db395b00fbf35414dc96199f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "371d9933db395b00fbf35414dc96190e",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021040",
+                "url": "sn_compliance_control.do?sys_id=371d9933db395b00fbf35414dc96190e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4c2d9933db395b00fbf35414dc961963",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021053",
+                "url": "sn_compliance_control.do?sys_id=4c2d9933db395b00fbf35414dc961963&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "ed2d1d33db395b00fbf35414dc96190b",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021115",
+                "url": "sn_compliance_control.do?sys_id=ed2d1d33db395b00fbf35414dc96190b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "692d1d33db395b00fbf35414dc961911",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021116",
+                "url": "sn_compliance_control.do?sys_id=692d1d33db395b00fbf35414dc961911&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e12d1d33db395b00fbf35414dc961917",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021117",
+                "url": "sn_compliance_control.do?sys_id=e12d1d33db395b00fbf35414dc961917&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d82d9933db395b00fbf35414dc961985",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021059",
+                "url": "sn_compliance_control.do?sys_id=d82d9933db395b00fbf35414dc961985&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "671d5933db395b00fbf35414dc9619be",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021028",
+                "url": "sn_compliance_control.do?sys_id=671d5933db395b00fbf35414dc9619be&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a71d5933db395b00fbf35414dc9619d0",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021029",
+                "url": "sn_compliance_control.do?sys_id=a71d5933db395b00fbf35414dc9619d0&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "1d2dd933db395b00fbf35414dc9619bb",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021103",
+                "url": "sn_compliance_control.do?sys_id=1d2dd933db395b00fbf35414dc9619bb&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "952dd933db395b00fbf35414dc9619c1",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021104",
+                "url": "sn_compliance_control.do?sys_id=952dd933db395b00fbf35414dc9619c1&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "112dd933db395b00fbf35414dc9619c7",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021105",
+                "url": "sn_compliance_control.do?sys_id=112dd933db395b00fbf35414dc9619c7&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "af1d5933db395b00fbf35414dc9619e6",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021033",
+                "url": "sn_compliance_control.do?sys_id=af1d5933db395b00fbf35414dc9619e6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d82d9933db395b00fbf35414dc9619b2",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021067",
+                "url": "sn_compliance_control.do?sys_id=d82d9933db395b00fbf35414dc9619b2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "692dd933db395b00fbf35414dc9619e4",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021108",
+                "url": "sn_compliance_control.do?sys_id=692dd933db395b00fbf35414dc9619e4&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e12dd933db395b00fbf35414dc9619ea",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021109",
+                "url": "sn_compliance_control.do?sys_id=e12dd933db395b00fbf35414dc9619ea&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "612dd933db395b00fbf35414dc9619fb",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021112",
+                "url": "sn_compliance_control.do?sys_id=612dd933db395b00fbf35414dc9619fb&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e92d1d33db395b00fbf35414dc961900",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021113",
+                "url": "sn_compliance_control.do?sys_id=e92d1d33db395b00fbf35414dc961900&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "652d1d33db395b00fbf35414dc961906",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021114",
+                "url": "sn_compliance_control.do?sys_id=652d1d33db395b00fbf35414dc961906&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "682d9933db395b00fbf35414dc9619c3",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021070",
+                "url": "sn_compliance_control.do?sys_id=682d9933db395b00fbf35414dc9619c3&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f12d1d33db395b00fbf35414dc961944",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021125",
+                "url": "sn_compliance_control.do?sys_id=f12d1d33db395b00fbf35414dc961944&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7d2d1d33db395b00fbf35414dc961949",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021126",
+                "url": "sn_compliance_control.do?sys_id=7d2d1d33db395b00fbf35414dc961949&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f52d1d33db395b00fbf35414dc961922",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021119",
+                "url": "sn_compliance_control.do?sys_id=f52d1d33db395b00fbf35414dc961922&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "642d9933db395b00fbf35414dc9619b8",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021068",
+                "url": "sn_compliance_control.do?sys_id=642d9933db395b00fbf35414dc9619b8&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f92d1d33db395b00fbf35414dc96192d",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021121",
+                "url": "sn_compliance_control.do?sys_id=f92d1d33db395b00fbf35414dc96192d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "ec2d9933db395b00fbf35414dc9619bd",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021069",
+                "url": "sn_compliance_control.do?sys_id=ec2d9933db395b00fbf35414dc9619bd&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "fd2d1d33db395b00fbf35414dc961938",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021123",
+                "url": "sn_compliance_control.do?sys_id=fd2d1d33db395b00fbf35414dc961938&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "792d1d33db395b00fbf35414dc96193e",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021124",
+                "url": "sn_compliance_control.do?sys_id=792d1d33db395b00fbf35414dc96193e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "442d9933db395b00fbf35414dc96197a",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021057",
+                "url": "sn_compliance_control.do?sys_id=442d9933db395b00fbf35414dc96197a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "502d9933db395b00fbf35414dc961980",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021058",
+                "url": "sn_compliance_control.do?sys_id=502d9933db395b00fbf35414dc961980&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "402d9933db395b00fbf35414dc96196f",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021055",
+                "url": "sn_compliance_control.do?sys_id=402d9933db395b00fbf35414dc96196f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c82d9933db395b00fbf35414dc961974",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021056",
+                "url": "sn_compliance_control.do?sys_id=c82d9933db395b00fbf35414dc961974&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "1a2d1d33db395b00fbf35414dc9619a5",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021140",
+                "url": "sn_compliance_control.do?sys_id=1a2d1d33db395b00fbf35414dc9619a5&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7d2d1d33db395b00fbf35414dc96191c",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021118",
+                "url": "sn_compliance_control.do?sys_id=7d2d1d33db395b00fbf35414dc96191c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "542d9933db395b00fbf35414dc96198b",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021060",
+                "url": "sn_compliance_control.do?sys_id=542d9933db395b00fbf35414dc96198b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "dc2d9933db395b00fbf35414dc961990",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021061",
+                "url": "sn_compliance_control.do?sys_id=dc2d9933db395b00fbf35414dc961990&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "ca2d1d33db395b00fbf35414dc961971",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021133",
+                "url": "sn_compliance_control.do?sys_id=ca2d1d33db395b00fbf35414dc961971&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d02d9933db395b00fbf35414dc96199c",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021063",
+                "url": "sn_compliance_control.do?sys_id=d02d9933db395b00fbf35414dc96199c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5c2d9933db395b00fbf35414dc9619a1",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021064",
+                "url": "sn_compliance_control.do?sys_id=5c2d9933db395b00fbf35414dc9619a1&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "ce2d1d33db395b00fbf35414dc96197c",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021135",
+                "url": "sn_compliance_control.do?sys_id=ce2d1d33db395b00fbf35414dc96197c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "712d1d33db395b00fbf35414dc961928",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021120",
+                "url": "sn_compliance_control.do?sys_id=712d1d33db395b00fbf35414dc961928&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "752d1d33db395b00fbf35414dc961933",
+                "name": "PCO-001-Operational Control - Duplicate Configuration Items",
+                "number": "CTRL0021122",
+                "url": "sn_compliance_control.do?sys_id=752d1d33db395b00fbf35414dc961933&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 7,
             "id": "aeaf9ed6db7453805bf25cd4dc9619f1",
             "level": 2,
             "name": "PCO-001-Operational Control - Duplicate Configuration Items",
@@ -499,7 +1392,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "b9a3bb3cdbe51bc05bf25cd4dc96197a",
             "level": 2,
             "name": "Completeness-Attribute Existence",
@@ -509,7 +1404,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "c76193b8dba51bc05bf25cd4dc961959",
             "level": 2,
             "name": "Config-Security-Confidentiality",
@@ -519,7 +1416,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "c8910c05db291bc05bf25cd4dc9619b6",
             "level": 2,
             "name": "Confidentiality-Data Appropriately Protected",
@@ -529,7 +1428,9 @@
           {
             "children": [
             ],
-            "group": 5,
+            "controls": [
+            ],
+            "group": 7,
             "id": "db688abadb8d9b805bf25cd4dc961950",
             "level": 2,
             "name": "Config-Uniqueness",
@@ -537,7 +1438,7 @@
             "url": "sn_compliance_policy_statement.do?sys_id=db688abadb8d9b805bf25cd4dc961950&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
           }
         ],
-        "group": 5,
+        "group": 7,
         "id": "4cb8cb76dbf493805bf25cd4dc9619cf",
         "level": 1,
         "name": "Group Configuration Mgmt Standard",
@@ -547,7 +1448,7 @@
       {
         "children": [
         ],
-        "group": 6,
+        "group": 8,
         "id": "68b0e61adb7453805bf25cd4dc9619d5",
         "level": 1,
         "name": "Group Data Risk Policy",
@@ -559,7 +1460,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "034a89fadb0d9b805bf25cd4dc9619e4",
             "level": 2,
             "name": "Integrity-Unmolested Data",
@@ -569,7 +1472,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "04dcb715db5d5f80fbf35414dc96190a",
             "level": 2,
             "name": "Assign the role of data controller to provide advice, when requested.",
@@ -579,7 +1484,51 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+              {
+                "id": "b192b3aadbd5d3c05bf25cd4dc961920",
+                "name": "Conduct personal data risk assessments.",
+                "number": "CTRL0020392",
+                "url": "sn_compliance_control.do?sys_id=b192b3aadbd5d3c05bf25cd4dc961920&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "fd92b3aadbd5d3c05bf25cd4dc961910",
+                "name": "Conduct personal data risk assessments.",
+                "number": "CTRL0020391",
+                "url": "sn_compliance_control.do?sys_id=fd92b3aadbd5d3c05bf25cd4dc961910&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f192b3aadbd5d3c05bf25cd4dc96190e",
+                "name": "Conduct personal data risk assessments.",
+                "number": "CTRL0020390",
+                "url": "sn_compliance_control.do?sys_id=f192b3aadbd5d3c05bf25cd4dc96190e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bd92b3aadbd5d3c05bf25cd4dc961922",
+                "name": "Conduct personal data risk assessments.",
+                "number": "CTRL0020393",
+                "url": "sn_compliance_control.do?sys_id=bd92b3aadbd5d3c05bf25cd4dc961922&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b592bf6adbd5d3c05bf25cd4dc9619db",
+                "name": "Conduct personal data risk assessments.",
+                "number": "CTRL0020387",
+                "url": "sn_compliance_control.do?sys_id=b592bf6adbd5d3c05bf25cd4dc9619db&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f592b3aadbd5d3c05bf25cd4dc96190b",
+                "name": "Conduct personal data risk assessments.",
+                "number": "CTRL0020389",
+                "url": "sn_compliance_control.do?sys_id=f592b3aadbd5d3c05bf25cd4dc96190b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f192b3aadbd5d3c05bf25cd4dc961908",
+                "name": "Conduct personal data risk assessments.",
+                "number": "CTRL0020388",
+                "url": "sn_compliance_control.do?sys_id=f192b3aadbd5d3c05bf25cd4dc961908&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 9,
             "id": "0bcc3315db5d5f80fbf35414dc961921",
             "level": 2,
             "name": "Conduct personal data risk assessments.",
@@ -589,7 +1538,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "0eafd0eadb819b805bf25cd4dc9619e9",
             "level": 2,
             "name": "Correct Data - Sub Optimal Data Maps ",
@@ -599,7 +1550,51 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+              {
+                "id": "f7819c07db5153c0fbf35414dc961973",
+                "name": "Respond to personal data access requests in a timely manner.",
+                "number": "CTRL0020434",
+                "url": "sn_compliance_control.do?sys_id=f7819c07db5153c0fbf35414dc961973&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bb819c07db5153c0fbf35414dc961970",
+                "name": "Respond to personal data access requests in a timely manner.",
+                "number": "CTRL0020433",
+                "url": "sn_compliance_control.do?sys_id=bb819c07db5153c0fbf35414dc961970&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b7819c07db5153c0fbf35414dc961961",
+                "name": "Respond to personal data access requests in a timely manner.",
+                "number": "CTRL0020432",
+                "url": "sn_compliance_control.do?sys_id=b7819c07db5153c0fbf35414dc961961&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "37819c07db5153c0fbf35414dc961976",
+                "name": "Respond to personal data access requests in a timely manner.",
+                "number": "CTRL0020435",
+                "url": "sn_compliance_control.do?sys_id=37819c07db5153c0fbf35414dc961976&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b3819c07db5153c0fbf35414dc961958",
+                "name": "Respond to personal data access requests in a timely manner.",
+                "number": "CTRL0020429",
+                "url": "sn_compliance_control.do?sys_id=b3819c07db5153c0fbf35414dc961958&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7b819c07db5153c0fbf35414dc96195e",
+                "name": "Respond to personal data access requests in a timely manner.",
+                "number": "CTRL0020431",
+                "url": "sn_compliance_control.do?sys_id=7b819c07db5153c0fbf35414dc96195e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3b819c07db5153c0fbf35414dc96195b",
+                "name": "Respond to personal data access requests in a timely manner.",
+                "number": "CTRL0020430",
+                "url": "sn_compliance_control.do?sys_id=3b819c07db5153c0fbf35414dc96195b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 9,
             "id": "0fccffd1db5d5f80fbf35414dc9619e8",
             "level": 2,
             "name": "Respond to personal data access requests in a timely manner.",
@@ -611,7 +1606,9 @@
               {
                 "children": [
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "71638caadb419b805bf25cd4dc961915",
                 "level": 3,
                 "name": "Attribute Existence-Essential Attributes completeness",
@@ -619,7 +1616,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=71638caadb419b805bf25cd4dc961915&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "1061d0e2db819b805bf25cd4dc96197d",
             "level": 2,
             "name": "Reality-Real Data Targetting",
@@ -629,7 +1628,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "18a58d3adb0d9b805bf25cd4dc9619b2",
             "level": 2,
             "name": "Expiry-Data Expiry",
@@ -639,7 +1640,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "19a2206edb819b805bf25cd4dc961960",
             "level": 2,
             "name": "Formatting Validity-Manual Data Validation",
@@ -649,7 +1652,51 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+              {
+                "id": "758028aadbdd93c05bf25cd4dc9619df",
+                "name": "Check the accuracy of personal data.",
+                "number": "CTRL0020378",
+                "url": "sn_compliance_control.do?sys_id=758028aadbdd93c05bf25cd4dc9619df&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "798028aadbdd93c05bf25cd4dc9619dc",
+                "name": "Check the accuracy of personal data.",
+                "number": "CTRL0020377",
+                "url": "sn_compliance_control.do?sys_id=798028aadbdd93c05bf25cd4dc9619dc&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7d8028aadbdd93c05bf25cd4dc9619d9",
+                "name": "Check the accuracy of personal data.",
+                "number": "CTRL0020376",
+                "url": "sn_compliance_control.do?sys_id=7d8028aadbdd93c05bf25cd4dc9619d9&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "428028aadbdd93c05bf25cd4dc9619e2",
+                "name": "Check the accuracy of personal data.",
+                "number": "CTRL0020379",
+                "url": "sn_compliance_control.do?sys_id=428028aadbdd93c05bf25cd4dc9619e2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f18024aadbdd93c05bf25cd4dc961923",
+                "name": "Check the accuracy of personal data.",
+                "number": "CTRL0020373",
+                "url": "sn_compliance_control.do?sys_id=f18024aadbdd93c05bf25cd4dc961923&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "718028aadbdd93c05bf25cd4dc9619d7",
+                "name": "Check the accuracy of personal data.",
+                "number": "CTRL0020375",
+                "url": "sn_compliance_control.do?sys_id=718028aadbdd93c05bf25cd4dc9619d7&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f98028aadbdd93c05bf25cd4dc9619d3",
+                "name": "Check the accuracy of personal data.",
+                "number": "CTRL0020374",
+                "url": "sn_compliance_control.do?sys_id=f98028aadbdd93c05bf25cd4dc9619d3&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 9,
             "id": "1fcc7315db5d5f80fbf35414dc961986",
             "level": 2,
             "name": "Check the accuracy of personal data.",
@@ -661,7 +1708,9 @@
               {
                 "children": [
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "80e51c26db819b805bf25cd4dc96199d",
                 "level": 3,
                 "name": "Correct Data - Non-Operational Data (90 days)",
@@ -669,7 +1718,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=80e51c26db819b805bf25cd4dc96199d&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "29b41ce2db819b805bf25cd4dc96198d",
             "level": 2,
             "name": "Correctness-Correct data",
@@ -679,7 +1730,51 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+              {
+                "id": "dd815c07db5153c0fbf35414dc9619cc",
+                "name": "Notify the individual of the reasons for delays in responding to personal data access requests.",
+                "number": "CTRL0020427",
+                "url": "sn_compliance_control.do?sys_id=dd815c07db5153c0fbf35414dc9619cc&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "91815c07db5153c0fbf35414dc9619ca",
+                "name": "Notify the individual of the reasons for delays in responding to personal data access requests.",
+                "number": "CTRL0020426",
+                "url": "sn_compliance_control.do?sys_id=91815c07db5153c0fbf35414dc9619ca&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "55815c07db5153c0fbf35414dc9619c7",
+                "name": "Notify the individual of the reasons for delays in responding to personal data access requests.",
+                "number": "CTRL0020425",
+                "url": "sn_compliance_control.do?sys_id=55815c07db5153c0fbf35414dc9619c7&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e1815c07db5153c0fbf35414dc9619dc",
+                "name": "Notify the individual of the reasons for delays in responding to personal data access requests.",
+                "number": "CTRL0020428",
+                "url": "sn_compliance_control.do?sys_id=e1815c07db5153c0fbf35414dc9619dc&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d9811c07db5153c0fbf35414dc961983",
+                "name": "Notify the individual of the reasons for delays in responding to personal data access requests.",
+                "number": "CTRL0020422",
+                "url": "sn_compliance_control.do?sys_id=d9811c07db5153c0fbf35414dc961983&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "19815c07db5153c0fbf35414dc9619c4",
+                "name": "Notify the individual of the reasons for delays in responding to personal data access requests.",
+                "number": "CTRL0020424",
+                "url": "sn_compliance_control.do?sys_id=19815c07db5153c0fbf35414dc9619c4&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "15811c07db5153c0fbf35414dc96198a",
+                "name": "Notify the individual of the reasons for delays in responding to personal data access requests.",
+                "number": "CTRL0020423",
+                "url": "sn_compliance_control.do?sys_id=15811c07db5153c0fbf35414dc96198a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 9,
             "id": "2bccb315db5d5f80fbf35414dc96196c",
             "level": 2,
             "name": "Notify the individual of the reasons for delays in responding to personal data access requests.",
@@ -689,7 +1784,51 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+              {
+                "id": "0d71504fdb5117c05bf25cd4dc961926",
+                "name": "Notify the individual of the reasons the personal data access request was refused.",
+                "number": "CTRL0020420",
+                "url": "sn_compliance_control.do?sys_id=0d71504fdb5117c05bf25cd4dc961926&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "cd71504fdb5117c05bf25cd4dc961923",
+                "name": "Notify the individual of the reasons the personal data access request was refused.",
+                "number": "CTRL0020419",
+                "url": "sn_compliance_control.do?sys_id=cd71504fdb5117c05bf25cd4dc961923&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "8d71104fdb5117c05bf25cd4dc96198b",
+                "name": "Notify the individual of the reasons the personal data access request was refused.",
+                "number": "CTRL0020418",
+                "url": "sn_compliance_control.do?sys_id=8d71104fdb5117c05bf25cd4dc96198b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4971504fdb5117c05bf25cd4dc961929",
+                "name": "Notify the individual of the reasons the personal data access request was refused.",
+                "number": "CTRL0020421",
+                "url": "sn_compliance_control.do?sys_id=4971504fdb5117c05bf25cd4dc961929&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b871104fdb5117c05bf25cd4dc961982",
+                "name": "Notify the individual of the reasons the personal data access request was refused.",
+                "number": "CTRL0020415",
+                "url": "sn_compliance_control.do?sys_id=b871104fdb5117c05bf25cd4dc961982&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4171104fdb5117c05bf25cd4dc961989",
+                "name": "Notify the individual of the reasons the personal data access request was refused.",
+                "number": "CTRL0020417",
+                "url": "sn_compliance_control.do?sys_id=4171104fdb5117c05bf25cd4dc961989&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "0171104fdb5117c05bf25cd4dc961986",
+                "name": "Notify the individual of the reasons the personal data access request was refused.",
+                "number": "CTRL0020416",
+                "url": "sn_compliance_control.do?sys_id=0171104fdb5117c05bf25cd4dc961986&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 9,
             "id": "2fccb315db5d5f80fbf35414dc9619be",
             "level": 2,
             "name": "Notify the individual of the reasons the personal data access request was refused.",
@@ -699,7 +1838,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "332b453edb0d9b805bf25cd4dc9619ac",
             "level": 2,
             "name": "Availability-Data Access Configuration",
@@ -709,7 +1850,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "36a3e86edb819b805bf25cd4dc961991",
             "level": 2,
             "name": "Consistency-Matching Data",
@@ -719,7 +1862,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "395fcc62db819b805bf25cd4dc9619c6",
             "level": 2,
             "name": "Record Uniqueness-Duplicate Records in database",
@@ -731,7 +1876,9 @@
               {
                 "children": [
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "6363a46edb819b805bf25cd4dc961944",
                 "level": 3,
                 "name": "Data-Consistency-Consistency",
@@ -739,7 +1886,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=6363a46edb819b805bf25cd4dc961944&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "3b33a46edb819b805bf25cd4dc961950",
             "level": 2,
             "name": "Data-Consistency",
@@ -749,7 +1898,51 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+              {
+                "id": "59260060db9a57405bf25cd4dc961904",
+                "name": "Data Actively Certified-Currently certified records",
+                "number": "CTRL0021345",
+                "url": "sn_compliance_control.do?sys_id=59260060db9a57405bf25cd4dc961904&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9926cc20db9a57405bf25cd4dc9619fe",
+                "name": "Data Actively Certified-Currently certified records",
+                "number": "CTRL0021344",
+                "url": "sn_compliance_control.do?sys_id=9926cc20db9a57405bf25cd4dc9619fe&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d926cc20db9a57405bf25cd4dc9619f8",
+                "name": "Data Actively Certified-Currently certified records",
+                "number": "CTRL0021343",
+                "url": "sn_compliance_control.do?sys_id=d926cc20db9a57405bf25cd4dc9619f8&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "19260060db9a57405bf25cd4dc96190a",
+                "name": "Data Actively Certified-Currently certified records",
+                "number": "CTRL0021346",
+                "url": "sn_compliance_control.do?sys_id=19260060db9a57405bf25cd4dc96190a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4526cc20db9a57405bf25cd4dc961967",
+                "name": "Data Actively Certified-Currently certified records",
+                "number": "CTRL0021340",
+                "url": "sn_compliance_control.do?sys_id=4526cc20db9a57405bf25cd4dc961967&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "1d26cc20db9a57405bf25cd4dc9619f2",
+                "name": "Data Actively Certified-Currently certified records",
+                "number": "CTRL0021342",
+                "url": "sn_compliance_control.do?sys_id=1d26cc20db9a57405bf25cd4dc9619f2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "dd26cc20db9a57405bf25cd4dc96196f",
+                "name": "Data Actively Certified-Currently certified records",
+                "number": "CTRL0021341",
+                "url": "sn_compliance_control.do?sys_id=dd26cc20db9a57405bf25cd4dc96196f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 9,
             "id": "3fb57cfedbc99b805bf25cd4dc96191b",
             "level": 2,
             "name": "Data Actively Certified-Currently certified records",
@@ -761,7 +1954,9 @@
               {
                 "children": [
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "813028eadb819b805bf25cd4dc9619a9",
                 "level": 3,
                 "name": "Data-Validity-Validity",
@@ -769,7 +1964,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=813028eadb819b805bf25cd4dc9619a9&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "4dcc986adb819b805bf25cd4dc9619d2",
             "level": 2,
             "name": "Data-Validity",
@@ -779,7 +1976,51 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+              {
+                "id": "928cbaeadb5513c0fbf35414dc96197a",
+                "name": "Establish and maintain data accuracy controls.",
+                "number": "CTRL0020385",
+                "url": "sn_compliance_control.do?sys_id=928cbaeadb5513c0fbf35414dc96197a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "968cbaeadb5513c0fbf35414dc961977",
+                "name": "Establish and maintain data accuracy controls.",
+                "number": "CTRL0020384",
+                "url": "sn_compliance_control.do?sys_id=968cbaeadb5513c0fbf35414dc961977&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9a8cbaeadb5513c0fbf35414dc961974",
+                "name": "Establish and maintain data accuracy controls.",
+                "number": "CTRL0020383",
+                "url": "sn_compliance_control.do?sys_id=9a8cbaeadb5513c0fbf35414dc961974&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9e8cbaeadb5513c0fbf35414dc96197c",
+                "name": "Establish and maintain data accuracy controls.",
+                "number": "CTRL0020386",
+                "url": "sn_compliance_control.do?sys_id=9e8cbaeadb5513c0fbf35414dc96197c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "568cf6eadb5513c0fbf35414dc9619c8",
+                "name": "Establish and maintain data accuracy controls.",
+                "number": "CTRL0020380",
+                "url": "sn_compliance_control.do?sys_id=568cf6eadb5513c0fbf35414dc9619c8&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9e8cbaeadb5513c0fbf35414dc961971",
+                "name": "Establish and maintain data accuracy controls.",
+                "number": "CTRL0020382",
+                "url": "sn_compliance_control.do?sys_id=9e8cbaeadb5513c0fbf35414dc961971&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "1a8cbaeadb5513c0fbf35414dc96196e",
+                "name": "Establish and maintain data accuracy controls.",
+                "number": "CTRL0020381",
+                "url": "sn_compliance_control.do?sys_id=1a8cbaeadb5513c0fbf35414dc96196e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 9,
             "id": "53cc7315db5d5f80fbf35414dc9619d5",
             "level": 2,
             "name": "Establish and maintain data accuracy controls.",
@@ -789,7 +2030,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "5506817adb0d9b805bf25cd4dc961970",
             "level": 2,
             "name": "Data Expiry-Expired Data Records",
@@ -799,7 +2042,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "5d02682edb819b805bf25cd4dc9619e8",
             "level": 2,
             "name": "Formatting Validity-Discovered Data Validation",
@@ -809,7 +2054,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "63521ce2db819b805bf25cd4dc961995",
             "level": 2,
             "name": "Data-Accuracy-Correctness",
@@ -819,7 +2066,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "63fe603edbc99b805bf25cd4dc961945",
             "level": 2,
             "name": "Matching Data-Data Feed Inconsistencies",
@@ -829,7 +2078,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "6839c0aedb419b805bf25cd4dc96197f",
             "level": 2,
             "name": "Attribute Completion - Records with no owners",
@@ -841,7 +2092,9 @@
               {
                 "children": [
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "a84809badb0d9b805bf25cd4dc961970",
                 "level": 3,
                 "name": "Appropriate Data Protection-Personal data fields correctly secured",
@@ -849,7 +2102,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=a84809badb0d9b805bf25cd4dc961970&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "79d741badb0d9b805bf25cd4dc9619d6",
             "level": 2,
             "name": "Confidentiality-Appropriate Data Protection",
@@ -863,7 +2118,9 @@
                   {
                     "children": [
                     ],
-                    "group": 7,
+                    "controls": [
+                    ],
+                    "group": 9,
                     "id": "e6154ceadb419b805bf25cd4dc961961",
                     "level": 4,
                     "name": "Attribute Existence-Discovery Tool Coverage",
@@ -871,7 +2128,9 @@
                     "url": "sn_compliance_policy_statement.do?sys_id=e6154ceadb419b805bf25cd4dc961961&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
                   }
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "8ce244aadb419b805bf25cd4dc961945",
                 "level": 3,
                 "name": "Completeness-Attribute Existence",
@@ -879,7 +2138,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=8ce244aadb419b805bf25cd4dc961945&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "7a3cc012dbcd9780fbf35414dc9619c3",
             "level": 2,
             "name": "Data-Completeness-Completeness",
@@ -889,7 +2150,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "83847cbedbc99b805bf25cd4dc961996",
             "level": 2,
             "name": "Certification-Data Actively Certified",
@@ -901,7 +2164,9 @@
               {
                 "children": [
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "efda813edb0d9b805bf25cd4dc961941",
                 "level": 3,
                 "name": "Data-Security-Availability",
@@ -911,7 +2176,9 @@
               {
                 "children": [
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "b1478d7adb0d9b805bf25cd4dc961998",
                 "level": 3,
                 "name": "Data-Security-Confidentiality",
@@ -919,7 +2186,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=b1478d7adb0d9b805bf25cd4dc961998&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "9417c17adb0d9b805bf25cd4dc96194e",
             "level": 2,
             "name": "Data-Security",
@@ -929,7 +2198,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "9c91642edb819b805bf25cd4dc961907",
             "level": 2,
             "name": "Validity-Formatting Validity",
@@ -939,7 +2210,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "9e247cbedbc99b805bf25cd4dc961988",
             "level": 2,
             "name": "Data-Currency-Certification",
@@ -949,7 +2222,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "a21150e2db819b805bf25cd4dc961927",
             "level": 2,
             "name": "Data-Accuracy-Reality",
@@ -961,7 +2236,9 @@
               {
                 "children": [
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "ec55893adb0d9b805bf25cd4dc9619de",
                 "level": 3,
                 "name": "Data-Currency-Expiry",
@@ -969,7 +2246,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=ec55893adb0d9b805bf25cd4dc9619de&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "b5f3703edbc99b805bf25cd4dc9619b8",
             "level": 2,
             "name": "Data-Currency",
@@ -979,7 +2258,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "b68a04dedb8d9780fbf35414dc9619ba",
             "level": 2,
             "name": "Data-Accuracy",
@@ -993,7 +2274,9 @@
                   {
                     "children": [
                     ],
-                    "group": 7,
+                    "controls": [
+                    ],
+                    "group": 9,
                     "id": "22ce8862db819b805bf25cd4dc96198b",
                     "level": 4,
                     "name": "Uniqueness-Record Uniqueness",
@@ -1001,7 +2284,9 @@
                     "url": "sn_compliance_policy_statement.do?sys_id=22ce8862db819b805bf25cd4dc96198b&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
                   }
                 ],
-                "group": 7,
+                "controls": [
+                ],
+                "group": 9,
                 "id": "d11e4462db819b805bf25cd4dc961936",
                 "level": 3,
                 "name": "Data-Uniqueness-Uniqueness",
@@ -1009,7 +2294,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=d11e4462db819b805bf25cd4dc961936&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "bde98c9edb8d9780fbf35414dc961956",
             "level": 2,
             "name": "Data-Uniqueness",
@@ -1019,7 +2306,51 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+              {
+                "id": "241d088bdb5117c05bf25cd4dc961980",
+                "name": "Provide the data subject with the means of gaining access to personal data held by the organization.",
+                "number": "CTRL0020413",
+                "url": "sn_compliance_control.do?sys_id=241d088bdb5117c05bf25cd4dc961980&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "281d088bdb5117c05bf25cd4dc96197d",
+                "name": "Provide the data subject with the means of gaining access to personal data held by the organization.",
+                "number": "CTRL0020412",
+                "url": "sn_compliance_control.do?sys_id=281d088bdb5117c05bf25cd4dc96197d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2c1d088bdb5117c05bf25cd4dc96197a",
+                "name": "Provide the data subject with the means of gaining access to personal data held by the organization.",
+                "number": "CTRL0020411",
+                "url": "sn_compliance_control.do?sys_id=2c1d088bdb5117c05bf25cd4dc96197a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "201d088bdb5117c05bf25cd4dc961983",
+                "name": "Provide the data subject with the means of gaining access to personal data held by the organization.",
+                "number": "CTRL0020414",
+                "url": "sn_compliance_control.do?sys_id=201d088bdb5117c05bf25cd4dc961983&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "241dc48bdb5117c05bf25cd4dc96195e",
+                "name": "Provide the data subject with the means of gaining access to personal data held by the organization.",
+                "number": "CTRL0020408",
+                "url": "sn_compliance_control.do?sys_id=241dc48bdb5117c05bf25cd4dc96195e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a41dc48bdb5117c05bf25cd4dc961966",
+                "name": "Provide the data subject with the means of gaining access to personal data held by the organization.",
+                "number": "CTRL0020410",
+                "url": "sn_compliance_control.do?sys_id=a41dc48bdb5117c05bf25cd4dc961966&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a01dc48bdb5117c05bf25cd4dc961963",
+                "name": "Provide the data subject with the means of gaining access to personal data held by the organization.",
+                "number": "CTRL0020409",
+                "url": "sn_compliance_control.do?sys_id=a01dc48bdb5117c05bf25cd4dc961963&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 9,
             "id": "c3ccffd1db5d5f80fbf35414dc961928",
             "level": 2,
             "name": "Provide the data subject with the means of gaining access to personal data held by the organization.",
@@ -1029,7 +2360,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "dd1a49fadb0d9b805bf25cd4dc961974",
             "level": 2,
             "name": "Data-Security-Integrity",
@@ -1039,7 +2372,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "e176c82edb419b805bf25cd4dc96195e",
             "level": 2,
             "name": "Completeness-Attribute Completion",
@@ -1049,7 +2384,51 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+              {
+                "id": "9be49547db1517c05bf25cd4dc961993",
+                "name": "Establish and maintain a record of processing activities when processing personal data.",
+                "number": "CTRL0020441",
+                "url": "sn_compliance_control.do?sys_id=9be49547db1517c05bf25cd4dc961993&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "13e49547db1517c05bf25cd4dc961978",
+                "name": "Establish and maintain a record of processing activities when processing personal data.",
+                "number": "CTRL0020440",
+                "url": "sn_compliance_control.do?sys_id=13e49547db1517c05bf25cd4dc961978&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "17e49547db1517c05bf25cd4dc961975",
+                "name": "Establish and maintain a record of processing activities when processing personal data.",
+                "number": "CTRL0020439",
+                "url": "sn_compliance_control.do?sys_id=17e49547db1517c05bf25cd4dc961975&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "97e49547db1517c05bf25cd4dc961996",
+                "name": "Establish and maintain a record of processing activities when processing personal data.",
+                "number": "CTRL0020442",
+                "url": "sn_compliance_control.do?sys_id=97e49547db1517c05bf25cd4dc961996&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "53e49147db1517c05bf25cd4dc96193d",
+                "name": "Establish and maintain a record of processing activities when processing personal data.",
+                "number": "CTRL0020436",
+                "url": "sn_compliance_control.do?sys_id=53e49147db1517c05bf25cd4dc96193d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "1be49547db1517c05bf25cd4dc961972",
+                "name": "Establish and maintain a record of processing activities when processing personal data.",
+                "number": "CTRL0020438",
+                "url": "sn_compliance_control.do?sys_id=1be49547db1517c05bf25cd4dc961972&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "17e49547db1517c05bf25cd4dc96196f",
+                "name": "Establish and maintain a record of processing activities when processing personal data.",
+                "number": "CTRL0020437",
+                "url": "sn_compliance_control.do?sys_id=17e49547db1517c05bf25cd4dc96196f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 9,
             "id": "e6ccf7d1db5d5f80fbf35414dc9619af",
             "level": 2,
             "name": "Establish and maintain a record of processing activities when processing personal data.",
@@ -1059,7 +2438,9 @@
           {
             "children": [
             ],
-            "group": 7,
+            "controls": [
+            ],
+            "group": 9,
             "id": "fb99485edb8d9780fbf35414dc9619be",
             "level": 2,
             "name": "Data-Completeness",
@@ -1067,7 +2448,7 @@
             "url": "sn_compliance_policy_statement.do?sys_id=fb99485edb8d9780fbf35414dc9619be&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
           }
         ],
-        "group": 7,
+        "group": 9,
         "id": "6a784b76dbf493805bf25cd4dc961911",
         "level": 1,
         "name": "Group Data Standard",
@@ -1077,7 +2458,7 @@
       {
         "children": [
         ],
-        "group": 8,
+        "group": 10,
         "id": "7b7c0af0db8997805bf25cd4dc961975",
         "level": 1,
         "name": "Group Market Risk Policy",
@@ -1087,7 +2468,17 @@
       {
         "children": [
         ],
-        "group": 9,
+        "group": 11,
+        "id": "977e951cdb8a9b005bf25cd4dc96195e",
+        "level": 1,
+        "name": "Group Service Level Management (SLM) Policy",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=977e951cdb8a9b005bf25cd4dc96195e&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 12,
         "id": "bfa395cedb7d1700fbf35414dc961946",
         "level": 1,
         "name": "Group Technology Risk Policy",
@@ -1098,20 +2489,12 @@
         "children": [
           {
             "children": [
-            ],
-            "group": 10,
-            "id": "0fe22975db351700fbf35414dc9619bb",
-            "level": 2,
-            "name": "Process Validity-% Changes That Are Emergency",
-            "type": "policy statement",
-            "url": "sn_compliance_policy_statement.do?sys_id=0fe22975db351700fbf35414dc9619bb&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
-          },
-          {
-            "children": [
               {
                 "children": [
                 ],
-                "group": 10,
+                "controls": [
+                ],
+                "group": 13,
                 "id": "3edb2821dbf5d300fbf35414dc9619f4",
                 "level": 3,
                 "name": "Confidentiality-UI Confidentiality",
@@ -1119,7 +2502,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=3edb2821dbf5d300fbf35414dc9619f4&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "15ba68eddbb5d300fbf35414dc961923",
             "level": 2,
             "name": "Change-Security-Confidentiality",
@@ -1129,7 +2514,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "1a04852cdbf913005bf25cd4dc961951",
             "level": 2,
             "name": "Completion-Process Completion",
@@ -1139,7 +2526,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "2385896cdbf913005bf25cd4dc96192c",
             "level": 2,
             "name": "Change-Accuracy-Reality",
@@ -1151,7 +2540,9 @@
               {
                 "children": [
                 ],
-                "group": 10,
+                "controls": [
+                ],
+                "group": 13,
                 "id": "63a5896cdbf913005bf25cd4dc961952",
                 "level": 3,
                 "name": "Change-Completeness-Completeness",
@@ -1159,7 +2550,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=63a5896cdbf913005bf25cd4dc961952&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "276c7f98db3913005bf25cd4dc9619b2",
             "level": 2,
             "name": "Change-Completeness",
@@ -1169,7 +2562,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "288c6c21dbf5d300fbf35414dc961946",
             "level": 2,
             "name": "Integrity-UI Integrity",
@@ -1179,7 +2574,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "46d249e8dbf913005bf25cd4dc961947",
             "level": 2,
             "name": "Validity-Approval Validity",
@@ -1189,7 +2586,63 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+              {
+                "id": "3121af36db4a53405bf25cd4dc9619d6",
+                "name": "Process Validity-% of changes that cause incidents",
+                "number": "CTRL0021331",
+                "url": "sn_compliance_control.do?sys_id=3121af36db4a53405bf25cd4dc9619d6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7121af36db4a53405bf25cd4dc9619d0",
+                "name": "Process Validity-% of changes that cause incidents",
+                "number": "CTRL0021330",
+                "url": "sn_compliance_control.do?sys_id=7121af36db4a53405bf25cd4dc9619d0&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b121af36db4a53405bf25cd4dc9619ca",
+                "name": "Process Validity-% of changes that cause incidents",
+                "number": "CTRL0021329",
+                "url": "sn_compliance_control.do?sys_id=b121af36db4a53405bf25cd4dc9619ca&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "fd21af36db4a53405bf25cd4dc9619db",
+                "name": "Process Validity-% of changes that cause incidents",
+                "number": "CTRL0021332",
+                "url": "sn_compliance_control.do?sys_id=fd21af36db4a53405bf25cd4dc9619db&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3d216f36db4a53405bf25cd4dc96195a",
+                "name": "Process Validity-% of changes that cause incidents",
+                "number": "CTRL0021326",
+                "url": "sn_compliance_control.do?sys_id=3d216f36db4a53405bf25cd4dc96195a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f121af36db4a53405bf25cd4dc9619c4",
+                "name": "Process Validity-% of changes that cause incidents",
+                "number": "CTRL0021328",
+                "url": "sn_compliance_control.do?sys_id=f121af36db4a53405bf25cd4dc9619c4&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3121af36db4a53405bf25cd4dc9619be",
+                "name": "Process Validity-% of changes that cause incidents",
+                "number": "CTRL0021327",
+                "url": "sn_compliance_control.do?sys_id=3121af36db4a53405bf25cd4dc9619be&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 13,
+            "id": "4fb0ab7adb8e5340fbf35414dc96190d",
+            "level": 2,
+            "name": "Process Validity-% of changes that cause incidents",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=4fb0ab7adb8e5340fbf35414dc96190d&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "controls": [
+            ],
+            "group": 13,
             "id": "50bd3fd8db3913005bf25cd4dc96199a",
             "level": 2,
             "name": "Change-Currency",
@@ -1199,7 +2652,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "5489ec2ddbb5d300fbf35414dc961996",
             "level": 2,
             "name": "Validity-Documentation Validity",
@@ -1209,7 +2664,117 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+              {
+                "id": "3166773adbce5340fbf35414dc961900",
+                "name": "Process Validity-% of implemented changes not approved",
+                "number": "CTRL0021338",
+                "url": "sn_compliance_control.do?sys_id=3166773adbce5340fbf35414dc961900&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7166373adbce5340fbf35414dc9619fa",
+                "name": "Process Validity-% of implemented changes not approved",
+                "number": "CTRL0021337",
+                "url": "sn_compliance_control.do?sys_id=7166373adbce5340fbf35414dc9619fa&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b166373adbce5340fbf35414dc9619f4",
+                "name": "Process Validity-% of implemented changes not approved",
+                "number": "CTRL0021336",
+                "url": "sn_compliance_control.do?sys_id=b166373adbce5340fbf35414dc9619f4&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "fd66773adbce5340fbf35414dc961905",
+                "name": "Process Validity-% of implemented changes not approved",
+                "number": "CTRL0021339",
+                "url": "sn_compliance_control.do?sys_id=fd66773adbce5340fbf35414dc961905&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2966b33adbce5340fbf35414dc9619e1",
+                "name": "Process Validity-% of implemented changes not approved",
+                "number": "CTRL0021333",
+                "url": "sn_compliance_control.do?sys_id=2966b33adbce5340fbf35414dc9619e1&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f166373adbce5340fbf35414dc9619ee",
+                "name": "Process Validity-% of implemented changes not approved",
+                "number": "CTRL0021335",
+                "url": "sn_compliance_control.do?sys_id=f166373adbce5340fbf35414dc9619ee&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2d66373adbce5340fbf35414dc9619e7",
+                "name": "Process Validity-% of implemented changes not approved",
+                "number": "CTRL0021334",
+                "url": "sn_compliance_control.do?sys_id=2d66373adbce5340fbf35414dc9619e7&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 13,
+            "id": "54a53bf6dbce5340fbf35414dc96199e",
+            "level": 2,
+            "name": "Process Validity-% of implemented changes not approved",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=54a53bf6dbce5340fbf35414dc96199e&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "controls": [
+              {
+                "id": "7305cfb2db4e5340fbf35414dc961998",
+                "name": "Change Data Correctness-% Changes against ceased CIs",
+                "number": "CTRL0021317",
+                "url": "sn_compliance_control.do?sys_id=7305cfb2db4e5340fbf35414dc961998&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b305cfb2db4e5340fbf35414dc961992",
+                "name": "Change Data Correctness-% Changes against ceased CIs",
+                "number": "CTRL0021316",
+                "url": "sn_compliance_control.do?sys_id=b305cfb2db4e5340fbf35414dc961992&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f305cfb2db4e5340fbf35414dc96198c",
+                "name": "Change Data Correctness-% Changes against ceased CIs",
+                "number": "CTRL0021315",
+                "url": "sn_compliance_control.do?sys_id=f305cfb2db4e5340fbf35414dc96198c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3305cfb2db4e5340fbf35414dc96199e",
+                "name": "Change Data Correctness-% Changes against ceased CIs",
+                "number": "CTRL0021318",
+                "url": "sn_compliance_control.do?sys_id=3305cfb2db4e5340fbf35414dc96199e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "e3058fb2db4e5340fbf35414dc96198b",
+                "name": "Change Data Correctness-% Changes against ceased CIs",
+                "number": "CTRL0021312",
+                "url": "sn_compliance_control.do?sys_id=e3058fb2db4e5340fbf35414dc96198b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3705cfb2db4e5340fbf35414dc961986",
+                "name": "Change Data Correctness-% Changes against ceased CIs",
+                "number": "CTRL0021314",
+                "url": "sn_compliance_control.do?sys_id=3705cfb2db4e5340fbf35414dc961986&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "7f05cfb2db4e5340fbf35414dc96197f",
+                "name": "Change Data Correctness-% Changes against ceased CIs",
+                "number": "CTRL0021313",
+                "url": "sn_compliance_control.do?sys_id=7f05cfb2db4e5340fbf35414dc96197f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 13,
+            "id": "5ec48bb2db4e5340fbf35414dc9619cf",
+            "level": 2,
+            "name": "Change Data Correctness-% Changes against ceased CIs",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=5ec48bb2db4e5340fbf35414dc9619cf&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "controls": [
+            ],
+            "group": 13,
             "id": "5f28ec2ddbb5d300fbf35414dc96198c",
             "level": 2,
             "name": "Change-Validity-Validity",
@@ -1219,7 +2784,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "6f66cca1db75d300fbf35414dc96192b",
             "level": 2,
             "name": "Change-Accuracy-Correctness",
@@ -1229,7 +2796,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "76cd4469db75d300fbf35414dc9619d0",
             "level": 2,
             "name": "Correctness-Change Data Correctness",
@@ -1239,7 +2808,51 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+              {
+                "id": "b9049c7ddb7dd3005bf25cd4dc961971",
+                "name": "Expiry-Approval Expiry-Changes Not Approved Before Planned Start Time",
+                "number": "CTRL0020613",
+                "url": "sn_compliance_control.do?sys_id=b9049c7ddb7dd3005bf25cd4dc961971&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "35049c7ddb7dd3005bf25cd4dc96196d",
+                "name": "Expiry-Approval Expiry-Changes Not Approved Before Planned Start Time",
+                "number": "CTRL0020612",
+                "url": "sn_compliance_control.do?sys_id=35049c7ddb7dd3005bf25cd4dc96196d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bd049c7ddb7dd3005bf25cd4dc961968",
+                "name": "Expiry-Approval Expiry-Changes Not Approved Before Planned Start Time",
+                "number": "CTRL0020611",
+                "url": "sn_compliance_control.do?sys_id=bd049c7ddb7dd3005bf25cd4dc961968&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "02049c7ddb7dd3005bf25cd4dc961976",
+                "name": "Expiry-Approval Expiry-Changes Not Approved Before Planned Start Time",
+                "number": "CTRL0020614",
+                "url": "sn_compliance_control.do?sys_id=02049c7ddb7dd3005bf25cd4dc961976&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b9045c7ddb7dd3005bf25cd4dc9619ff",
+                "name": "Expiry-Approval Expiry-Changes Not Approved Before Planned Start Time",
+                "number": "CTRL0020608",
+                "url": "sn_compliance_control.do?sys_id=b9045c7ddb7dd3005bf25cd4dc9619ff&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "39049c7ddb7dd3005bf25cd4dc961964",
+                "name": "Expiry-Approval Expiry-Changes Not Approved Before Planned Start Time",
+                "number": "CTRL0020610",
+                "url": "sn_compliance_control.do?sys_id=39049c7ddb7dd3005bf25cd4dc961964&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f5049c7ddb7dd3005bf25cd4dc961908",
+                "name": "Expiry-Approval Expiry-Changes Not Approved Before Planned Start Time",
+                "number": "CTRL0020609",
+                "url": "sn_compliance_control.do?sys_id=f5049c7ddb7dd3005bf25cd4dc961908&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 13,
             "id": "7a935075db311700fbf35414dc961960",
             "level": 2,
             "name": "Expiry-Approval Expiry-Changes Not Approved Before Planned Start Time",
@@ -1249,7 +2862,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "87c42fd9dbf1d300fbf35414dc96190a",
             "level": 2,
             "name": "Change-Consistency-Consistency",
@@ -1259,7 +2874,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "897aa0eddbb5d300fbf35414dc9619ca",
             "level": 2,
             "name": "Change-Security-Integrity",
@@ -1269,7 +2886,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "92538de8dbf913005bf25cd4dc961974",
             "level": 2,
             "name": "Validity-Impact Validity",
@@ -1279,7 +2898,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "9293412cdbf913005bf25cd4dc961951",
             "level": 2,
             "name": "Change-Completeness-Completion",
@@ -1289,7 +2910,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "997ba021dbf5d300fbf35414dc96191c",
             "level": 2,
             "name": "Availability-UI Availability",
@@ -1299,7 +2922,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "a21baceddbb5d300fbf35414dc961901",
             "level": 2,
             "name": "Change-Security-Availability",
@@ -1311,7 +2936,9 @@
               {
                 "children": [
                 ],
-                "group": 10,
+                "controls": [
+                ],
+                "group": 13,
                 "id": "1a06b314db3913005bf25cd4dc9619b3",
                 "level": 3,
                 "name": "Change-Consistency-Submission Consistency",
@@ -1319,7 +2946,9 @@
                 "url": "sn_compliance_policy_statement.do?sys_id=1a06b314db3913005bf25cd4dc9619b3&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
               }
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "ae4e6f9cdbf513005bf25cd4dc9619af",
             "level": 2,
             "name": "Change-Consistency",
@@ -1329,7 +2958,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "b072cd68dbf913005bf25cd4dc961950",
             "level": 2,
             "name": "Correctness-Process Correctness",
@@ -1339,7 +2970,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "b143d835db311700fbf35414dc9619a7",
             "level": 2,
             "name": "Expiry-Approval Expiry",
@@ -1349,7 +2982,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "b3ec4829db75d300fbf35414dc9619e4",
             "level": 2,
             "name": "Reality-Change Data Reality",
@@ -1359,7 +2994,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "b5ebf398db3913005bf25cd4dc961960",
             "level": 2,
             "name": "Change-Accuracy",
@@ -1369,7 +3006,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "bbe9646ddbb5d300fbf35414dc961906",
             "level": 2,
             "name": "Change-Uniqueness-Uniqueness",
@@ -1379,7 +3018,63 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+              {
+                "id": "5ac54bf2db4e5340fbf35414dc96196b",
+                "name": "Process Validity-% of unplanned outage/unavailability due to changes",
+                "number": "CTRL0021324",
+                "url": "sn_compliance_control.do?sys_id=5ac54bf2db4e5340fbf35414dc96196b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9ac54bf2db4e5340fbf35414dc961965",
+                "name": "Process Validity-% of unplanned outage/unavailability due to changes",
+                "number": "CTRL0021323",
+                "url": "sn_compliance_control.do?sys_id=9ac54bf2db4e5340fbf35414dc961965&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "dac54bf2db4e5340fbf35414dc96195f",
+                "name": "Process Validity-% of unplanned outage/unavailability due to changes",
+                "number": "CTRL0021322",
+                "url": "sn_compliance_control.do?sys_id=dac54bf2db4e5340fbf35414dc96195f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "1ac54bf2db4e5340fbf35414dc961971",
+                "name": "Process Validity-% of unplanned outage/unavailability due to changes",
+                "number": "CTRL0021325",
+                "url": "sn_compliance_control.do?sys_id=1ac54bf2db4e5340fbf35414dc961971&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "cec5c7f2db4e5340fbf35414dc96194e",
+                "name": "Process Validity-% of unplanned outage/unavailability due to changes",
+                "number": "CTRL0021319",
+                "url": "sn_compliance_control.do?sys_id=cec5c7f2db4e5340fbf35414dc96194e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "56c54bf2db4e5340fbf35414dc96194d",
+                "name": "Process Validity-% of unplanned outage/unavailability due to changes",
+                "number": "CTRL0021321",
+                "url": "sn_compliance_control.do?sys_id=56c54bf2db4e5340fbf35414dc96194d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "92c54bf2db4e5340fbf35414dc961947",
+                "name": "Process Validity-% of unplanned outage/unavailability due to changes",
+                "number": "CTRL0021320",
+                "url": "sn_compliance_control.do?sys_id=92c54bf2db4e5340fbf35414dc961947&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 13,
+            "id": "cd8507f2db4e5340fbf35414dc96196a",
+            "level": 2,
+            "name": "Process Validity-% of unplanned outage/unavailability due to changes",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=cd8507f2db4e5340fbf35414dc96196a&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "controls": [
+            ],
+            "group": 13,
             "id": "d113c5e8dbf913005bf25cd4dc9619d7",
             "level": 2,
             "name": "Consistency-Process Consistency",
@@ -1389,7 +3084,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "d7978460db7913005bf25cd4dc9619ba",
             "level": 2,
             "name": "Validity-Process Validity",
@@ -1399,7 +3096,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "dcedbfd8db3913005bf25cd4dc961935",
             "level": 2,
             "name": "Change-Currency-Expiry",
@@ -1409,7 +3108,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "df85c460db7913005bf25cd4dc96192c",
             "level": 2,
             "name": "Change-Security",
@@ -1419,7 +3120,63 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+              {
+                "id": "04448f32db0a53405bf25cd4dc9619bc",
+                "name": "Process Consistency - % of Emergency Changes",
+                "number": "CTRL0021310",
+                "url": "sn_compliance_control.do?sys_id=04448f32db0a53405bf25cd4dc9619bc&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "77348f32db0a53405bf25cd4dc9619b6",
+                "name": "Process Consistency - % of Emergency Changes",
+                "number": "CTRL0021309",
+                "url": "sn_compliance_control.do?sys_id=77348f32db0a53405bf25cd4dc9619b6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b7348f32db0a53405bf25cd4dc9619b0",
+                "name": "Process Consistency - % of Emergency Changes",
+                "number": "CTRL0021308",
+                "url": "sn_compliance_control.do?sys_id=b7348f32db0a53405bf25cd4dc9619b0&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c0448f32db0a53405bf25cd4dc9619c2",
+                "name": "Process Consistency - % of Emergency Changes",
+                "number": "CTRL0021311",
+                "url": "sn_compliance_control.do?sys_id=c0448f32db0a53405bf25cd4dc9619c2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "73340f32db0a53405bf25cd4dc961946",
+                "name": "Process Consistency - % of Emergency Changes",
+                "number": "CTRL0021305",
+                "url": "sn_compliance_control.do?sys_id=73340f32db0a53405bf25cd4dc961946&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "f7348f32db0a53405bf25cd4dc9619aa",
+                "name": "Process Consistency - % of Emergency Changes",
+                "number": "CTRL0021307",
+                "url": "sn_compliance_control.do?sys_id=f7348f32db0a53405bf25cd4dc9619aa&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "fb348f32db0a53405bf25cd4dc96197e",
+                "name": "Process Consistency - % of Emergency Changes",
+                "number": "CTRL0021306",
+                "url": "sn_compliance_control.do?sys_id=fb348f32db0a53405bf25cd4dc96197e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 13,
+            "id": "e8e3cf72db4e5340fbf35414dc96195f",
+            "level": 2,
+            "name": "Process Consistency - % of Emergency Changes",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=e8e3cf72db4e5340fbf35414dc96195f&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "controls": [
+            ],
+            "group": 13,
             "id": "eadcb3d8db3913005bf25cd4dc9619d8",
             "level": 2,
             "name": "Change-Validity",
@@ -1429,7 +3186,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "ebf50c60db7913005bf25cd4dc961953",
             "level": 2,
             "name": "Consistency-Submission Consistency",
@@ -1439,7 +3198,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "ee6a7358db3913005bf25cd4dc9619c8",
             "level": 2,
             "name": "Change-Uniqueness",
@@ -1449,7 +3210,9 @@
           {
             "children": [
             ],
-            "group": 10,
+            "controls": [
+            ],
+            "group": 13,
             "id": "f7f5896cdbf913005bf25cd4dc961957",
             "level": 2,
             "name": "Correctness-Financial Correctness",
@@ -1457,7 +3220,7 @@
             "url": "sn_compliance_policy_statement.do?sys_id=f7f5896cdbf913005bf25cd4dc961957&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
           }
         ],
-        "group": 10,
+        "group": 13,
         "id": "cc7d2fb3db1597c05bf25cd4dc9619e2",
         "level": 1,
         "name": "Group Change Management Standard",
@@ -1466,8 +3229,570 @@
       },
       {
         "children": [
+          {
+            "children": [
+            ],
+            "controls": [
+              {
+                "id": "5ec2721adb7957005bf25cd4dc96199b",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020622",
+                "url": "sn_compliance_control.do?sys_id=5ec2721adb7957005bf25cd4dc96199b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9ac2721adb7957005bf25cd4dc9619ac",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020623",
+                "url": "sn_compliance_control.do?sys_id=9ac2721adb7957005bf25cd4dc9619ac&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "12c2721adb7957005bf25cd4dc9619b1",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020624",
+                "url": "sn_compliance_control.do?sys_id=12c2721adb7957005bf25cd4dc9619b1&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "96c2721adb7957005bf25cd4dc9619b5",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020625",
+                "url": "sn_compliance_control.do?sys_id=96c2721adb7957005bf25cd4dc9619b5&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "1ec2721adb7957005bf25cd4dc9619b9",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020626",
+                "url": "sn_compliance_control.do?sys_id=1ec2721adb7957005bf25cd4dc9619b9&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "92c2721adb7957005bf25cd4dc9619be",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020627",
+                "url": "sn_compliance_control.do?sys_id=92c2721adb7957005bf25cd4dc9619be&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "1ac2721adb7957005bf25cd4dc9619c2",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020628",
+                "url": "sn_compliance_control.do?sys_id=1ac2721adb7957005bf25cd4dc9619c2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "0ec2321adb7957005bf25cd4dc961931",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020616",
+                "url": "sn_compliance_control.do?sys_id=0ec2321adb7957005bf25cd4dc961931&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "cec2721adb7957005bf25cd4dc961985",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020617",
+                "url": "sn_compliance_control.do?sys_id=cec2721adb7957005bf25cd4dc961985&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "46c2721adb7957005bf25cd4dc96198a",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020618",
+                "url": "sn_compliance_control.do?sys_id=46c2721adb7957005bf25cd4dc96198a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "dac2721adb7957005bf25cd4dc96198e",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020619",
+                "url": "sn_compliance_control.do?sys_id=dac2721adb7957005bf25cd4dc96198e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "52c2721adb7957005bf25cd4dc961993",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020620",
+                "url": "sn_compliance_control.do?sys_id=52c2721adb7957005bf25cd4dc961993&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d6c2721adb7957005bf25cd4dc961997",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020621",
+                "url": "sn_compliance_control.do?sys_id=d6c2721adb7957005bf25cd4dc961997&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "57c2b21adb7957005bf25cd4dc9619a8",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020672",
+                "url": "sn_compliance_control.do?sys_id=57c2b21adb7957005bf25cd4dc9619a8&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "22c2721adb7957005bf25cd4dc9619f7",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020640",
+                "url": "sn_compliance_control.do?sys_id=22c2721adb7957005bf25cd4dc9619f7&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "37c2f21adb7957005bf25cd4dc96190c",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020692",
+                "url": "sn_compliance_control.do?sys_id=37c2f21adb7957005bf25cd4dc96190c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a2c2721adb7957005bf25cd4dc9619e1",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020635",
+                "url": "sn_compliance_control.do?sys_id=a2c2721adb7957005bf25cd4dc9619e1&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2ac2721adb7957005bf25cd4dc9619e5",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020636",
+                "url": "sn_compliance_control.do?sys_id=2ac2721adb7957005bf25cd4dc9619e5&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "aec2721adb7957005bf25cd4dc9619e9",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020637",
+                "url": "sn_compliance_control.do?sys_id=aec2721adb7957005bf25cd4dc9619e9&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "26c2721adb7957005bf25cd4dc9619ee",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020638",
+                "url": "sn_compliance_control.do?sys_id=26c2721adb7957005bf25cd4dc9619ee&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "aac2721adb7957005bf25cd4dc9619f2",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020639",
+                "url": "sn_compliance_control.do?sys_id=aac2721adb7957005bf25cd4dc9619f2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "9ec2721adb7957005bf25cd4dc9619c6",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020629",
+                "url": "sn_compliance_control.do?sys_id=9ec2721adb7957005bf25cd4dc9619c6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "16c2721adb7957005bf25cd4dc9619cb",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020630",
+                "url": "sn_compliance_control.do?sys_id=16c2721adb7957005bf25cd4dc9619cb&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "aac2721adb7957005bf25cd4dc9619cf",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020631",
+                "url": "sn_compliance_control.do?sys_id=aac2721adb7957005bf25cd4dc9619cf&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "22c2721adb7957005bf25cd4dc9619d4",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020632",
+                "url": "sn_compliance_control.do?sys_id=22c2721adb7957005bf25cd4dc9619d4&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a6c2721adb7957005bf25cd4dc9619d8",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020633",
+                "url": "sn_compliance_control.do?sys_id=a6c2721adb7957005bf25cd4dc9619d8&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "8ec2321adb7957005bf25cd4dc96192b",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020615",
+                "url": "sn_compliance_control.do?sys_id=8ec2321adb7957005bf25cd4dc96192b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a6c2721adb7957005bf25cd4dc9619fb",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020641",
+                "url": "sn_compliance_control.do?sys_id=a6c2721adb7957005bf25cd4dc9619fb&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2ec2721adb7957005bf25cd4dc9619ff",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020642",
+                "url": "sn_compliance_control.do?sys_id=2ec2721adb7957005bf25cd4dc9619ff&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "36c2b21adb7957005bf25cd4dc961911",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020646",
+                "url": "sn_compliance_control.do?sys_id=36c2b21adb7957005bf25cd4dc961911&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b2c2b21adb7957005bf25cd4dc961904",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020643",
+                "url": "sn_compliance_control.do?sys_id=b2c2b21adb7957005bf25cd4dc961904&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3ac2b21adb7957005bf25cd4dc961908",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020644",
+                "url": "sn_compliance_control.do?sys_id=3ac2b21adb7957005bf25cd4dc961908&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bec2b21adb7957005bf25cd4dc96190c",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020645",
+                "url": "sn_compliance_control.do?sys_id=bec2b21adb7957005bf25cd4dc96190c&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bac2b21adb7957005bf25cd4dc961915",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020647",
+                "url": "sn_compliance_control.do?sys_id=bac2b21adb7957005bf25cd4dc961915&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "32c2b21adb7957005bf25cd4dc96191a",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020648",
+                "url": "sn_compliance_control.do?sys_id=32c2b21adb7957005bf25cd4dc96191a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b6c2b21adb7957005bf25cd4dc96191e",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020649",
+                "url": "sn_compliance_control.do?sys_id=b6c2b21adb7957005bf25cd4dc96191e&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3ec2b21adb7957005bf25cd4dc961922",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020650",
+                "url": "sn_compliance_control.do?sys_id=3ec2b21adb7957005bf25cd4dc961922&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "b2c2b21adb7957005bf25cd4dc961927",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020651",
+                "url": "sn_compliance_control.do?sys_id=b2c2b21adb7957005bf25cd4dc961927&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3ac2b21adb7957005bf25cd4dc96192b",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020652",
+                "url": "sn_compliance_control.do?sys_id=3ac2b21adb7957005bf25cd4dc96192b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bec2b21adb7957005bf25cd4dc96192f",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020653",
+                "url": "sn_compliance_control.do?sys_id=bec2b21adb7957005bf25cd4dc96192f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "36c2b21adb7957005bf25cd4dc961934",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020654",
+                "url": "sn_compliance_control.do?sys_id=36c2b21adb7957005bf25cd4dc961934&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "03c2b21adb7957005bf25cd4dc96193d",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020656",
+                "url": "sn_compliance_control.do?sys_id=03c2b21adb7957005bf25cd4dc96193d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4fc2b21adb7957005bf25cd4dc96194d",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020657",
+                "url": "sn_compliance_control.do?sys_id=4fc2b21adb7957005bf25cd4dc96194d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "c3c2b21adb7957005bf25cd4dc961952",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020658",
+                "url": "sn_compliance_control.do?sys_id=c3c2b21adb7957005bf25cd4dc961952&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "4bc2b21adb7957005bf25cd4dc961956",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020659",
+                "url": "sn_compliance_control.do?sys_id=4bc2b21adb7957005bf25cd4dc961956&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "cfc2b21adb7957005bf25cd4dc96195a",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020660",
+                "url": "sn_compliance_control.do?sys_id=cfc2b21adb7957005bf25cd4dc96195a&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "47c2b21adb7957005bf25cd4dc96195f",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020661",
+                "url": "sn_compliance_control.do?sys_id=47c2b21adb7957005bf25cd4dc96195f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "cbc2b21adb7957005bf25cd4dc961963",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020662",
+                "url": "sn_compliance_control.do?sys_id=cbc2b21adb7957005bf25cd4dc961963&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "0bc2b21adb7957005bf25cd4dc961974",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020663",
+                "url": "sn_compliance_control.do?sys_id=0bc2b21adb7957005bf25cd4dc961974&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2ec2721adb7957005bf25cd4dc9619dc",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020634",
+                "url": "sn_compliance_control.do?sys_id=2ec2721adb7957005bf25cd4dc9619dc&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "8fc2b21adb7957005bf25cd4dc961978",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020664",
+                "url": "sn_compliance_control.do?sys_id=8fc2b21adb7957005bf25cd4dc961978&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "07c2b21adb7957005bf25cd4dc96197d",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020665",
+                "url": "sn_compliance_control.do?sys_id=07c2b21adb7957005bf25cd4dc96197d&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "8bc2b21adb7957005bf25cd4dc961981",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020666",
+                "url": "sn_compliance_control.do?sys_id=8bc2b21adb7957005bf25cd4dc961981&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "13c2b21adb7957005bf25cd4dc961986",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020667",
+                "url": "sn_compliance_control.do?sys_id=13c2b21adb7957005bf25cd4dc961986&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5fc2b21adb7957005bf25cd4dc961996",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020668",
+                "url": "sn_compliance_control.do?sys_id=5fc2b21adb7957005bf25cd4dc961996&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d3c2b21adb7957005bf25cd4dc96199b",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020669",
+                "url": "sn_compliance_control.do?sys_id=d3c2b21adb7957005bf25cd4dc96199b&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5bc2b21adb7957005bf25cd4dc96199f",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020670",
+                "url": "sn_compliance_control.do?sys_id=5bc2b21adb7957005bf25cd4dc96199f&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "dfc2b21adb7957005bf25cd4dc9619a3",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020671",
+                "url": "sn_compliance_control.do?sys_id=dfc2b21adb7957005bf25cd4dc9619a3&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "dbc2b21adb7957005bf25cd4dc9619ac",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020673",
+                "url": "sn_compliance_control.do?sys_id=dbc2b21adb7957005bf25cd4dc9619ac&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "53c2b21adb7957005bf25cd4dc9619b1",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020674",
+                "url": "sn_compliance_control.do?sys_id=53c2b21adb7957005bf25cd4dc9619b1&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d7c2b21adb7957005bf25cd4dc9619b5",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020675",
+                "url": "sn_compliance_control.do?sys_id=d7c2b21adb7957005bf25cd4dc9619b5&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5fc2b21adb7957005bf25cd4dc9619b9",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020676",
+                "url": "sn_compliance_control.do?sys_id=5fc2b21adb7957005bf25cd4dc9619b9&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "d3c2b21adb7957005bf25cd4dc9619be",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020677",
+                "url": "sn_compliance_control.do?sys_id=d3c2b21adb7957005bf25cd4dc9619be&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "5bc2b21adb7957005bf25cd4dc9619c2",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020678",
+                "url": "sn_compliance_control.do?sys_id=5bc2b21adb7957005bf25cd4dc9619c2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "efc2b21adb7957005bf25cd4dc9619c6",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020679",
+                "url": "sn_compliance_control.do?sys_id=efc2b21adb7957005bf25cd4dc9619c6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "23c2b21adb7957005bf25cd4dc9619f2",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020686",
+                "url": "sn_compliance_control.do?sys_id=23c2b21adb7957005bf25cd4dc9619f2&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2fc2b21adb7957005bf25cd4dc9619d7",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020680",
+                "url": "sn_compliance_control.do?sys_id=2fc2b21adb7957005bf25cd4dc9619d7&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a3c2b21adb7957005bf25cd4dc9619dc",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020681",
+                "url": "sn_compliance_control.do?sys_id=a3c2b21adb7957005bf25cd4dc9619dc&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2bc2b21adb7957005bf25cd4dc9619e0",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020682",
+                "url": "sn_compliance_control.do?sys_id=2bc2b21adb7957005bf25cd4dc9619e0&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "afc2b21adb7957005bf25cd4dc9619e4",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020683",
+                "url": "sn_compliance_control.do?sys_id=afc2b21adb7957005bf25cd4dc9619e4&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "27c2b21adb7957005bf25cd4dc9619e9",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020684",
+                "url": "sn_compliance_control.do?sys_id=27c2b21adb7957005bf25cd4dc9619e9&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "abc2b21adb7957005bf25cd4dc9619ed",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020685",
+                "url": "sn_compliance_control.do?sys_id=abc2b21adb7957005bf25cd4dc9619ed&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a7c2b21adb7957005bf25cd4dc9619f6",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020687",
+                "url": "sn_compliance_control.do?sys_id=a7c2b21adb7957005bf25cd4dc9619f6&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "2fc2b21adb7957005bf25cd4dc9619fa",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020688",
+                "url": "sn_compliance_control.do?sys_id=2fc2b21adb7957005bf25cd4dc9619fa&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "a3c2b21adb7957005bf25cd4dc9619ff",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020689",
+                "url": "sn_compliance_control.do?sys_id=a3c2b21adb7957005bf25cd4dc9619ff&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "3bc2f21adb7957005bf25cd4dc961903",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020690",
+                "url": "sn_compliance_control.do?sys_id=3bc2f21adb7957005bf25cd4dc961903&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "bfc2f21adb7957005bf25cd4dc961907",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020691",
+                "url": "sn_compliance_control.do?sys_id=bfc2f21adb7957005bf25cd4dc961907&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              },
+              {
+                "id": "8bc2b21adb7957005bf25cd4dc961938",
+                "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+                "number": "CTRL0020655",
+                "url": "sn_compliance_control.do?sys_id=8bc2b21adb7957005bf25cd4dc961938&sysparm_stack=sn_compliance_control_list.do?sysparm_query=active=true"
+              }
+            ],
+            "group": 14,
+            "id": "27efaa1edb3d5700fbf35414dc961969",
+            "level": 2,
+            "name": "Counterparty Validity-Strength of Counterparty Credit Rating",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=27efaa1edb3d5700fbf35414dc961969&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "controls": [
+            ],
+            "group": 14,
+            "id": "5dbfa61edb3d5700fbf35414dc9619ac",
+            "level": 2,
+            "name": "Validity-Counterparty Validity",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=5dbfa61edb3d5700fbf35414dc9619ac&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "controls": [
+            ],
+            "group": 14,
+            "id": "876866d6db3d5700fbf35414dc9619a8",
+            "level": 2,
+            "name": "Credit-Settlement",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=876866d6db3d5700fbf35414dc9619a8&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+              {
+                "children": [
+                ],
+                "controls": [
+                ],
+                "group": 14,
+                "id": "c14f221edb3d5700fbf35414dc9619a8",
+                "level": 3,
+                "name": "Credit-Counterparty-Validity",
+                "type": "policy statement",
+                "url": "sn_compliance_policy_statement.do?sys_id=c14f221edb3d5700fbf35414dc9619a8&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+              }
+            ],
+            "controls": [
+            ],
+            "group": 14,
+            "id": "b357ae96db3d5700fbf35414dc961977",
+            "level": 2,
+            "name": "Credit-Counterparty",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=b357ae96db3d5700fbf35414dc961977&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "controls": [
+            ],
+            "group": 14,
+            "id": "c8286e96db3d5700fbf35414dc961952",
+            "level": 2,
+            "name": "Credit-Country",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=c8286e96db3d5700fbf35414dc961952&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          },
+          {
+            "children": [
+            ],
+            "controls": [
+            ],
+            "group": 14,
+            "id": "fe48e6d6db3d5700fbf35414dc961922",
+            "level": 2,
+            "name": "Credit-Concentrational",
+            "type": "policy statement",
+            "url": "sn_compliance_policy_statement.do?sys_id=fe48e6d6db3d5700fbf35414dc961922&sysparm_stack=sn_compliance_policy_statement_list.do?sysparm_query=active=true"
+          }
         ],
-        "group": 11,
+        "group": 14,
+        "id": "f324ea16db3d5700fbf35414dc961914",
+        "level": 1,
+        "name": "Group Counterparty Risk Standard",
+        "type": "policy",
+        "url": "sn_compliance_policy.do?sys_id=f324ea16db3d5700fbf35414dc961914&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+      },
+      {
+        "children": [
+        ],
+        "group": 15,
         "id": "f3df454edb7d1700fbf35414dc961952",
         "level": 1,
         "name": "Group Operational Risk Policy",
@@ -1475,6 +3800,6 @@
         "url": "sn_compliance_policy.do?sys_id=f3df454edb7d1700fbf35414dc961952&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
       }
     ],
-    "name": "TESM"
+    "name": "CompanyName"
   }
 }

@@ -16,24 +16,29 @@ module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
     // Events
     container
         .on('hoverNode', function (event) {
-            $scope.selectedNode = data.node.getByName(event.detail);
+            $scope.selectedNode = data.node.get('name', event.detail);
             $scope.edit = false;
-            $scope.$digest();
+            $scope.$apply();
         })
         .on('selectNode', function (event) {
+            console.log(event);
             $scope.enterEdit(event.detail);
-            $scope.selectedNode = data.node.getByName(event.detail);
-            $scope.$digest();
+            $scope.selectedNode = data.node.get('name', event.detail);
+            data.setCurrentFocus({
+                id: $scope.selectedNode.parent,
+                children: [$scope.selectedNode]
+            });
+            $scope.$apply();
         })
         .on('unSelectNode', function (event) {
             if ($scope.edit) {
                 $scope.leaveEdit();
-                $scope.$digest();
+                $scope.$apply();
             }
         });
 
     $scope.enterEdit = function (name) {
-        $scope.originalNode = data.node.getByName(name);
+        $scope.originalNode = data.node.get('name', name);
         $scope.node = angular.copy($scope.originalNode);
         // data.setJsonData(angular.copy($scope.originalNode));
         $scope.edit = true;
@@ -59,26 +64,23 @@ module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
                 delete $scope.node.host[key];
             }
         });
-        data.updateNode($scope.originalNode.name, $scope.node);
+        data.node.update($scope.originalNode.name, $scope.node);
 
-        data.emitRefresh();
-        $scope.node = data.node.getByName($scope.node.name);
+        $scope.node = data.node.get('name', $scope.node.name);
 
         $scope.edit = false;
     };
 
     $scope.deleteNode = function () {
         if (!$window.confirm('Are you sure you want to delete that node?')) return;
-        data.removeNode($scope.originalNode.name);
-        data.emitRefresh();
+        data.node.remove($scope.originalNode.name);
 
         $scope.edit = false;
     };
 
     $scope.moveNode = function () {
         var dest = $window.prompt('Please type the name of the parent node to move to');
-        data.moveNode($scope.originalNode.name, dest);
-        data.emitRefresh();
+        data.node.move($scope.originalNode.name, dest);
 
         $timeout(function () {
             bus.emit(CONST.EVENTS.SELECT_NODE, $scope.originalNode.name);
@@ -86,8 +88,7 @@ module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
     };
 
     $scope.addNode = function () {
-        data.addNode($scope.originalNode.name);
-        data.emitRefresh();
+        data.node.add($scope.originalNode.name);
 
         $timeout(function () {
             bus.emit(CONST.EVENTS.SELECT_NODE, 'New node');

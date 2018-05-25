@@ -4,85 +4,48 @@ module.exports = function (CONST, bus, data) {
         link: function link(scope, element, attrs) {
 
             bus.on(CONST.EVENTS.DATA_UPDATE, function (data) {
-                scope.technos = computeTechnos(data);
-                scope.hosts = computeHosts(data);
+                scope.controls = computeControls(data);
             });
 
             scope.nameFilter = '';
-
-            let technosFilter = [];
-            let hostsFilter = [];
+            let controlsFilter = {};
 
             scope.$watch('nameFilter', function (name) {
                 data.filter.setNameFilter(name);
             });
 
-            scope.toggleTechnoFilter = function (techno) {
-                if (scope.isTechnoInFilter(techno)) {
-                    technosFilter.splice(technosFilter.indexOf(techno), 1);
+            scope.toggleControlsFilter = function (control) {
+                if (scope.isControlInFilter(control)) {
+                    delete controlsFilter[control.id];
                 } else {
-                    technosFilter.push(techno);
+                    controlsFilter[control.id] = control;
                 }
-                bus.emit(CONST.EVENTS.FILTER_CHANGE, technosFilter);
+                bus.emit(CONST.EVENTS.FILTER_CHANGE);
             };
 
-            scope.isTechnoInFilter = function (techno) {
-                return technosFilter.indexOf(techno) !== -1;
+            scope.isControlInFilter = function (control) {
+                return controlsFilter[control.id] !== undefined;
             };
 
-            scope.toggleHostFilter = function (host) {
-                if (scope.isHostInFilter(host)) {
-                    hostsFilter.splice(hostsFilter.indexOf(host), 1);
-                } else {
-                    hostsFilter.push(host);
-                }
-                bus.emit(CONST.EVENTS.FILTER_CHANGE, hostsFilter);
-            };
+            function computeControls(rootNode) {
+                let controls = {};
 
-            scope.isHostInFilter = function (host) {
-                return hostsFilter.indexOf(host) !== -1;
-            };
-
-            function computeTechnos(rootNode) {
-                var technos = [];
-
-                function addNodeTechnos(node) {
-                    if (node.technos) {
-                        node.technos.forEach(function (techno) {
-                            technos[techno] = true;
+                function addNodeControls(node) {
+                    if (node.controls) {
+                        node.controls.forEach(function (control) {
+                            controls[control.id] = control;
                         });
                     }
                     if (node.children) {
                         node.children.forEach(function (childNode) {
-                            addNodeTechnos(childNode);
+                            addNodeControls(childNode);
                         });
                     }
                 }
 
-                addNodeTechnos(rootNode);
+                addNodeControls(rootNode);
 
-                return Object.keys(technos).sort();
-            }
-
-            function computeHosts(rootNode) {
-                var hosts = {};
-
-                function addNodeHosts(node) {
-                    if (node.host) {
-                        for (var i in node.host) {
-                            hosts[i] = true;
-                        }
-                    }
-                    if (node.children) {
-                        node.children.forEach(function (childNode) {
-                            addNodeHosts(childNode);
-                        });
-                    }
-                }
-
-                addNodeHosts(rootNode);
-
-                return Object.keys(hosts).sort();
+                return controls;
             }
         },
         template: `<div class="filters panel panel-default">
@@ -91,15 +54,10 @@ module.exports = function (CONST, bus, data) {
         <form id="filter_form">
             <input name="name" type="text" class="form-control" placeholder="Filter by name"
                    ng-model="nameFilter"/>
-            <div id="technos">
-                <h5>Technos</h5>
-                <a ng-repeat="techno in technos" class="btn btn-default btn-xs" ng-click="toggleTechnoFilter(techno)"
-                   ng-class="{'btn-primary': isTechnoInFilter(techno) }">{{ techno }}</a>
-            </div>
-            <div id="host">
-                <h5>Host</h5>
-                <a ng-repeat="host in hosts" class="btn btn-default btn-xs" ng-click="toggleHostFilter(host)"
-                   ng-class="{'btn-primary': isHostInFilter(host) }">{{ host }}</a>
+            <div id="controls">
+                <h5>Controls</h5>
+                <a ng-repeat="control in controls" class="btn btn-default btn-xs" ng-click="toggleControlsFilter(control)"
+                   ng-class="{'btn-primary': isControlInFilter(control) }">{{ control.number }}</a>
             </div>
         </form>
     </div>
