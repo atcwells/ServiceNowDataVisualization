@@ -1,0 +1,151 @@
+{
+  "children": [
+    {
+      "children": [
+      ],
+      "group": 1,
+      "name": "Group Conduct Risk Policy",
+      "number": "POL0020006",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "0201e61adb7453805bf25cd4dc9619db",
+      "url": "sn_compliance_policy.do?sys_id=0201e61adb7453805bf25cd4dc9619db&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+      ],
+      "group": 2,
+      "name": "Policy Exception Test Policy",
+      "number": "POL0020012",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "17909354dbb513005bf25cd4dc9619d0",
+      "url": "sn_compliance_policy.do?sys_id=17909354dbb513005bf25cd4dc9619d0&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+              ],
+              "name": "Group Technology Risk Policy",
+              "number": "POL0020016",
+              "sys_class_name": "sn_compliance_policy",
+              "sys_id": "bfa395cedb7d1700fbf35414dc961946",
+              "url": "sn_compliance_policy.do?sys_id=bfa395cedb7d1700fbf35414dc961946&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+            }
+          ],
+          "name": "Group Operational Risk Policy",
+          "number": "POL0020015",
+          "sys_class_name": "sn_compliance_policy",
+          "sys_id": "f3df454edb7d1700fbf35414dc961952",
+          "url": "sn_compliance_policy.do?sys_id=f3df454edb7d1700fbf35414dc961952&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+        }
+      ],
+      "group": 3,
+      "name": "Group Enterprise Risk Management Framework",
+      "number": "POL0020003",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "1e481216db7453805bf25cd4dc96194f",
+      "url": "sn_compliance_policy.do?sys_id=1e481216db7453805bf25cd4dc96194f&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+              ],
+              "name": "Group Counterparty Risk Standard",
+              "number": "POL0020020",
+              "sys_class_name": "sn_compliance_policy",
+              "sys_id": "f324ea16db3d5700fbf35414dc961914",
+              "url": "sn_compliance_policy.do?sys_id=f324ea16db3d5700fbf35414dc961914&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+            }
+          ],
+          "name": "Group Credit Risk Standard",
+          "number": "POL0020018",
+          "sys_class_name": "sn_compliance_policy",
+          "sys_id": "21b36216db3d5700fbf35414dc961932",
+          "url": "sn_compliance_policy.do?sys_id=21b36216db3d5700fbf35414dc961932&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+        }
+      ],
+      "group": 4,
+      "name": "Group Credit Risk Policy",
+      "number": "POL0020017",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "3b73e216db3d5700fbf35414dc96198a",
+      "url": "sn_compliance_policy.do?sys_id=3b73e216db3d5700fbf35414dc96198a&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+      ],
+      "group": 5,
+      "name": "Group Vendor Risk Policy",
+      "number": "POL0020009",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "3e2cc6f0db8997805bf25cd4dc9619c1",
+      "url": "sn_compliance_policy.do?sys_id=3e2cc6f0db8997805bf25cd4dc9619c1&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+      ],
+      "group": 6,
+      "name": "Group Configuration Mgmt Standard",
+      "number": "POL0020008",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "4cb8cb76dbf493805bf25cd4dc9619cf",
+      "url": "sn_compliance_policy.do?sys_id=4cb8cb76dbf493805bf25cd4dc9619cf&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+      ],
+      "group": 7,
+      "name": "Group Data Risk Policy",
+      "number": "POL0020005",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "68b0e61adb7453805bf25cd4dc9619d5",
+      "url": "sn_compliance_policy.do?sys_id=68b0e61adb7453805bf25cd4dc9619d5&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+      ],
+      "group": 8,
+      "name": "Group Data Standard",
+      "number": "POL0020007",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "6a784b76dbf493805bf25cd4dc961911",
+      "url": "sn_compliance_policy.do?sys_id=6a784b76dbf493805bf25cd4dc961911&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+      ],
+      "group": 9,
+      "name": "Group Market Risk Policy",
+      "number": "POL0020010",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "7b7c0af0db8997805bf25cd4dc961975",
+      "url": "sn_compliance_policy.do?sys_id=7b7c0af0db8997805bf25cd4dc961975&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+      ],
+      "group": 10,
+      "name": "Group Service Level Management (SLM) Policy",
+      "number": "POL0020021",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "977e951cdb8a9b005bf25cd4dc96195e",
+      "url": "sn_compliance_policy.do?sys_id=977e951cdb8a9b005bf25cd4dc96195e&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    },
+    {
+      "children": [
+      ],
+      "group": 11,
+      "name": "Group Change Management Standard",
+      "number": "POL0020011",
+      "sys_class_name": "sn_compliance_policy",
+      "sys_id": "cc7d2fb3db1597c05bf25cd4dc9619e2",
+      "url": "sn_compliance_policy.do?sys_id=cc7d2fb3db1597c05bf25cd4dc9619e2&sysparm_stack=sn_compliance_policy_list.do?sysparm_query=active=true"
+    }
+  ],
+  "name": "CompanyName"
+}

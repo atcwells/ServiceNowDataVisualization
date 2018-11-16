@@ -4,15 +4,22 @@
   "description": "A visualizer for ServiceNow data, in graphical map form",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node bin/build.js",
+    "run": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
     "angular": "^1.7.0",
+    "babel-core": "^6.26.3",
+    "babelify": "^8.0.0",
+    "brfs": "^1.6.1",
     "connect": "^3.6.6",
     "express": "^4.16.3",
     "livereload": "^0.7.0",
+    "ngify": "^1.6.2",
     "serve-static": "^1.13.2",
     "watchify": "^3.11.0"
   }

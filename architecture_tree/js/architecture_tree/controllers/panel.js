@@ -1,4 +1,4 @@
-module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
+module.exports = ['$scope', '$timeout', '$window', 'data', 'bus', 'node', 'CONST', function ($scope, $timeout, $window, data, bus, node, CONST) {
     'use strict';
 
     $scope.edit = false;
@@ -21,13 +21,12 @@ module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
             $scope.$apply();
         })
         .on('selectNode', function (event) {
-            console.log(event);
             $scope.enterEdit(event.detail);
             $scope.selectedNode = data.node.get('name', event.detail);
-            data.setCurrentFocus({
-                id: $scope.selectedNode.parent,
-                children: [$scope.selectedNode]
-            });
+            // data.setCurrentFocus({
+            //     id: $scope.selectedNode.parent,
+            //     children: [$scope.selectedNode]
+            // });
             $scope.$apply();
         })
         .on('unSelectNode', function (event) {
@@ -140,4 +139,4 @@ module.exports = function ($scope, $timeout, $window, data, bus, node, CONST) {
         delete $scope.hostKeys[key];
         delete $scope.node.host[key];
     };
-};
+}];

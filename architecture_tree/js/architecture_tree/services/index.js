@@ -1,6 +1,6 @@
 'use strict';
 
-let app = require('angular').module('ChartsApp');
+var app = angular.module('ChartsApp');
 
 app.service('data', require('./data'));
 app.service('filter', require('./filter'));

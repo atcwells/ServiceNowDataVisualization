@@ -1,4 +1,4 @@
-module.exports = data = function ($http, $q, bus, CONST, filter) {
+module.exports = ['$http', '$q', 'bus', 'CONST', 'filter', function ($http, $q, bus, CONST, filter) {
     'use strict';
 
     var jsonData;
@@ -12,10 +12,13 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
         if (typeof (jsonData) !== 'undefined')
             return $q.when(jsonData);
 
-        return $http.get("serviceNowData.json")
+        return $http.get("serviceNowData2.json")
             .then(function (response) {
-                setJsonData(response.data.nodes);
-                return response.data.nodes;
+                setJsonData(response.data);
+                return response.data;
+            }, function () {
+                setJsonData(graphData);
+                return graphData;
             });
     };
 
@@ -90,11 +93,9 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
     var updateNode = function (name, updatedNode) {
         var node = getNode('name', name);
         updateDependencies(node.name, updatedNode.name);
-        for (var i in updatedNode) {
-            if (updatedNode.hasOwnProperty(i) && i !== 'children' && i !== 'parent' && i !== 'details') {
+        for (var i in updatedNode)
+            if (updatedNode.hasOwnProperty(i) && i !== 'children' && i !== 'parent' && i !== 'details')
                 node[i] = updatedNode[i];
-            }
-        }
         _emitRefresh();
     };
 
@@ -109,11 +110,10 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
 
         updateNodeDependency(name, newName, cursor);
 
-        if (typeof(cursor.children) !== 'undefined' && cursor.children.length) {
+        if (typeof(cursor.children) !== 'undefined' && cursor.children.length)
             cursor.children.forEach(function (child) {
                 updateDependencies(name, newName, child);
             });
-        }
     };
 
     /**
@@ -126,12 +126,11 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
     function _formatData(data) {
 
         var addParentId = function (node) {
-            if (node.children) {
+            if (node.children)
                 node.children.forEach(function (childNode) {
                     childNode.parent = node.id;
                     addParentId(childNode);
                 });
-            }
         };
 
         var addAncestors = function (node) {
@@ -141,7 +140,7 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
                     var parentNode = node.parent;
                     while (parentNode) {
                         if (parentNode.id) {
-                            ancestors.push(parentNode.id)
+                            ancestors.push(parentNode.id);
                             parentNode = _getParent(parentNode);
                         } else
                             break;
@@ -173,16 +172,14 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
                     dependency.dependents.push(node.name);
                 });
             }
-            if (node.children) {
+            if (node.children)
                 node.children.map(addDependents);
-            }
         };
 
         var addDetails = function (node) {
             addDetailsForNode(node);
-            if (node.children) {
+            if (node.children)
                 node.children.map(addDetails);
-            }
         };
 
         /**
@@ -203,21 +200,20 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
         var addDetailsForNode = function (node) {
             node.details = {};
             var dependsOn = getDetailCascade(node, 'dependsOn');
-            if (dependsOn.length > 0) {
+            if (dependsOn.length > 0)
                 node.details.Dependencies = dependsOn.map(getValueAndAncestor);
-            }
-            if (node.dependents) {
+
+            if (node.dependents)
                 node.details.Dependents = node.dependents;
-            }
+
             var technos = getDetailCascade(node, 'technos');
-            if (technos.length > 0) {
+            if (technos.length > 0)
                 node.details.Technos = technos.map(getValueAndAncestor);
-            }
+
             if (node.host) {
                 node.details.Host = [];
-                for (var i in node.host) {
+                for (var i in node.host)
                     node.details.Host.push(i);
-                }
             }
 
             return node;
@@ -225,14 +221,14 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
 
         var getDetailCascade = function (node, detailName, via) {
             var values = [];
-            if (node[detailName]) {
+            if (node[detailName])
                 node[detailName].forEach(function (value) {
                     values.push({value: value, via: via});
                 });
-            }
-            if (node.parent) {
+
+            if (node.parent)
                 values = values.concat(getDetailCascade(node.parent, detailName, node.parent.name));
-            }
+
             return values;
         };
 
@@ -255,18 +251,17 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
      * @param {Object} node
      */
     var updateNodeDependency = function (name, newName, node) {
-        if (typeof(node.dependsOn) === 'undefined') {
+        if (typeof(node.dependsOn) === 'undefined')
             return;
-        }
+
         var pos = node.dependsOn.indexOf(name);
-        if (pos === -1) return;
-        if (newName) {
-            // rename dependency
+        if (pos === -1)
+            return;
+
+        if (newName)
             node.dependsOn[pos] = newName;
-        } else {
-            // remove dependency
+        else
             node.dependsOn.splice(pos, 1);
-        }
     };
 
     /**
@@ -275,9 +270,9 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
     var addNode = function (name, newNode) {
         newNode = newNode || {name: 'New node'};
         var node = getNode('name', name);
-        if (!node.children) {
+        if (!node.children)
             node.children = [];
-        }
+
         node.children.push(newNode);
         _emitRefresh();
     };
@@ -342,4 +337,4 @@ module.exports = data = function ($http, $q, bus, CONST, filter) {
         },
         filter: filter
     };
-};
+}];

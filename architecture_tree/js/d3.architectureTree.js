@@ -130,6 +130,9 @@ d3.chart.architectureTree = function () {
                 return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)";
             })
             .text(function (d) {
+                if (d.name.length > 10 && d.children && d.children.length)
+                    return d.name.slice(0, 10) + '...';
+
                 return d.name;
             });
     };

@@ -1,10 +1,10 @@
-module.exports = function (CONST, bus, data) {
+module.exports = ['CONST', 'bus', 'data', function (CONST, bus, data) {
     'use strict';
 
     return {
         restrict: 'E',
         replace: true,
-        template: '<div id="graph"></div>',
+        template: require('fs').readFileSync(__dirname + '/templates/treeChart.html', 'utf8'),
         scope: {
             data: '='
         },
@@ -15,6 +15,8 @@ module.exports = function (CONST, bus, data) {
                 if (typeof (data) === 'undefined') {
                     return;
                 }
+                console.log('data!');
+                console.log(data);
 
                 chart.diameter(960)
                     .data(scope.data);
@@ -24,7 +26,7 @@ module.exports = function (CONST, bus, data) {
             });
 
             bus.on(CONST.EVENTS.FILTER_CHANGE, function (nameFilter) {
-                let d = {
+                var d = {
                     text: data.filter.getNameFilter(),
                     technos: data.filter.getTechnosFilter(),
                     hosts: data.filter.getHostsFilter()
@@ -41,4 +43,4 @@ module.exports = function (CONST, bus, data) {
             });
         }
     };
-};
+}];

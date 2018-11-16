@@ -1,26 +1,26 @@
-module.exports = filter = function (bus, CONST) {
+module.exports = ['bus', 'CONST', function (bus, CONST) {
     'use strict';
 
-    let _filters = {
+    var _filters = {
         nameFilter: '',
         technosFilter: [],
         hostsFilter: []
     };
 
-    let setFilter = function (key, newFilterValue) {
+    var setFilter = function (key, newFilterValue) {
         _filters[key] = newFilterValue;
         bus.emit(CONST.EVENTS.FILTER_CHANGE);
     };
 
-    let getFilter = function (filterName) {
+    var getFilter = function (filterName) {
         return _filters[filterName];
     };
 
-    let getNameFilter = function () {
+    var getNameFilter = function () {
         return getFilter('nameFilter');
     };
 
-    let setNameFilter = function (newFilter) {
+    var setNameFilter = function (newFilter) {
         return setFilter('nameFilter', newFilter);
     };
 
@@ -32,4 +32,4 @@ module.exports = filter = function (bus, CONST) {
         getHostsFilter: getNameFilter,
         setHostsFilter: setNameFilter
     }
-};
+}];

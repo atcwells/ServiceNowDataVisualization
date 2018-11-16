@@ -1,0 +1,19 @@
+<form name="editForm" ng-submit="editNode(editForm, $event)">
+    <div class="details panel panel-default">
+        <div class="panel-heading">
+            <a target="_blank" href="{{ selectedNode.url }}">{{ selectedNode.name }}</a>
+        </div>
+        <div class="panel-body">
+            <div class="properties edit">
+                <div class="properties" ng-if="selectedNode.children">
+                    <h5>Children</h5>
+                    <ul>
+                        <li ng-repeat="child in selectedNode.children">
+                            <a href="{{child.url}}">{{ child.name }}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

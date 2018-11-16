@@ -1,6 +1,6 @@
 'use strict';
 
-let app = require('angular').module('ChartsApp');
+var app = angular.module('ChartsApp');
 
 app.directive('initFocus', require('./init-focus'));
 app.directive('panelDetail', require('./panel-detail'));

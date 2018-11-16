@@ -1,7 +1,7 @@
-module.exports = function ($scope, bus, data, CONST) {
+module.exports = ['$scope', 'bus', 'data', 'CONST', function ($scope, bus, data, CONST) {
     'use strict';
 
-    let previousData;
+    var previousData;
     $scope.data = null;
 
     bus.on(CONST.EVENTS.DATA_UPDATE, function (newJsonData) {
@@ -10,9 +10,9 @@ module.exports = function ($scope, bus, data, CONST) {
     });
 
     $scope.updateData = function () {
-        let newData = JSON.parse($scope.data);
+        var newData = JSON.parse($scope.data);
         if (!angular.equals(newData, previousData)) {
             data.setJsonData(newData);
         }
     };
-};
+}];

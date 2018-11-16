@@ -1,5 +1,5 @@
 'use strict';
-var app = require('angular').module('ChartsApp');
+var app = angular.module('ChartsApp');
 
 app.controller('chartCtrl', require('./chart'));
 app.controller('jsonDataCtrl', require('./json-data'));

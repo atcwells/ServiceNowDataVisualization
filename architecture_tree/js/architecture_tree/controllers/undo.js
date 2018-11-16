@@ -1,4 +1,4 @@
-module.exports = function ($scope, bus, data, CONST) {
+module.exports = ['$scope', 'bus', 'data', 'CONST', function ($scope, bus, data, CONST) {
 
     var history = [];
 
@@ -15,4 +15,4 @@ module.exports = function ($scope, bus, data, CONST) {
         data.setJsonData(history.pop()); // restore previsous state
     };
 
-};
+}];

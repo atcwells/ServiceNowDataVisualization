@@ -1,4 +1,4 @@
-module.exports = function (CONST, bus, data) {
+module.exports = ['CONST', 'bus', 'data', function (CONST, bus, data) {
     return {
         restrict: 'E',
         link: function link(scope, element, attrs) {
@@ -8,7 +8,7 @@ module.exports = function (CONST, bus, data) {
             });
 
             scope.nameFilter = '';
-            let controlsFilter = {};
+            var controlsFilter = {};
 
             scope.$watch('nameFilter', function (name) {
                 data.filter.setNameFilter(name);
@@ -28,7 +28,7 @@ module.exports = function (CONST, bus, data) {
             };
 
             function computeControls(rootNode) {
-                let controls = {};
+                var controls = {};
 
                 function addNodeControls(node) {
                     if (node.controls) {
@@ -48,19 +48,6 @@ module.exports = function (CONST, bus, data) {
                 return controls;
             }
         },
-        template: `<div class="filters panel panel-default">
-    <div class="panel-heading">Search</div>
-    <div class="panel-body">
-        <form id="filter_form">
-            <input name="name" type="text" class="form-control" placeholder="Filter by name"
-                   ng-model="nameFilter"/>
-            <div id="controls">
-                <h5>Controls</h5>
-                <a ng-repeat="control in controls" class="btn btn-default btn-xs" ng-click="toggleControlsFilter(control)"
-                   ng-class="{'btn-primary': isControlInFilter(control) }">{{ control.number }}</a>
-            </div>
-        </form>
-    </div>
-    </div>`
+        template: require('fs').readFileSync(__dirname + '/templates/panelFilter.html', 'utf8'),
     };
-};
+}];
